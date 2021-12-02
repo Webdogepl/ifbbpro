@@ -20,8 +20,6 @@
     },
     "scripts": {
         "run gulp": "gulp default",
-        "compile-scss": "sass ifbbpro/scss/main.scss:css/style.css && postcss --use autoprefixer <css/style.css | cssmin > css/style.min.css && copyfiles -f css/style.min.css ifbbpro",
-        "compile-js": "uglifyjs ifbbpro/js/font-awesome.js ifbbpro/js/slick.js ifbbpro/js/flipclock.min.js ifbbpro/js/main.js -o ifbbpro/js/min/main.min.js",
         "watch": "npm-watch"
     },
     "keywords": [],
