@@ -1,14 +1,8 @@
 <?php
+
 /**
  * Template Name: top-template
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages and that
- * other "pages" on your WordPress site will use a different template.
- *
- * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
  */
 
 ?>
@@ -18,40 +12,40 @@
     <div id="top-slider" class="top-template">
 
         <?php
-		
-    		for($i=1;$i<9;$i++){
-				
-    			?>
 
-        <div class="top-slide-<?php echo $i ?> top-slide">
+        for ($i = 1; $i < 9; $i++) {
 
-            <div class="toplogolewa"></div>
-            <div class="toplogoprawa"></div>
+        ?>
 
-            <img class="person" src="/wp-content/uploads/2021/08/<?php echo $i ?>.png" alt="zawodnik">
+            <div class="top-slide-<?php echo $i ?> top-slide">
+
+                <div class="toplogolewa"></div>
+                <div class="toplogoprawa"></div>
+
+                <img class="person" src="/wp-content/uploads/2021/08/<?php echo $i ?>.png" alt="zawodnik">
 
 
-            <div class="top-slide-content">
-                <div class="main-logo">
-                    <img src="/wp-content/uploads/2021/08/top-slider-logo-<?php echo (rand(1,17)) ?>.png" alt="logo">
+                <div class="top-slide-content">
+                    <div class="main-logo">
+                        <img src="/wp-content/uploads/2021/08/top-slider-logo-<?php echo (rand(1, 17)) ?>.png" alt="logo">
+                    </div>
+
+                    <div class="main-subtitle">
+                        <h4><?php pll_e('ZMIANA DATY <br> WIĘCEJ INFORMACJI WKRÓTCE'); ?></h4>
+                    </div>
+
+                    <div class="slider__buttons">
+
+                        <p class="slider__registration-button"><a href="<?php pll_e('/#front-register') ?>"><?php pll_e('REJESTRACJA'); ?></a></p>
+
+                        <p class="slider__ticket-button mobile"><a href="<?php pll_e('/pakiet-multimedialny-z-zawodow'); ?>"><?php pll_e('PAKIET MULTIMEDIALNY'); ?></a></p>
+
+                        <p class="slider__live-button mobile"><a href="<?php pll_e('/live-stream-zamowienie/'); ?>"><?php pll_e('RELACJA LIVE'); ?></a></p>
+
+                    </div>
                 </div>
 
-                <div class="main-subtitle">
-                    <h4><?php pll_e('ZMIANA DATY <br> WIĘCEJ INFORMACJI WKRÓTCE'); ?></h4>
-                </div>
-
-                <div class="slider__buttons">
-
-                    <p class="slider__registration-button"><a href="<?php pll_e('/#front-register') ?>"><?php pll_e('REJESTRACJA'); ?></a></p>
-
-                    <p class="slider__ticket-button mobile"><a href="<?php pll_e('/pakiet-multimedialny-z-zawodow'); ?>"><?php pll_e('PAKIET MULTIMEDIALNY'); ?></a></p>
-
-                    <p class="slider__live-button mobile"><a href="<?php pll_e('/live-stream-zamowienie/'); ?>"><?php pll_e('RELACJA LIVE'); ?></a></p>
-
-                </div>
             </div>
-
-        </div>
 
         <?php } ?>
 
@@ -75,8 +69,8 @@
 
 <div class="frontpage__logotypes-top">
 
-    <?php for($i=1;$i<10;$i++) { ?>
-    <img src="/wp-content/themes/ifbbpro/img/frontpage/logotypy-top/H_<?php echo $i ?>.png" alt="logotyp">
+    <?php for ($i = 1; $i < 10; $i++) { ?>
+        <img src="/wp-content/themes/ifbbpro/img/frontpage/logotypy-top/H_<?php echo $i ?>.png" alt="logotyp">
 
     <?php } ?>
 

@@ -1,7 +1,5 @@
  <div class="services-flex">
 
-     <!-------------------->
-
      <div class="services-item">
 
          <h3><?php pll_e('FOTOGRAF STAGE & BACKSTAGE ORAZ RELACJA VIDEO Z FESTIWALU.') ?></h3>
