@@ -1,0 +1,130 @@
+.top-template {
+
+    .page-container a {
+        color: #ff3144;
+        text-decoration: underline;
+    }
+
+    .slick-list {
+        background: url(/wp-content/uploads/2021/08/slide1.jpg)
+    }
+
+    .top-slide {
+        height: 72vh !important;
+        position: relative !important;
+        background-size: cover !important;
+
+        &-content {
+            top: 25% !important;
+            left: 20% !important;
+        }
+
+
+        .main-logo img {
+            max-height: 350px;
+        }
+
+        .main-subtitle {
+            display: none;
+            right: 14%;
+            left: auto;
+            font-size: 3em;
+        }
+
+        .slider__buttons {
+            right: 17%;
+            left: auto;
+            bottom: 16%;
+            z-index: 50;
+            width: 20%;
+            display: none;
+        }
+
+        .slider__buttons p {
+            padding: 10px;
+            font-size: 25px;
+        }
+    }
+
+
+
+}
+
+
+
+
+
+.page-top {
+    background: red;
+}
+
+.page-container {
+    margin: 5% 5%;
+    margin-top: 0;
+    color: black;
+    padding: 50px;
+}
+
+.page-container .content {
+    margin: 0 5%;
+}
+
+
+.page-container a {
+    color: #ff3144;
+}
+
+.page-container h1 {
+    color: #031848;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page-container h2 {
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page-container p {
+    font-size: 15px;
+    font-family: 'hind', sans-serif;
+    line-height: 1.5em;
+}
+
+
+@media (max-width:900px) {
+
+    .top-template {
+
+        .top-slide {
+            height: 60vh !important;
+
+            .person {
+                height: 60% !important;
+            }
+
+            .toplogolewa,
+            .toplogoprawa {
+                display: none !important;
+            }
+
+            .top-slide-content {
+                top: 0 !important;
+                left: 0 !important;
+            }
+        }
+    }
+}

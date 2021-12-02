@@ -1,0 +1,54 @@
+.sponsors {
+
+
+
+    .top-sponsor {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        height: 400px;
+
+        h4 {
+            text-transform: uppercase;
+            font-size: 1.5em;
+        }
+
+    }
+
+
+
+
+    @media (max-width: 500px) {
+
+        .top-sponsor {
+            width: 100% !important;
+
+            h4 {
+                margin-top: 15vh;
+            }
+
+        }
+
+        .sponsors-slider {
+
+            div {
+                width: 200px;
+            }
+        }
+
+
+    }
+
+
+
+}
+
+
+.partners-buttons {
+
+    .be-partner p {
+        @include classic-btn;
+        color: white !important;
+        margin: 10% auto;
+    }
+}

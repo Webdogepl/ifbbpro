@@ -1,0 +1,235 @@
+.szkolenia {
+    [class*="contact"] {
+        img {
+            width: 25%;
+            padding: 4%;
+            border-radius: 90px;
+            vertical-align: top;
+        }
+    }
+
+    > [class*="contact"] {
+        border: 1px solid #031848;
+        border-radius: 10px;
+        width: 50%;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+
+        &:hover {
+            background: #031848;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+            color: white !important;
+        }
+
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+
+    .classic-btn--red {
+        @include classic-btn(white, red, 12px, 10px);
+    }
+
+    .classic-btn--blue {
+        @include classic-btn(white, #3B88C3, 12px, 10px);
+    }
+
+
+    .mail-whatsapp-messenger {
+
+        img {
+            display: inline-block;
+            margin-right: 5%;
+            max-height: 50px;
+        }
+
+    }
+
+
+
+}
+
+.szkolenia-online {
+    margin: 0 5% !important;
+
+    h3 {
+        text-align: justify;
+        margin-top: 5%;
+    }
+
+    h4 {
+        text-align: justify;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .szkolenia__certyfikaty {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 5%;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .szkolenia__form {
+        padding: 20px;
+        border-radius: 10px;
+        background: #f3f3f3;
+        box-shadow: 2px 1px 16px -4px black;
+
+        h2 {
+            margin-top: 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            border: none;
+            padding: 5px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+
+        textarea {
+            border: none;
+            padding: 5px;
+            margin-top: 5px;
+            border-radius: 5px;
+            width: 100%;
+            height: 5em;
+        }
+
+        [type=submit] {
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            border-radius: 10px;
+            padding: 18px;
+            font-weight: bold;
+            background: red;
+            letter-spacing: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
+        }
+
+        .wpcf7-form {
+            margin-top: 0;
+        }
+
+        [class*="badania"] {
+            button {
+                background: red;
+            }
+        }
+
+        div.wpcf7 {
+            input[type="file"] {
+                margin-top: 1%;
+            }
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            margin-top: 10px;
+        }
+    }
+
+    h2 {
+        margin-top: 10%;
+    }
+}
+
+
+
+.szkolenia-online--popup {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    color: white;
+    background: #3b88c3;
+    padding: 2%;
+    border-radius: 5px 0 0 0;
+    display: none;
+    box-shadow: -1px -1px 11px 1px black;
+
+    p:first-of-type {
+        text-align: right;
+        font-size: 40px;
+        margin: 0 2%;
+
+        i {
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+@media (min-width:300px) and (max-width:900px) {
+    .szkolenia-online {
+        margin: 0 5% !important;
+
+        h1 {
+            font-size: 1.2em;
+        }
+
+        h3 {
+            text-align: justify;
+            margin-top: 5%;
+            font-size: 1em !important;
+        }
+
+        h4 {
+            text-align: justify;
+            font-size: 0.85em !important;
+        }
+
+        p {
+            text-align: justify;
+            font-size: .8em !important;
+        }
+
+        li {
+            font-size: .8em !important;
+        }
+    }
+
+    .szkolenia-online--popup {
+        width: 70%;
+
+        p:first-of-type {
+            font-size: 20px;
+        }
+
+        p:last-of-type {
+            line-height: 1.2em;
+            text-align: justify;
+            font-size: 12px;
+        }
+    }
+
+}

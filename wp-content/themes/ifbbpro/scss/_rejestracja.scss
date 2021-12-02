@@ -1,0 +1,295 @@
+/*------------------------- STRONA REJESTRACJI ------------------------------*/
+
+.registration__page {
+	color: black;
+	padding: 5% 5%;
+
+	img {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+
+/*--------------------------- REJESTRACJA LISTOPAD ---------------------------*/
+
+.rejestracja-listopad {
+	img {
+		width: 80%;
+		margin: 5% 10%;
+	}
+
+	p {
+		text-align: justify;
+	}
+}
+
+.front-register .registration-info {
+	text-align: center;
+
+	h3 {
+		color: white;
+		font-size: 16px;
+		width: 60%;
+		margin: 0 auto;
+		border-radius: 10px;
+		padding: 20px 40px;
+		background: #000000;
+		font-weight: normal;
+	}
+}
+
+@media (max-width: 500px) {
+	.rejestracja-listopad {
+		margin: 5% !important;
+	}
+
+	.front-register .registration-info {
+		h3 {
+			font-size: 14px;
+			padding: 10px 20px;
+			width: 75%;
+		}
+	}
+}
+
+/*--------------- SEKCJA REJESTRACJI --------------------*/
+
+.front-register {
+	background: url("/wp-content/uploads/2021/08/front-register-background.png");
+	background-size: cover;
+	padding: 5% 0;
+	background-repeat: no-repeat;
+
+	h2 {
+		margin-left: 5%;
+		color: #031848;
+		text-transform: uppercase;
+		font-family: "Roboto", sans-serif;
+		padding-left: 10px;
+		margin-top: 0;
+		font-size: 1.5em;
+	}
+}
+
+.register-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: distribute;
+	align-content: space-around;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 5% 0;
+
+	> div {
+		width: 19%;
+		margin: 0 0.5%;
+		text-align: center;
+		position: relative;
+		background: white;
+		border-radius: 10px;
+		-webkit-box-shadow: 1px 1px 24px -8px black;
+		box-shadow: 1px 1px 24px -8px black;
+
+		> img {
+			max-height: 200px;
+			max-width: 100%;
+			padding: 5% 0;
+			height: auto;
+		}
+	}
+
+	h3 {
+		color: #031848;
+		font-family: "Roboto", sans-serif;
+		width: 80%;
+		text-align: center;
+		margin: 2% auto;
+		font-weight: 900;
+		margin-bottom: 0;
+		font-size: 24px;
+	}
+
+	h4 {
+		color: #031848;
+		font-family: "Roboto", sans-serif;
+		width: 80%;
+		text-align: center;
+		margin: 2% auto;
+		font-weight: 900;
+		margin-bottom: 0;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	.tanning-block {
+		img {
+			display: inline-block;
+			width: 36%;
+			margin: 0 auto;
+		}
+	}
+
+	p {
+		-webkit-transform: skew(-10deg);
+		-ms-transform: skew(-10deg);
+		transform: skew(-10deg);
+		padding: 8px;
+		color: white;
+		font-weight: bold;
+		font-size: 25px;
+		background: #031848;
+		width: fit-content;
+		border: 1px solid #031848;
+		margin: 3% auto;
+		margin-top: 0;
+
+		&:hover {
+			color: white;
+			background: white;
+			color: #031848;
+			border: 1px solid #031848;
+			-webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+		}
+	}
+
+	a {
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+.tan-register {
+	-webkit-transform: skew(-10deg);
+	-ms-transform: skew(-10deg);
+	transform: skew(-10deg);
+	padding: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	background: red;
+	margin-bottom: 0;
+	-webkit-transition: 0;
+	-o-transition: 0;
+	transition: 0;
+	width: 30%;
+	text-align: center;
+	margin: auto auto;
+
+	&:hover {
+		-webkit-transform: skew(0deg);
+		-ms-transform: skew(0deg);
+		transform: skew(0deg);
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+@media (max-width: 900px) {
+	.register-flex {
+		display: block;
+	}
+
+	#front-register {
+		h2 {
+			text-align: center;
+			margin-left: 0;
+			padding-left: 0;
+		}
+
+		[class*="main-competition"] {
+			width: 80%;
+			margin: 0 auto;
+			margin-bottom: 10%;
+			padding: 10px;
+			margin-bottom: 10%;
+
+			.tanning-block img {
+				width: 30%;
+			}
+		}
+	}
+
+	#front-register .tan-register {
+		width: 60%;
+		font-size: 15px;
+	}
+
+	.register-flex > div > img {
+		margin-bottom: 0;
+	}
+}
+
+/*-------------------- FORMULARZ REJESTRACJI NA ZAWODY ----------------*/
+
+.rejestracja-formularz {
+	.top-img {
+		margin: 0 auto;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.cognito form {
+		margin-top: 0 !important;
+	}
+}
+
+.registration__page {
+	.top-img {
+		margin: 0 auto;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.cognito form {
+		margin-top: 0 !important;
+	}
+}
+
+/*-------------------- FORMULARZ REJESTRACJI NA BRĄZOWIENIE ----------------*/
+
+.tanning-page {
+	.register-tanning__top {
+		width: 100%;
+		margin: 0;
+		margin-top: 10%;
+
+		img {
+			width: 22%;
+			margin: 0 5%;
+		}
+	}
+
+	.cognito form {
+		margin-top: 0 !important;
+	}
+}
+
+/*----------------------- POTWIERDZENIE ---------------------------*/
+
+.confirmation-page {
+	margin: 10% 5%;
+
+	.confirmation-logos {
+		width: 33%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	ul {
+		padding-left: 20px;
+	}
+}

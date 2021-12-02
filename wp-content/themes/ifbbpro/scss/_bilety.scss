@@ -1,0 +1,77 @@
+.page-template-page-bilety {
+	h1 {
+		padding-top: 5%;
+	}
+
+	.ticket__target {
+		color: green !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.tickets-en-pl .euroPrice {
+		display: none !important;
+		visibility: hidden !important;
+	}
+
+	.tickets-info {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.woocommerce-loop-product__title {
+		text-align: left;
+	}
+
+	.woocommerce ul.products li.product img {
+		width: 45%;
+	}
+
+	.add_to_cart_button {
+		background-color: red !important;
+		margin-bottom: 5% !important;
+	}
+
+	.cart-button {
+		width: fit-content;
+		margin: 0 auto;
+		background: #ff0c00;
+		border-radius: 5px;
+		padding: 5px 25px;
+		font-size: 20px;
+		margin-bottom: 5%;
+
+		a {
+			color: white;
+			font-weight: bold;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.product img {
+			width: 100% !important;
+			float: none !important;
+		}
+
+		.ticket__target {
+			text-align: center;
+		}
+
+		.woocommerce-loop-product__title {
+			text-align: center;
+		}
+
+		.add_to_cart_button {
+			background-color: red !important;
+		}
+
+		.added_to_cart {
+			margin-left: 5%;
+			margin-top: 3%;
+		}
+
+		.europrice {
+			text-align: center;
+		}
+	}
+}

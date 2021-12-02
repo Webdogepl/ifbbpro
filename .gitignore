@@ -1,7 +1,20 @@
-*
+/*
 !.gitignore
+!.htaccess
+!gulpfile.js
+!package-lock.json
+!package.json
 
-!wp-content/themes/ifbbpro
+!wp-content/
+wp-content/*
+!wp-content/themes
+
+
+
+
+
+
+wp-content/themes/ifbbpro/.vscode
 wp-content/themes/ifbbpro/img
 wp-content/themes/ifbbpro/zzz-live-stream-test.php
 wp-content/themes/ifbbpro/zzz-rejestracja-testy.php

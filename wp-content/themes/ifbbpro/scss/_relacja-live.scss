@@ -1,0 +1,231 @@
+/*-------------------------- ZAKUP RELACJI ------------------------------*/
+
+.live-order-en-pl .euroPrice {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.live-order {
+	.sponsors {
+		text-align: center;
+
+		figure {
+			width: 20%;
+			display: inline-block;
+			text-align: center;
+			margin: 1%;
+			font-weight: 700;
+			font-size: 12px;
+			vertical-align: middle;
+		}
+
+		img {
+			width: 100%;
+			vertical-align: middle;
+		}
+	}
+
+	.venue {
+		@include classic-btn;
+		width: fit-content;
+		margin: 0 auto;
+		margin-top: 12%;
+		margin-bottom: 0;
+	}
+
+	ul.products {
+		width: 100%;
+		margin-top: 5%;
+		text-align: center;
+	}
+
+	li.product {
+		img {
+			width: 100% !important;
+			float: none !important;
+		}
+
+		.ticket__target {
+			display: none;
+		}
+
+		.price {
+			font-weight: bold !important;
+			text-align: center;
+		}
+
+		.button {
+			background: red;
+			float: none !important;
+			margin-right: 0 !important;
+		}
+
+		.added_to_cart {
+			display: none !important;
+		}
+
+		.added {
+			background: #9da0a7 !important;
+		}
+
+		.outofstock .button {
+			background: #9da0a7 !important;
+		}
+	}
+
+	.woocommerce.columns-1 ul.products li.product {
+		text-align: center;
+		width: 23% !important;
+		margin: 3% 37.5% !important;
+		padding: 1% !important;
+		float: none;
+	}
+
+	.woocommerce.columns-2 ul.products li.product {
+		width: 23%;
+		margin: 0 auto;
+		display: inline-block;
+		padding: 1%;
+		margin-right: 2%;
+		margin-left: 2%;
+		float: none;
+	}
+
+	.woocommerce.columns-4 ul.products li.product {
+		box-shadow: 5px 5px 26px -8px black;
+		box-sizing: border-box;
+		padding: 1%;
+	}
+
+	.cart-button {
+		width: fit-content;
+		margin: 0 auto;
+		background: #ff0c00;
+		border-radius: 5px;
+		padding: 5px 25px;
+		font-size: 20px;
+		margin: 5% auto;
+
+		a {
+			color: white;
+			font-weight: bold;
+		}
+
+		i {
+			font-size: 18px;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.live-order {
+		li.product {
+			text-align: center;
+			width: 80% !important;
+			margin: 3% 10% !important;
+			padding: 0 !important;
+		}
+
+		.cart-button {
+			padding: 5px 25px;
+		}
+
+		.venue {
+			font-size: 10px;
+			margin-top: 20%;
+			margin-bottom: 0;
+		}
+	}
+
+	.retransmission-title {
+		margin-top: 5em;
+		font-size: 1.3em;
+	}
+}
+
+/*------------------------------------- LIVE STREAM PAGE -------------------------------------------*/
+
+.page-template-page-live-stream-page,
+.page-template-zzz-live-stream-test {
+	text-align: center;
+	color: black;
+
+	.cart-button {
+		color: white;
+		border-radius: 5px;
+		background: red;
+		width: fit-content;
+		margin: 5% auto;
+		padding: 10px;
+
+		a {
+			color: white;
+		}
+	}
+
+	a {
+		color: red;
+	}
+
+	nav,
+	.lang-switcher {
+		display: none;
+	}
+
+	img {
+		width: 30%;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
+	h2 {
+		color: black;
+	}
+
+	.live-issues {
+		margin-top: 20px;
+	}
+
+	@media (max-width: 500px) {
+		.cart-button {
+			width: 80%;
+			padding: 5px;
+		}
+
+		img {
+			width: 80%;
+		}
+
+		h2 {
+			font-size: 15px;
+		}
+
+		.live-issues {
+			margin-top: 5%;
+			font-size: 15px;
+		}
+	}
+}
+
+/*----------------------------- LIVE STREAM PAGE LOGIN ----------------------------------------------*/
+
+.page-template-page-live-stream-page,
+.page-template-zzz-live-stream-test {
+	.woocommerce {
+		a {
+			color: red;
+		}
+	}
+
+	.woocommerce-form-login {
+		width: 30%;
+		margin: 0 auto !important;
+		color: black;
+	}
+
+	@media (max-width: 500px) {
+		.woocommerce-form-login {
+			width: 80%;
+		}
+	}
+}

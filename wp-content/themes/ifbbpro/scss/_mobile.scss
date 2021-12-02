@@ -1,0 +1,709 @@
+/*------------------------------------------------------ 300 PX ---------------------------------------------------------*/
+
+@media (min-width:300px) and (max-width:900px) {
+
+    .mobile {
+        display: block;
+    }
+
+    .large {
+        display: none;
+    }
+
+
+
+    .page-id-153 h1 {
+        margin-top: 100px;
+    }
+
+    .page-id-153 p {
+        padding: 0 10px;
+        color: black;
+    }
+
+    #csbwfs-left img {
+        width: 40%;
+    }
+
+    [class*="potwierdzenie-page"] .page-container {
+        margin-top: 30%;
+    }
+
+    [class*="confirmation-page"] .page-container {
+        margin-top: 30%;
+    }
+
+    .page-container h1 {
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .powitanie .insta-fb > div {
+        display: block;
+    }
+
+    .lang-switcher {
+        display: block;
+        left: 45%;
+        width: 90px;
+    }
+
+    .main-subtitle h4 {
+        font-size: 16px;
+        margin: 10% auto;
+    }
+
+    .powitanie p {
+        color: black;
+        font-family: 'Maven Pro', sans-serif;
+        line-height: 1.5;
+        width: 90%;
+        margin: 7% 5%;
+        font-size: 14px;
+    }
+
+    .powitanie h2 {
+        text-align: center;
+    }
+
+
+    /*------------------------------------ HEADER -------------------------*/
+
+    #menu li:not(#hamburger) {
+        display: none;
+    }
+
+
+
+
+    .nav-overlay-content li {
+        padding-left: 4%;
+        width: 92%
+    }
+
+
+    #hamburger-close {
+        top: 0%;
+        right: 0%;
+    }
+
+    .nav-overlay-content {
+        margin-top: 15%;
+    }
+
+    .nav-overlay-content ul {
+        line-height: 2em;
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .nav-overlay-content > ul > li {
+        width: 96%;
+        padding-left: 4%;
+    }
+
+
+
+    .nav-overlay-content #coop-button {
+        width: 80%;
+    }
+
+    /*------------------------------ USŁUGI DLA ZAWODNIKÓW -------------------*/
+
+
+    .services-flex {
+        display: block;
+    }
+
+    .services-item {
+        width: 90%;
+        margin: 25% auto;
+    }
+
+    .services-img img {
+        width: 100%;
+    }
+
+    .services-text > div > img {
+        display: inline-block;
+        height: auto;
+        width: 30%;
+    }
+
+
+    /*------------------------------------ TOP TEMPLATE -------------------------*/
+
+    .top-template #top-slider [class*="main-logo"],
+    .top-template .slider__buttons,
+    .top-template .main-subtitle {
+        position: static;
+        margin: 0 auto;
+    }
+
+    .top-template #top-slider [class*="main-logo"] {
+        margin-top: 20%;
+    }
+
+    .top-template #top-slider [class*="main-logo"] img {
+        width: auto;
+        height: 30%;
+        margin: 0 auto;
+    }
+
+    .top-template .person {
+        height: 64%;
+    }
+
+    .top-template .top__slider {
+        height: 60vh;
+    }
+
+    .top-template .main-subtitle {
+        right: 0;
+        left: auto;
+        font-size: 1em;
+        top: 75%;
+        width: 100%;
+    }
+
+    .top-template .slider__buttons {
+        right: auto;
+        left: auto;
+        z-index: 50;
+        width: 60%;
+        top: 45%;
+        margin: 0 20%;
+    }
+
+
+    /*------------------------------------- FRONT PAGE ------------------------------------*/
+
+    .left,
+    .right {
+        font-size: 2em !important;
+    }
+
+    .main-title h1 {
+        font-size: 3em;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .main-title h3 {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .slider__buttons {
+        left: 0;
+        top: 33%;
+        width: 50%;
+        margin: 0 25%;
+    }
+
+    .slider__buttons p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .main-subtitle {
+        bottom: auto;
+        left: 0;
+        top: 26%;
+        color: white;
+        z-index: 80;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .main-subtitle h4,
+    .main-subtitle h5 {
+        margin: 0;
+        text-shadow: 3px 3px 3px black;
+        font-weight: 400;
+    }
+
+
+    .sponsors img {
+        width: 60%;
+    }
+
+    .timer {
+        padding: 6%;
+    }
+
+    .timer__left {
+        margin: 0 auto;
+    }
+
+    .timer__left h4 {
+        font-size: 1em;
+
+    }
+
+    .person {
+        height: 50%;
+        right: 0%;
+    }
+
+    .tnp-subscription div.tnp-field {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0 !important;
+        padding: 10px !important;
+        width: 60%;
+    }
+
+    .tnp-field-email,
+    .tnp-field-firstname {
+        width: 60%;
+    }
+
+    .tnp-subscription input[type=submit] {
+        margin: 0 auto;
+        width: 60%;
+        padding: 10px;
+        color: white !important;
+    }
+
+    .logotypes img {
+        height: 15%;
+    }
+
+    .sponsors h3,
+    .logotypes h3 {
+        font-size: 1em;
+    }
+
+
+    /*--------------------------------------- FOOTER ------------------------------*/
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .c-forms-form {
+        margin: 0 5%;
+    }
+
+    .confirmation-page {
+        margin: 28% 5% !important;
+    }
+
+    .confirmation-page h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .confirmation-page {
+        text-align: justify;
+    }
+
+    .confirmation-page {
+        padding: 0;
+    }
+
+    .confirmation-page ul {
+        padding-left: 0;
+        margin-bottom: 5%;
+    }
+
+    .confirmation-page #menu {
+        display: none;
+    }
+
+    /*--------------------------------------- PAGE TEMPLATE ---------------------------------*/
+
+    .page-container {
+        padding: 0 !important;
+        margin: 60px 10px 20px;
+        word-wrap: break-word;
+    }
+
+    #socialButtonOnPage {
+        margin-bottom: 10%;
+    }
+
+    /*--------------------------------------- KONTAKT ---------------------------------*/
+
+    .contact-template {
+        display: block;
+    }
+
+    .contact-template img {
+        margin-top: 10%;
+    }
+
+    .contact-form,
+    .contact-tabs {
+        width: 100%;
+    }
+
+    #wpcf7-f53-o1 > form > p:nth-child(6) {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+
+
+
+    /*----------------------- KONKURENCJE, KATEGORIE, REGULAMIN SĘDZIOWANIA ------------------*/
+
+    .page-id-202 p img {
+        padding: 0 !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .page-id-202 table {
+        width: 100%;
+        height: auto;
+    }
+
+    #post-537583 img,
+    #post-5532 img {
+        width: 100%;
+        height: auto;
+        padding: 0 !important;
+    }
+
+
+    /*---------------------------- REJESTRACJA BRAZOWIENIE --------------------------*/
+
+    .cognito form {
+        margin-top: 30% !important;
+    }
+
+
+
+    /*----------------------------- BILETY ----------------------------*/
+
+    .woocommerce.columns-1 ul.products li.product {
+        width: 100%;
+    }
+
+    .woocommerce ul.products li.product a img {
+        width: 100%;
+        float: none;
+    }
+
+    .woocommerce ul.products li.product .price {
+        text-align: center;
+    }
+
+    .woocommerce ul.products li.product p {
+        margin: 3% 5%;
+    }
+
+    .woocommerce ul.products li.product .woocommerce-loop-product__title {
+        font-size: 14px;
+        margin: 0 5%;
+    }
+
+    body > main > div.page-container.tickets-page > div > div > ul a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > span.price {
+        font-size: 13px;
+        margin: 0 5%;
+    }
+
+    .woocommerce ul.products li.product .button {
+        font-size: 12px !important;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .tickets-page h1 {
+        text-align: center;
+    }
+
+    /*-------------------------- KOSZYK ------------------------------------*/
+
+    .page-id-131 .page-container {
+        margin-top: 15%;
+    }
+
+
+    /*------------------------------ SPONSORZY I PARTNERZY --------------------*/
+
+    .partners-buttons {
+        display: block;
+    }
+
+    .partners-buttons p {
+        margin-top: 5%;
+    }
+
+
+    /*------------------------------- WSPÓŁPRACA ------------------------------*/
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 90%;
+    }
+
+    .partnership {
+        background: black;
+    }
+
+    .partnership h1 {
+        margin-top: 0;
+        padding-top: 5%;
+    }
+
+
+    /*------------------------- AKTUALNOSCI -------------------------------------*/
+
+    .news-page #news {
+        display: block;
+    }
+
+    .news-page .news-item {
+        width: 90%;
+        margin: 20% auto;
+        box-shadow: -1px -1px 28px -4px;
+        display: block;
+    }
+
+    .news-item h3 {
+        font-size: 12px;
+    }
+
+    .news-category {
+        margin: 0;
+    }
+
+    .news-page .news-item .read-more {
+        padding: 10px;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .post-categories {
+        margin: 5px;
+    }
+
+
+    /*----------------------------- POST ----------------------------------------*/
+
+    .post-top-image {
+        margin-top: 5%;
+    }
+
+    .post-top-image img {
+        width: 100%;
+    }
+
+
+    /*-------------------------- TEMPLATE STRONY -------------------------------*/
+
+    .page-container p {
+        overflow: hidden;
+    }
+
+    /*---------------------------* RELACJA LIVE Z FESTIWALU ---------------------------*/
+
+    .live-sponsors figure {
+        width: 32%;
+    }
+
+    .wp-block-embed__wrapper iframe {
+        height: 30%;
+    }
+
+    .live-sponsors figcaption {
+        font-size: 12px;
+    }
+
+    .live-video-page figure {
+        margin: 0;
+    }
+
+
+    /*------------------------ GLOSOWANIE ---------------------------------*/
+
+    .vote-sponsors figure {
+        font-size: 8px;
+    }
+
+    .votes {
+        margin-bottom: 20% !important;
+    }
+
+    /*-------------------------- WYNIKI ZAWODÓW ---------------------------*/
+
+    .competition-results {
+        margin-bottom: 4em;
+        margin-top: 4em;
+
+    }
+
+}
+
+
+/*------------------------------------------------------ 420 PX ---------------------------------------------------------*/
+
+
+
+
+@media (min-width:420px) and (max-width:1320px) {
+
+
+    /* PAGE TEMPLATE */
+
+    .top-template #top-slider [class*="main-logo"] {
+        margin-top: 10%;
+    }
+
+    .top-template {
+        height: 72vh;
+    }
+
+    .top-template .top__slider {
+        height: 72vh;
+    }
+
+    .wp-block-embed__wrapper iframe {
+        height: 60%;
+    }
+
+    /* aktualności */
+
+    #news .news-item {
+        display: block;
+    }
+}
+
+
+
+
+/*------------------------------------------------------ 720 PX ---------------------------------------------------------*/
+
+
+
+
+@media (min-width:720px) and (max-width:1320px) {
+
+
+    /* HEADER */
+
+    .nav-overlay-content > ul > li {
+        width: 50%;
+    }
+
+    #hamburger-close {
+        top: 10%;
+        right: 10%;
+    }
+
+    /* GŁÓWNA */
+
+    #top-slider [class*="main-logo"] img {
+        width: 70%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .main-subtitle {
+        bottom: 30%;
+        left: 10%;
+        top: auto;
+        color: white;
+        z-index: 80;
+        font-size: 12px;
+        width: 40%;
+    }
+
+    .slider__buttons {
+        left: 0;
+        top: auto;
+        width: 50%;
+        width: 40%;
+        left: 10%;
+        margin: 0;
+        bottom: 17%;
+    }
+
+
+    /* PAGE TEMPLATE */
+
+    .top-template .slider__buttons {
+        width: 40%;
+        margin: 0 30%;
+    }
+
+
+
+
+
+}
+
+
+/*------------------------------------------------------ 900 PX ---------------------------------------------------------*/
+
+
+
+
+@media (min-width:900px) and (max-width:1320px) {
+
+
+    /* HEADER */
+
+    #menu li:not(#hamburger) {
+        display: inline-block;
+    }
+
+    .main-subtitle h4 {
+        font-size: 16px;
+    }
+
+
+    /* GŁÓWNA */
+
+
+    .person {
+        height: 80%;
+    }
+
+    .slider__buttons {
+        width: 30%;
+        left: 15%;
+    }
+
+    #top-slider [class*="main-logo"] img {
+        margin: 0 auto;
+    }
+
+    .top-template #top-slider [class*="main-logo"] {
+        width: 25%;
+        left: 0;
+        top: 0;
+    }
+
+    /*--------------------------------------- KONTAKT ---------------------------------*/
+
+    .contact-template {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .contact-template img {
+        margin-top: 0;
+    }
+
+
+    .added_to_cart {
+        margin-left: 5px !important;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,614 @@
+#top-slider {
+	.slick-list {
+		background: url(/wp-content/themes/ifbbpro/img/top-slider/slide1.jpg);
+	}
+
+	.top-slide {
+		height: 100vh;
+		position: relative !important;
+		background-size: cover !important;
+
+		.person {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			height: 100%;
+			height: 90%;
+			right: 7%;
+			width: auto;
+		}
+
+		&-content {
+			position: absolute;
+			left: 17%;
+			top: 15%;
+			width: 25%;
+
+			.main-logo img {
+				max-height: 280px;
+				max-width: 100%;
+				width: auto;
+			}
+
+			.main-subtitle {
+				font-family: "Oswald", sans-serif;
+				color: white;
+				text-shadow: 0px 0px 8px black;
+				font-size: 28px;
+				text-align: center;
+				line-height: 1.5em;
+
+				h4 {
+					margin-top: 20px;
+				}
+			}
+
+			.slider__buttons {
+				z-index: 50;
+				text-align: center;
+
+				p {
+					background: #011546;
+					transform: skew(-10deg);
+					padding: 15px;
+					color: white;
+					font-weight: bold;
+					font-size: 30px;
+					margin-bottom: 0;
+					transition: 0.3s;
+
+					&:hover {
+						transform: skew(0deg);
+						transition: 0.3s;
+					}
+				}
+
+				.slider__registration-button {
+					background: red;
+				}
+
+				.slider__ticket-button {
+					background: orange;
+					margin: 20% auto;
+				}
+
+				.slider__live--button {
+					background: green;
+					margin: 20% auto;
+				}
+			}
+		}
+
+		&-1 {
+			background: url(/wp-content/uploads/2021/08/slide1.jpg);
+		}
+
+		&-2 {
+			background: url(/wp-content/uploads/2021/08/slide2.jpg);
+		}
+
+		&-3 {
+			background: url(/wp-content/uploads/2021/08/slide3.jpg);
+		}
+
+		&-4 {
+			background: url(/wp-content/uploads/2021/08/slide4.jpg);
+		}
+
+		&-5 {
+			background: url(/wp-content/uploads/2021/08/slide5.jpg);
+		}
+
+		&-6 {
+			background: url(/wp-content/uploads/2021/08/slide6.jpg);
+		}
+
+		&-7 {
+			background: url(/wp-content/uploads/2021/08/slide7.jpg);
+		}
+
+		&-8 {
+			background: url(/wp-content/uploads/2021/08/slide8.jpg.webp);
+		}
+
+		&-9 {
+			background: url(/wp-content/uploads/2021/08/slide9.jpg);
+		}
+
+		&-10 {
+			background: url(/wp-content/uploads/2021/08/slide10.jpg);
+		}
+	}
+}
+
+.frontpage-icons {
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: white;
+	margin: 5% 20%;
+
+	img {
+		max-width: 3em;
+		margin-top: 15%;
+	}
+}
+
+.tnp-subscription {
+	background: #e1e1e1;
+	max-width: 100% !important;
+	text-align: center;
+	margin: 0 !important;
+
+	form {
+		margin-bottom: 0;
+	}
+
+	div.tnp-field {
+		display: inline-block;
+		margin: 0 1%;
+		margin-bottom: 0 !important;
+		padding: 10px !important;
+	}
+
+	h4 {
+		display: inline-block;
+		text-align: left;
+		font-family: "Oswald", sans-serif;
+		font-weight: 500;
+		color: white;
+		font-size: 1.2em;
+		vertical-align: middle;
+		line-height: 1.4em;
+		text-transform: uppercase;
+		background: #031848;
+		padding: 10px;
+		cursor: pointer;
+		-webkit-transform: skew(-10deg);
+		-ms-transform: skew(-10deg);
+		transform: skew(-10deg);
+	}
+
+	input.tnp-submit {
+		background-color: #031848 !important;
+		height: 50px !important;
+		text-transform: uppercase;
+	}
+
+	input[type="submit"] {
+		padding: 10px 20px !important;
+	}
+}
+
+.tnp-email {
+	background: white !important;
+}
+
+.tnp-firstname {
+	background: white !important;
+}
+
+.tnp-field-email {
+	width: 25%;
+}
+
+.tnp-field-firstname {
+	width: 25%;
+}
+
+.tnp-field-privacy {
+	color: black;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	padding-bottom: 10px !important;
+
+	a {
+		color: black;
+		text-decoration: underline;
+		margin-bottom: 10px;
+	}
+}
+
+.tnp-field-button {
+	-webkit-transform: skew(-10deg);
+	-ms-transform: skew(-10deg);
+	transform: skew(-10deg);
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.powitanie {
+	padding: 3% 5%;
+	background: url("/wp-content/uploads/2021/08/powitanie-background.png.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h3,
+	h4 {
+		color: black;
+		font-size: 14px;
+	}
+
+	h2 {
+		border-bottom: 3px solid #031848;
+		width: -webkit-max-content;
+		width: -moz-max-content;
+		width: max-content;
+		font-size: 2.5em;
+		color: black;
+	}
+
+	.npc-worldwide-champions {
+		text-decoration: underline;
+	}
+
+	p {
+		color: black;
+		line-height: 1.5;
+		font-size: 14px;
+		text-align: justify;
+		margin: 5% 0 !important;
+	}
+
+	ol {
+		color: black;
+
+		li {
+			line-height: 1.5em;
+		}
+	}
+
+	ul {
+		color: black;
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			margin-bottom: 1em;
+			font-size: 14px;
+		}
+	}
+
+	.powitanie-podpis {
+		p {
+			margin-bottom: 0.5em;
+		}
+
+		li {
+			margin-bottom: 0.5em;
+			font-size: 12px;
+		}
+	}
+
+	.insta-fb {
+		text-align: center;
+		color: black;
+		margin-top: 40px;
+
+		> div {
+			display: inline-block;
+			margin: 10px;
+		}
+
+		i {
+			color: black;
+			font-size: 18px;
+			display: block;
+		}
+	}
+
+	a {
+		color: red;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+
+		&:hover {
+			color: red;
+			-webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+		}
+	}
+}
+
+body {
+	> main {
+		> h2 {
+			color: black;
+			text-align: center;
+		}
+
+		> section.powitanie {
+			> p {
+				&:nth-child(6) {
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+}
+
+.powitaniein {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	font-style: italic;
+	font-family: "Montserrat", sans-serif;
+}
+
+#home_video {
+	max-width: 800px;
+	margin: 40px auto;
+	width: 100%;
+	min-height: 500px;
+	display: block;
+}
+
+.toplogolewa {
+	background: url(/wp-content/themes/ifbbpro/img/frontpage/toplogolewa.png)
+		no-repeat;
+	width: 150px;
+	height: 150px;
+	display: block;
+	position: absolute;
+	background-size: 150px 150px;
+	top: 20%;
+	z-index: 999;
+	left: 0;
+}
+
+.toplogoprawa {
+	background: url(/wp-content/themes/ifbbpro/img/frontpage/toplogoprawa.png)
+		no-repeat;
+	width: 150px;
+	height: 150px;
+	display: block;
+	position: absolute;
+	background-size: 150px 150px;
+	top: 20%;
+	z-index: 999;
+	right: 0;
+}
+
+.frontpage__banners {
+	img {
+		margin-top: 1%;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.top-sponsors {
+	text-align: center;
+
+	figure {
+		width: 7%;
+		display: inline-block;
+		text-align: center;
+		margin: 2%;
+		font-weight: 700;
+		font-size: 12px;
+		vertical-align: middle;
+	}
+
+	figcaption {
+		color: black;
+	}
+
+	img {
+		width: 100%;
+		vertical-align: middle;
+	}
+}
+
+.frontpage__calendar {
+	color: black;
+	padding: 0 5%;
+	background: #e9e9e9;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 1.2em;
+
+	.venue {
+		@include classic-btn;
+		width: fit-content;
+		margin: 0 auto;
+	}
+
+	.calendar__title {
+		text-align: center;
+		margin-bottom: 10%;
+		padding-top: 5%;
+	}
+
+	.calendar__competition {
+		text-align: center;
+		padding-bottom: 8%;
+
+		p {
+			font-size: 12px;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		ul {
+			padding-left: 0;
+			list-style-type: none;
+
+			li {
+				font-size: 12px;
+				font-weight: 400;
+			}
+		}
+
+		h4 {
+			margin-bottom: 0;
+		}
+
+		h5 {
+			margin-top: 0;
+		}
+	}
+
+	.frontpage__calendar--register p {
+		background: red;
+		color: white;
+		width: fit-content;
+		margin: 1.5% auto;
+		padding: 13px;
+		transform: skew(-10deg);
+		transition: 0.3s;
+		font-weight: bold;
+
+		&:hover {
+			transition: 0.3;
+			transform: skew(0);
+		}
+	}
+}
+
+.frontpage__logotypes-top {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: #e9e9e9;
+	padding: 1% 0;
+
+	img {
+		width: 7%;
+		height: auto;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+	.frontpage-icons {
+		margin: 5% auto;
+
+		img {
+			max-width: 2em;
+			margin-top: 15%;
+		}
+	}
+
+	#top-slider {
+		.top-slide {
+			.person {
+				height: 40%;
+				right: 0;
+			}
+
+			&-content {
+				width: 50%;
+				left: 25%;
+				top: 15%;
+
+				.main-logo {
+					width: 100%;
+
+					img {
+						height: auto;
+						max-height: 150px;
+						margin-top: 15%;
+					}
+				}
+
+				.main-subtitle h4 {
+					line-height: 1.4em;
+				}
+
+				.slider__buttons {
+					width: fit-content;
+					margin: 5% auto;
+
+					p {
+						width: fit-content;
+						font-size: 15px;
+						padding: 8px;
+						margin: 10% auto !important;
+					}
+				}
+			}
+		}
+
+		.toplogolewa {
+			background-size: 70px 70px;
+			width: 70px;
+			height: 70px;
+		}
+
+		.toplogoprawa {
+			background-size: 70px 70px;
+			width: 70px;
+			height: 70px;
+		}
+
+		#home_video {
+			max-width: 800px;
+			margin: 30px auto;
+			width: 100%;
+			min-height: 200px;
+			display: block;
+		}
+
+		#sponsors div {
+			display: block;
+		}
+	}
+
+	.top-sponsors {
+		figure {
+			width: 18%;
+			margin: 2%;
+			figcaption {
+				font-size: 10px;
+			}
+		}
+	}
+
+	.frontpage__calendar {
+		padding: 0 5%;
+
+		.calendar__title {
+			margin-bottom: 25%;
+			padding-top: 5%;
+		}
+
+		ul {
+			list-style-type: dot;
+			padding-left: 4%;
+		}
+
+		.calendar__competition {
+			padding-bottom: 25%;
+			text-align: left;
+			font-size: 1em;
+
+			h4 {
+				margin-bottom: 0;
+			}
+
+			h5 {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.frontpage__logotypes-top {
+		display: block;
+		text-align: center;
+
+		img {
+			width: 14%;
+			margin: 1% 3%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}

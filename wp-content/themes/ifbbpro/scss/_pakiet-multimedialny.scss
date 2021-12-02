@@ -1,0 +1,92 @@
+.multimedia-package-en-pl {
+	.euroPrice {
+		display: none !important;
+		visibility: hidden;
+	}
+}
+
+.multimedia-package-page {
+	ul.products {
+		width: 100%;
+	}
+
+	li.product {
+		text-align: center;
+
+		img {
+			width: 100% !important;
+			float: none !important;
+		}
+
+		.ticket__target {
+			display: none;
+		}
+
+		.price {
+			font-weight: bold !important;
+			text-align: center;
+		}
+
+		.button {
+			background: red;
+			float: none !important;
+			margin-right: 0 !important;
+		}
+
+		.added_to_cart {
+			display: none !important;
+		}
+
+		.added {
+			background: #9da0a7 !important;
+		}
+
+		.outofstock .button {
+			background: #9da0a7 !important;
+		}
+	}
+
+	.cart-button {
+		width: fit-content;
+		margin: 0 auto;
+		background: #ff0c00;
+		border-radius: 5px;
+		padding: 5px 25px;
+		font-size: 20px;
+		margin: 5% auto;
+
+		a {
+			color: white;
+			font-weight: bold;
+		}
+
+		i {
+			font-size: 18px;
+		}
+	}
+
+	div.multimedia-package__description {
+		h3 {
+			margin-top: 5%;
+		}
+
+		li {
+			list-style-type: none;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.multimedia-package-page {
+		margin-bottom: 30%;
+	}
+
+	.multimedia-package__description {
+		margin-top: 10%;
+		padding: 0 2%;
+
+		ul {
+			padding-left: 5%;
+		}
+	}
+}

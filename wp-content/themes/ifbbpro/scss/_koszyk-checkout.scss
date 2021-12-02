@@ -1,0 +1,172 @@
+/*------------------------------------- KOSZYK -------------------------------------*/
+
+.woocommerce-cart {
+
+    #socialButtonOnPage {
+        display: none !important;
+    }
+
+
+    .frontpage-icons,
+    .frontpage__logotypes-top {
+        display: none;
+    }
+
+    #coupon_code {
+        width: 200px;
+    }
+
+    button {
+        background-color: red !important;
+        color: white !important;
+
+        &:hover {
+            background-color: #d00404 !important;
+        }
+    }
+
+    .checkout-button {
+        background-color: #f70000 !important;
+
+        &:hover {
+            background-color: #d00404 !important;
+        }
+
+    }
+
+}
+
+/*----------------------------------- CHECKOUT ----------------------------------*/
+
+.woocommerce-checkout {
+
+
+    .woocommerce-error {
+        display: none;
+    }
+
+    #socialButtonOnPage {
+        display: none !important;
+    }
+
+    .frontpage-icons,
+    .frontpage__logotypes-top {
+        display: none;
+    }
+
+    .top-template {
+        height: auto;
+    }
+
+    .content {
+        margin: 0 0;
+    }
+
+    .woocommerce-form-coupon-toggle {
+        display: none;
+    }
+
+    .cart-discount {
+        color: black !important;
+    }
+
+    .fee {
+        color: black !important;
+    }
+
+    #socialButtonOnPage {
+        display: none !important;
+    }
+
+    .select2-results__option {
+        color: black !important;
+    }
+
+    .about_paypal {
+        display: none;
+    }
+
+    button {
+        background-color: #f70000 !important;
+
+        &:hover {
+            background-color: #d00404 !important;
+        }
+    }
+
+    .woocommerce-form-login__submit {
+        color: white !important;
+    }
+
+}
+
+
+/*------------------------------ ORDER RECEIVED -----------------------------*/
+
+.woocommerce-order-received {
+
+    table {
+        color: black !important;
+    }
+
+    .order-received-h2 {
+        margin-bottom: 20%;
+        color: red;
+        text-transform: none;
+    }
+
+
+
+    @media (max-width:500px) {
+        .order-received-h2 {
+            font-size: 1em;
+        }
+    }
+
+}
+
+
+/*----------------------- EURO CENY ---------------------------------------*/
+
+.euroPrice {
+    font-size: 18px !important;
+    color: red !important;
+    font-weight: bold !important;
+
+    del {
+        color: #ff8080 !important;
+    }
+}
+
+
+
+
+
+/*---------------------------------------- MOBILE ---------------------------------------*/
+
+
+@media (max-width: 1320px) {
+
+
+    .woocommerce-cart {
+
+        .top-template {
+            height: auto;
+        }
+
+        #coupon_code {
+            width: 50%;
+        }
+    }
+
+
+    .woocommerce-checkout {
+
+        .top-template {
+            height: auto;
+        }
+
+    }
+
+
+}
