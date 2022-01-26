@@ -2,6 +2,7 @@
 !.gitignore
 !.htaccess
 !gulpfile.js
+!readme.md
 !package-lock.json
 !package.json
 
