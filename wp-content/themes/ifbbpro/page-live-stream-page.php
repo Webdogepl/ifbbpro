@@ -16,7 +16,7 @@ $stream_on = false;
 $day = 1;
 
 /* FIRST */
-$first_day_id =  array('6108', '6113', '6107', '6112', '6352', '6353');
+$first_day_id =  array('6998', '6986');
 
 /* SECOND */
 $second_day_id = array('6108', '6113', '6106', '6111', '6351', '6353');

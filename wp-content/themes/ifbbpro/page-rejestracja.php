@@ -1,6 +1,7 @@
 <?php
+
 /**
-* Template Name: REJESTRACJA ZBIORCZY TEMPLATE
+ * Template Name: REJESTRACJA ZBIORCZY TEMPLATE
  */
 
 
@@ -13,115 +14,95 @@ get_header(); ?>
 <section class="registration__page">
 
 
-    <!--------------------------- SIERPIEŃ ------------------------------------>
+    <!------------------------- KWIECIEŃ ------------------------------>
 
-    <?php if (is_page('rejestracja-sierpien-2021')) { ?>
-
-    <div class="cognito">
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/sierpien/6_new.jpg" alt="Rejestracja"></div>
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/sierpien/6a.jpg" alt="Rejestracja"></div>
-
-        <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
-        <script>
-            Cognito.load("forms", {
-                id: "30"
-            });
-
-        </script>
-    </div>
-
-
-    <?php } else if (is_page('registration-august-2021')) { ?>
-
-    <div class="cognito">
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/sierpien/6.jpg" alt="Rejestracja"></div>
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/sierpien/6a.jpg" alt="Rejestracja"></div>
-
-        <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
-        <script>
-            Cognito.load("forms", {
-                id: "29"
-            });
-
-        </script>
-    </div>
-
-
-    <?php } ?>
-
-
-
-    <!-------------------- WRZESIEŃ 2021 ------------------------------>
-
-    <?php if (is_page('rejestracja-wrzesien-2021')) { ?>
-
-
-    <div class="cognito">
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/wrzesien/18wrzesnia.png" alt="Rejestracja"></div>
+    <?php if (is_page('rejestracja-kwiecien-2022')) { ?>
 
         <div class="cognito">
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/rejestracja/2022/kwiecien.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/rejestracja/2022/kwiecien.jpg" alt="Rejestracja"></div>
+
             <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
             <script>
                 Cognito.load("forms", {
-                    id: "23"
+                    id: "37"
                 });
-
             </script>
         </div>
-    </div>
 
-    <?php } else if (is_page('registration-september-2021')) { ?>
-
- <div class="cognito">
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/wrzesien/18wrzesnia.png" alt="Rejestracja"></div>
+    <?php } else if (is_page('registration-april-2022')) { ?>
 
         <div class="cognito">
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/rejestracja/2022/kwiecien.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/rejestracja/2022/kwiecien.jpg" alt="Rejestracja"></div>
             <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
             <script>
                 Cognito.load("forms", {
-                    id: "24"
+                    id: "38"
                 });
-
             </script>
         </div>
-    </div>
 
     <?php } ?>
 
+    <!------------------------- MAJ ------------------------------>
 
+    <?php if (is_page('rejestracja-maj-2022')) { ?>
 
-    <!------------------ PAŹDZIERNIK 2021 ---------------------------->
+        <div class="cognito">
+            <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__2.jpg" alt="Rejestracja"></div>
+            <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "39"
+                });
+            </script>
+        </div>
 
-    <?php if (is_page('rejestracja-pazdziernik-2021')) { ?>
+    <?php } else if (is_page('registration-may-2022')) { ?>
 
-    <div class="cognito">
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/pazdziernik/new_6.jpg" alt="Rejestracja"></div>
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/pazdziernik/new_7.jpg" alt="Rejestracja"></div>
+        <div class="cognito">
+            <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__2.jpg" alt="Rejestracja"></div>
+            <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "40"
+                });
+            </script>
+        </div>
+    <?php } ?>
 
-        <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
-        <script>
-            Cognito.load("forms", {
-                id: "31"
-            });
+    <!---------------------- WRZESIEŃ ---------------------------->
 
-        </script>
-    </div>
+    <?php if (is_page('rejestracja-10-wrzesnia-2022')) { ?>
 
-    <?php } else if (is_page('registration-october-2021')) { ?>
+        <div class="cognito">
 
-    <div class="cognito">
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/pazdziernik/new_6.jpg" alt="Rejestracja"></div>
-        <div class="top-img"><img src="/wp-content/themes/ifbbpro/img/rejestracja/pazdziernik/new_7.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1.jpg" alt="Rejestracja"></div>
 
-        <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
-        <script>
-            Cognito.load("forms", {
-                id: "32"
-            });
+            <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "41"
+                });
+            </script>
+        </div>
 
-        </script>
-    </div>
+    <?php } else if (is_page('registration-10-september-2022')) { ?>
 
+        <div class="cognito">
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1.jpg" alt="Rejestracja"></div>
+            <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "42"
+                });
+            </script>
+        </div>
 
     <?php } ?>
 

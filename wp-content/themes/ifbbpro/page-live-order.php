@@ -39,42 +39,24 @@ get_template_part('template-parts/top-template');
 
             <img src="/wp-content/themes/ifbbpro/img/relacja-live/baner-sceniczny.png" width="100%" alt="banner-sceniczny">
 
-            <div class="sponsors">
+            <section class="sponsorsBar">
 
-                <h3>Relacja jest możliwa dzięki naszym sponsorom</h3>
+                <h3 class="sponsorsBar__title">Relacja jest możliwa dzięki naszym sponsorom</h3>
 
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="sklep zawodnika">
-                    <figcaption>ZŁOTY SPONSOR</figcaption>
+
+                <figure class="sponsorsBar__wrapper">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Biolab.jpg' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="Sklep zawodnika">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/fiwe-color2.png' ?>" alt="Fiwe">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/13.png' ?>" alt="PRO TAN">
                 </figure>
 
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
-                    <figcaption>ZŁOTY SPONSOR</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
-                    <figcaption>PARTNER STRATEGICZNY</figcaption>
-                </figure>
-
-
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
-                    <figcaption>ZŁOTY SPONSOR</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="Biolab">
-                    <figcaption>ZŁOTY SPONSOR</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/Biolab.jpg' ?>" alt="Biolab">
-                    <figcaption>SPONSOR GŁÓWNY</figcaption>
-                </figure>
-
-            </div>
+            </section>
 
             <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
 
@@ -86,9 +68,6 @@ get_template_part('template-parts/top-template');
                 <?php echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="relacja-en-pl"]'); ?>
 
             </div>
-
-            <?php /*<p class="cart-button"><a href="/cart">Przejdź do koszyka <i class="fas fa-angle-double-right"></i></a></p> */ ?>
-            <?php /*<p class="cart-button"><a href="/live-stream-page">Jeśli masz już zakupioną relację, kliknij tutaj, aby oglądać <i class="fas fa-angle-double-right"></i></a></p>*/ ?>
 
             <div class="live-product retransmission">
 
@@ -188,44 +167,26 @@ get_template_part('template-parts/top-template');
 
             <img src="/wp-content/themes/ifbbpro/img/relacja-live/baner-sceniczny.png" width="100%" alt="banner-sceniczny">
 
-            <div class="sponsors">
+            <section class="sponsorsBar">
 
-                <h3>Live stream is possible thanks to our sponsors</h3>
+                <h3 class="sponsorsBar__title">Live stream is possible thanks to our sponsors</h3>
 
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="sklep zawodnika">
-                    <figcaption><?php pll_e('ZŁOTY SPONSOR') ?></figcaption>
+
+                <figure class="sponsorsBar__wrapper">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Biolab.jpg' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="Sklep zawodnika">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/fiwe-color2.png' ?>" alt="Fiwe">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/13.png' ?>" alt="PRO TAN">
                 </figure>
 
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
-                    <figcaption><?php pll_e('ZŁOTY SPONSOR') ?></figcaption>
-                </figure>
+            </section>
 
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
-                    <figcaption><?php pll_e('PARTNER STRATEGICZNY') ?></figcaption>
-                </figure>
-
-
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
-                    <figcaption><?php pll_e('ZŁOTY SPONSOR') ?></figcaption>
-                </figure>
-
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="Biolab">
-                    <figcaption><?php pll_e('ZŁOTY SPONSOR') ?></figcaption>
-                </figure>
-
-                <figure>
-                    <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/Biolab.jpg' ?>" alt="Biolab">
-                    <figcaption><?php pll_e('SPONSOR GŁÓWNY') ?></figcaption>
-                </figure>
-
-            </div>
-
-            <p class="venue"><a href="<?php pll('/harmonogram-zawodow-schedule/') ?>"><?php pll_e('Harmonogram i miejsce zawodów') ?></a></p>
+            <p class="venue"><a href="<?php pll_e('/harmonogram-zawodow-schedule/') ?>"><?php pll_e('Harmonogram i miejsce zawodów') ?></a></p>
 
 
             <div class="live-product">

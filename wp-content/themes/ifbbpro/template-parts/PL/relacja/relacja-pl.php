@@ -47,14 +47,10 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <h3>Ciąg dalszy relacji Pro Qualifier rozpocznie się po zawodach Pro Supershow Olympia Qualifier</h3>
-
-                <p class="cart-button"><a href="/en/live-stream-zamowienie-2">Nie masz wykupionego dostępu do relacji Poland Pro Supershow - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/en/live-stream-zamowienie-2">Nie masz wykupionego dostępu do relacji - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
 
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>SuperCup of Poland & Debiuty NPC - 23 października 10:00 </p>
-                <p>Champions Golden Cup (PRO Qualifier) - 24 października 10:00 - 15:00 oraz 18:15 - 22:00</p>
-                <p>Poland PRO SuperShow (Olympia Qualifier) - 24 października 15:30 - 18:00</p>
+                <p>„Debiuty NPC” & „Poland Championships” - 23 kwietnia od 10:00 do 21:00</p>
 
 
                 <p style="margin-top:20px">W przypadku problemów z odtwarzaniem prosimy o kontakt na adres: <b>relacja@ifbbpro.pl</b> lub WhatsApp: <a href="https://wa.me/+48510587327" target="_blank">+48 510 587 327</a> </p>
@@ -109,8 +105,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>GOLDEN CHAMPIONS CUP PRO QUALIFIER - 24 października 10:00 - 15:00 oraz 18:30 - 22:00 </p>
-                <p>IFBB PRO SHOW OLYMPIA QUALIFIER - 24 października 15:00 - 18:30</p>
+                <p>„Debiuty NPC” & „Poland Championships” - 23 kwietnia od 10:00 do 21:00</p>
 
                 <p>Automatyczne przeładowanie za:</p>
                 <p id="live-stream-timer">3:00</p>

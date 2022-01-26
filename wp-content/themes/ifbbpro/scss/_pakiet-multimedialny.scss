@@ -1,3 +1,18 @@
+.multimediaPackages {
+	padding: 10%;
+
+	&__title {
+		color: black;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
+.packageContainer {
+	margin: 2em auto;
+	text-align: center;
+}
+
 .multimedia-package-en-pl {
 	.euroPrice {
 		display: none !important;

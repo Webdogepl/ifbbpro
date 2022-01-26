@@ -85,51 +85,14 @@ get_header();
     </div>
 
 
-    <div class="top-sponsors">
+    <?php get_template_part('/template-parts/sponsors-logotypes'); ?>
 
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/Biolab.jpg' ?>" alt="Biolab">
-            <figcaption><?php pll_e('SPONSOR GŁÓWNY') ?></figcaption>
+
+    <a href="https://fiwe.pl/" target="_blank">
+        <figure class="fullWidthBanner">
+            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/fiwe__banner.png' ?>" alt="Bad Iron">
         </figure>
-
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
-            <figcaption><?php pll_e('PARTNER STRATEGICZNY') ?></figcaption>
-        </figure>
-
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
-            <figcaption><?php pll_e('ZŁOTY SPONSOR') ?></figcaption>
-        </figure>
-
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
-            <figcaption><?php pll_e('PLATYNOWY SPONSOR') ?></figcaption>
-        </figure>
-
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="Biolab">
-            <figcaption><?php pll_e('ZŁOTY SPONSOR') ?></figcaption>
-        </figure>
-
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="sklep zawodnika">
-            <figcaption><?php pll_e('ZŁOTY SPONSOR') ?></figcaption>
-        </figure>
-
-
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
-            <figcaption><?php pll_e('PARTNER ODZIEŻOWY') ?></figcaption>
-        </figure>
-
-
-        <figure>
-            <img src="<?php echo get_template_directory_uri() . '/img/partnerzy/13.png' ?>" alt="PRO TAN">
-            <figcaption><?php pll_e('PARTNER') ?></figcaption>
-        </figure>
-
-    </div>
+    </a>
 
 
 
@@ -137,7 +100,6 @@ get_header();
 
         get_template_part('template-parts/PL/frontpage/frontpage-powitanie');
     } else {
-
         get_template_part('template-parts/ENG/frontpage/frontpage-powitanie');
     } ?>
 

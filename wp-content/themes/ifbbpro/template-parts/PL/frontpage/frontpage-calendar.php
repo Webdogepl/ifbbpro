@@ -1,378 +1,382 @@
-<section class="frontpage__calendar">
+<section class="calendar frontpage__calendar">
 
-    <div class="calendar__title">
+    <header class="calendar__title">
         <h3>NPC WORLDWIDE & IFBB PROFESSIONAL LEAGUE</h3>
-        <h3>KALENDARZ ZAWODÓW W POLSCE W ROKU 2021</h3>
+        <h3>KALENDARZ ZAWODÓW W POLSCE W ROKU 2022</h3>
+    </header>
+
+
+    <div class="calendar__topButtons">
+        <a href="/licencja-npc-worldwide/" target="_blank"><button class="calendar__button btn btn--black">Licencja NPC Worldwide 2022</button></a>
+        <a href="/regulamin-zawodow-2022/" target="_blank"><button class="calendar__button btn btn--blue">Regulamin zawodów w roku 2022</button></a>
+        <a href="/harmonogram-zawodow-schedule/" target="_blank"><button class="calendar__button btn">Harmonogram i miejsce zawodów</button></a>
+        <a href="/en/invitation-visa/" target="_blank"><button class="calendar__button btn btn--green">Visa & invitation</button></a>
     </div>
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
 
+    <article class="competition">
 
-    <div class="calendar__competition">
+        <header class="competition__header">
+            <h4 class="competition__title">2022 NPC Worldwide Poland Championships (R)</h4>
+            <h5 class="competition__subTitle">NPC Worldwide International Regional Contest </h5>
+        </header>
 
-        <h4>2021 NPC Worldwide Ms. & Mr. Poland (R)</h4>
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1.jpg" alt="Banner">
 
-         <h5>NPC Worldwide International Regional Qualifier Contest </h5>
-
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_1.png" alt="Banner">
-
-        <ul>
-            <li>Date: August 28, 2021</li>
-            <li>Place: Warsaw, Poland</li>
+        <ul class="competition__desc">
+            <li>Date: April 23, 2022</li>
+            <li>Place: Poland, Warsaw, MCER Marki Str. Wspólna 40</li>
             <li>Amateur International Regional Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
-            <li>On-line registration (obligatory): from June 1 till August 25</li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>On-line registration (obligatory): from January 1 till April 19</li>
         </ul>
 
-        <ul>
-            <li>9 Divisions</li>
-            <li>80 Classes</li>
-            <li>Categories: Beginners, Novice, Juniors, Masters, Open/Seniors </li>
+        <ul class="competition__divisions">
+            <li>Amateur International Regional Contest</li>
+            <li>9 Divisions, 6 Categories, 60 Classes</li>
+            <li>Women’s Divisions:</li>
+            <li>Bikini, Wellness, Figure, Physique, Bodybuilding, Fitness</li>
+            <li>Men's Divisions: </li>
+            <li>Men's Physique, Classic Physique, Bodybuilding </li>
+            <li>Categories: </li>
+            <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <p>Amateur International Regional Qualifier:</p>
-        <ul>
-            <li>Debiuty NPC in category Beginners</li>
-            <li>Ms. & Mr. Poland in category: Novice, Juniors, Masters, Open/Seniors</li>
-        </ul>
+        <p class="competiton__p">
+            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
+        </p>
 
-        <ul>
-            <li>International Qualifications for your country's national team for the NPC Worldwide International Championship in USA, "Athleticon" - top 5 in each division</li>
-        </ul>
-
-        <ul>
-            <li>Women’s Divisions: <br>
-                Bikini, Figure, Physique, Wellness, Fitness, Bodybuilding </li>
-            <li>Men's Divisions: <br>
-                Men's Physique, Classic Physique, Bodybuilding 
-            </li>
-        </ul>
-
-        <div class="frontpage__calendar--register">
-            <a href="/rejestracja-sierpien-2021">
-                <p>REJESTRACJA - SIERPIEŃ</p>
+        <div class="competition__register">
+            <a href="/rejestracja-kwiecien-2022/">
+                <button class="competition__button btn btn--navy">Rejestracja - kwiecień</button>
+            </a>
+            <a href="/regulamin-zawodow-2022">
+                <button class="competition__button btn btn--blue">Regulamin zawodów w roku 2022</button>
+            </a>
+            <a href="/harmonogram-zawodow-schedule/">
+                <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
 
-    </div>
+    </article>
 
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
+    <article class="competition">
 
-    <div class="calendar__competition">
+        <header class="competition__header">
+            <h4 class="competition__title">2022 NPC Worldwide Cup of Poland (R)</h4>
+            <h5 class="competition__subTitle">NPC Worldwide International Regional Contest </h5>
+        </header>
 
-        <h4>2021 NPC Worldwide Poland Grand Prix PRO Qualifier (PQ)</h4>
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__1.jpg" alt="Banner">
 
-         <h5>NPC Worldwide Pro Qualifier Contest</h5>
-
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_2.jpg" alt="Banner">
-
-        <ul>
-            <li>Date: August 29, 2021</li>
-            <li>Place: Warsaw, Poland</li>
-            <li>Amateur International PRO Qualifier - 9 PRO CARDS</li>
+        <ul class="competition__desc">
+            <li>Date: May 28, 2022</li>
+            <li>Place: Poland, Warsaw, MCER Marki Str. Wspólna 40</li>
+            <li>Amateur International Regional Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
-            <li>On-line registration (obligatory): from June 1 till August 25</li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>On-line registration (obligatory): from January 1 till May 25</li>
         </ul>
 
-        <ul>
-            <li>9 IFBB PRO CARDS</li>
-            <li>9 Divisions</li>
-            <li>30 Classes</li>
-            <li>Categories: Novice PQ, Open PQ/Senior PQ (9 PRO CARDS)</li>
+        <ul class="competition__divisions">
+            <li>Amateur International Regional Contest</li>
+            <li>9 Divisions, 6 Categories, 60 Classes</li>
+            <li>Women’s Divisions:</li>
+            <li>Bikini, Wellness, Figure, Physique, Bodybuilding, Fitness</li>
+            <li>Men's Divisions: </li>
+            <li>Men's Physique, Classic Physique, Bodybuilding</li>
+            <li>Categories: </li>
+            <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <ul>
-            <li>International Qualifications for your country's national team for the NPC Worldwide International Championship in USA, "Athleticon" - top 5 in each division</li>
-        </ul>
+        <p class="competiton__p">
+            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
+        </p>
 
-        <ul>
-            <li>Women’s Divisions: <br>
-                Bikini, Figure, Physique, Wellness, Fitness, Bodybuilding   </li>
-            <li>Men's Divisions: <br>
-                Men's Physique, Classic Physique, Bodybuilding 
-            </li>
-        </ul>
-
-        <div class="frontpage__calendar--register">
-            <a href="/rejestracja-sierpien-2021">
-                <p>REJESTRACJA - SIERPIEŃ</p>
+        <div class="competition__register">
+            <a href="/rejestracja-maj-2022">
+                <button class="competition__button btn btn--navy">Rejestracja - maj</button>
+            </a>
+            <a href="/regulamin-zawodow-2022">
+                <button class="competition__button btn btn--blue">Regulamin zawodów w roku 2022</button>
+            </a>
+            <a href="/harmonogram-zawodow-schedule/">
+                <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
 
-    </div>
+    </article>
 
+    <article class="competition">
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
+        <header class="competition__header">
+            <h4 class="competition__title">2022 NPC Worldwide Champions Cup PRO Qualifier (PQ)</h4>
+            <h5 class="competition__subTitle">NPC Worldwide Amateur International PRO Qualifier Contest  </h5>
+        </header>
 
-    <div class="calendar__competition">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__2.jpg" alt="Banner">
 
-        <h4>2021 IFBB PRO Battle of Champions</h4>
-
-         <h5>IFBB PRO League - Olympia Qualifier - Bikini & Classic Physique </h5>
-
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_3.jpg" alt="Banner">
-
-        <ul>
-            <li>Date: August 29, 2021</li>
-            <li>Place: Warsaw, Poland</li>
+        <ul class="competition__desc">
+            <li>Date: May 29, 2022</li>
+            <li>Place: Poland, Warsaw, MCER Marki Str. Wspólna 40</li>
+            <li>Amateur International Regional Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
-            <li>Registration and contract (obligatory): info@ifbb-proleague.com and office@ifbbpro.pl</li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>On-line registration (obligatory): from January 1 till May 25</li>
         </ul>
 
-        <p>Official IFBB PRO League contest qualifying for Mr. Olympia 2021 in two divisions:</p>
-        <ul>
-            <li>Women’s Divisions: Bikini</li>
-            <li>Men's Divisions: Classic Physique </li>
+        <ul class="competition__divisions">
+            <li>Amateur International PRO Qualifier Contest</li>
+            <li>9 IFBB PRO Cards, 9 Divisions, 5 Categories, 50 Classes</li>
+            <li>Women’s Divisions:</li>
+            <li>Bikini, Wellness, Figure, Physique, Bodybuilding, Fitness</li>
+            <li>Men's Divisions: </li>
+            <li>Men's Physique, Classic Physique, Bodybuilding </li>
+            <li>Categories: </li>
+            <li>Beginners PQ, Novice PQ, Juniors PQ, Masters PQ, Open PQ / Seniors PQ</li>
         </ul>
 
-        <div class="frontpage__calendar--register">
-            <a href="/pro-show/">
-                <p>READ MORE - IFBB PRO SHOW</p>
+        <p class="competiton__p">
+            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors PQ category.
+        </p>
+
+        <div class="competition__register">
+            <a href="/rejestracja-maj-2022">
+                <button class="competition__button btn btn--navy">Rejestracja - maj</button>
+            </a>
+            <a href="/regulamin-zawodow-2022">
+                <button class="competition__button btn btn--blue">Regulamin zawodów w roku 2022</button>
+            </a>
+            <a href="/harmonogram-zawodow-schedule/">
+                <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
 
-    </div>
+    </article>
 
+    <article class="competition">
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
+        <header class="competition__header">
+            <h4 class="competition__title">2022 NPC Worldwide Open Poland Championships (R)</h4>
+            <h5 class="competition__subTitle">NPC Worldwide International Regional Contest </h5>
+        </header>
 
-    <div class="calendar__competition">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1.jpg" alt="Banner">
 
-        <h4>2021 NPC Worldwide Open Poland Championships (R)</h4>
-
-         <h5>NPC Worldwide International Regional Qualifier Contest</h5>
-
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_4.jpg" alt="Banner">
-
-        <ul>
-            <li>Date: September 18-19, 2021</li>
-            <li>Place: Warsaw, Poland</li>
-            <li>Amateur International Regional Qualifier</li>
+        <ul class="competition__desc">
+            <li>Date: September 10, 2022</li>
+            <li>Place: Poland, Warsaw, FIWE EXPO XXI, Str. Prądzyńskiego 12</li>
+            <li>Amateur International Regional Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
-            <li>On-line registration (obligatory): from June 1 till September 14</li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>On-line registration (obligatory): from June 1 till September 6</li>
         </ul>
 
-        <ul>
-            <li>9 Divisions</li>
-            <li>80 Classes</li>
-            <li>Categories: Beginners, Novice, Juniors, Masters, Open/Seniors</li>
+        <ul class="competition__divisions">
+            <li>Amateur International Regional Contest</li>
+            <li>9 Divisions, 6 Categories, 60 Classes</li>
+            <li>Women’s Divisions:</li>
+            <li>Bikini, Wellness, Figure, Physique, Bodybuilding, Fitness</li>
+            <li>Men's Divisions: </li>
+            <li>Men's Physique, Classic Physique, Bodybuilding </li>
+            <li>Categories: </li>
+            <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <p>Amateur International Regional Qualifier:</p>
-        <ul>
-            <li>Debiuty NPC in category Beginners</li>
-            <li>Open Poland Championships in category: Novice, Juniors, Masters, Open/Seniors</li>
-        </ul>
+        <p class="competiton__p">
+            International Qualifications for your country's National Team for the NPC Worldwide World Championship in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
+        </p>
 
-        <ul>
-            <li>International Qualifications for your country's national team for the NPC Worldwide International Championship in USA, "Athleticon" - top 5 in each division (Open/Seniors)</li>
-        </ul>
-
-        <ul>
-            <li>Women’s Divisions: <br>
-                Bikini, Figure, Physique, Wellness, Fitness, Bodybuilding </li>
-            <li>Men's Divisions: <br>
-                Men's Physique, Classic Physique, Bodybuilding 
-            </li>
-        </ul>
-
-        <div class="frontpage__calendar--register">
-            <a href="/rejestracja-wrzesien-2021">
-                <p>REJESTRACJA - WRZESIEŃ</p>
+        <div class="competition__register">
+            <a href="/rejestracja-10-wrzesnia-2022">
+                <button class="competition__button btn btn--navy">Rejestracja - 10 września</button>
+            </a>
+            <a href="/regulamin-zawodow-2022">
+                <button class="competition__button btn btn--blue">Regulamin zawodów w roku 2022</button>
+            </a>
+            <a href="/harmonogram-zawodow-schedule/">
+                <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
 
-    </div>
+    </article>
 
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
+    <article class="competition">
 
-    <div class="calendar__competition">
+        <header class="competition__header">
+            <h4 class="competition__title">2022 NPC Worldwide Battle of Champions PRO Qualifier (PQ)</h4>
+            <h5 class="competition__subTitle">NPC Worldwide Amateur International PRO Qualifier Contest </h5>
+        </header>
 
-        <h4>2021 IFBB PRO Champions Classic</h4>
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg" alt="Banner">
 
-         <h5>IFBB PRO League - Olympia Qualifier - Figure & Men's Physique</h5>
-
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_5.png" alt="Banner">
-
-        <ul>
-            <li>Date: September 19, 2021</li>
-            <li>Place: Warsaw, Poland</li>
+        <ul class="competition__desc">
+            <li>Date: September 17-18, 2022</li>
+            <li>Place: Poland, Warsaw, MCER Marki Str. Wspolna 40</li>
+            <li>Amateur International Regional Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
-            <li>Registration and contract (obligatory): info@ifbb-proleague.com and office@ifbbpro.pl</li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>On-line registration (obligatory): from June 1 till September 15</li>
         </ul>
 
-        <p>Official IFBB PRO League contest qualifying for Mr. Olympia 2022 in two divisions:</p>
-
-        <ul>
-            <li>Women’s Divisions: Figure </li>
-            <li>Men's Divisions: Men's Physique</li>
+        <ul class="competition__divisions">
+            <li>Amateur International PRO Qualifier Contest</li>
+            <li>9 IFBB PRO Cards, 9 Divisions, 6 Categories, 60 Classes</li>
+            <li>Women’s Divisions:</li>
+            <li>Bikini, Wellness, Figure, Physique, Bodybuilding, Fitness</li>
+            <li>Men's Divisions: </li>
+            <li>Men's Physique, Classic Physique, Bodybuilding</li>
+            <li>Categories: </li>
+            <li>First Timers PQ, Beginners PQ, Novice PQ, Juniors PQ, Masters PQ,
+                Open PQ / Seniors PQ</li>
         </ul>
 
-        <div class="frontpage__calendar--register">
-            <a href="/pro-show/">
-                <p>READ MORE - IFBB PRO SHOW</p>
+        <p class="competiton__p">
+            International Qualifications for your country's National Team for the NPC Worldwide World Championship in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors PQ category.
+        </p>
+
+        <div class="competition__register">
+            <a href="/rejestracja-2022">
+                <button class="competition__button btn btn--navy">Rejestracja - 17-18 września</button>
+            </a>
+            <a href="/regulamin-zawodow-2022">
+                <button class="competition__button btn btn--blue">Regulamin zawodów w roku 2022</button>
+            </a>
+            <a href="/harmonogram-zawodow-schedule/">
+                <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
 
-    </div>
+    </article>
 
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
 
-    <div class="calendar__competition">
+    <article class="competition">
 
-        <h4>2021 NPC Worldwide International Supercup of Poland (R)</h4>
+        <header class="competition__header">
+            <h4 class="competition__title">2022 NPC Worldwide Super Cup of Poland</h4>
+            <h5 class="competition__subTitle">NPC Worldwide International Regional Contest</h5>
+        </header>
 
-         <h5>NPC Worldwide International Regional Qualifier Contest</h5>
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1.jpg" alt="Banner">
 
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_6.jpg" alt="Banner">
-
-        <ul>
-            <li>Date: October 23, 2021</li>
-            <li>Place: Warsaw, Poland</li>
+        <ul class="competition__desc">
+            <li>Date: October 22, 2022</li>
+            <li>Place: Poland, Warsaw, MCER Marki Str. Wspólna 40</li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
-            <li>On-line registration (obligatory): from July 1 till October 20</li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>On-line registration (obligatory): from June 1 till October 19</li>
         </ul>
 
-        <ul>
-            <li>9 divisions</li>
-            <li>80 Classes</li>
-            <li>Categories: Beginners, Novice, Juniors, Masters, Open/Seniors</li>
+        <ul class="competition__divisions">
+            <li>Amateur International Regional Contest</li>
+            <li>9 Divisions, 6 Categories, 60 Classes</li>
+            <li>Women’s Divisions:</li>
+            <li>Bikini, Wellness, Figure, Physique, Bodybuilding, Fitness</li>
+            <li>Men's Divisions: </li>
+            <li>Men's Physique, Classic Physique, Bodybuilding </li>
+            <li>Categories: </li>
+            <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <p>Amateur International Regional Qualifier:</p>
-        <ul>
-            <li>Debiuty NPC in category Beginners</li>
-            <li>International Supercup of Poland in category: Novice, Juniors, Masters, Open/Seniors</li>
-        </ul>
+        <p class="competiton__p">
+            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
+        </p>
 
-
-        <ul>
-            <li>International Qualifications for your country's national team for the NPC Worldwide International Championship in USA, "Athleticon" - top 5 in each division (Open/Seniors)</li>
-        </ul>
-
-        <ul>
-            <li>Women’s Divisions: <br>
-                Bikini, Figure, Physique, Wellness, Fitness, Bodybuilding </li>
-            <li>Men's Divisions: <br>
-                Men's Physique, Classic Physique, Bodybuilding </li>
-        </ul>
-
-        <div class="frontpage__calendar--register">
-            <a href="/rejestracja-pazdziernik-2021/">
-                <p>REJESTRACJA - PAŹDZIERNIK</p>
+        <div class="competition__register">
+            <a href="/rejestracja-2022">
+                <button class="competition__button btn btn--navy">Rejestracja - październik</button>
+            </a>
+            <a href="/regulamin-zawodow-2022">
+                <button class="competition__button btn btn--blue">Regulamin zawodów w roku 2022</button>
+            </a>
+            <a href="/harmonogram-zawodow-schedule/">
+                <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
 
-    </div>
+    </article>
 
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
 
-    <div class="calendar__competition">
+    <article class="competition">
 
-        <h4>2021 NPC Worldwide Golden Champions Cup PRO Qualifier (PQ)</h4>
+        <header class="competition__header">
+            <h4 class="competition__title">2022 NPC Worldwide Champions Golden Cup PRO Qualifier (PQ)</h4>
+            <h5 class="competition__subTitle">NPC Worldwide Amateur International PRO Qualifier Contest </h5>
+        </header>
 
-         <h5>NPC Worldwide Pro Qualifier Contest </h5>
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2.jpg" alt="Banner">
 
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_7.jpg" alt="Banner">
-
-        <ul>
-            <li>Date: October 24, 2021</li>
-            <li>Place: Warsaw, Poland</li>
-            <li>Amateur International PRO Qualifier - 9 PRO CARDS</li>
+        <ul class="competition__desc">
+            <li>Date: October 23, 2022</li>
+            <li>Place: Poland, Warsaw, MCER Marki Str. Wspolna 40</li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
-            <li>On-line registration (obligatory): from July 1 till October 20</li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>On-line registration (obligatory): from June 1 till October 19</li>
         </ul>
 
-        <ul>
-            <li>9 IFBB PRO CARDS</li>
-            <li>9 divisions</li>
-            <li>80 Classes</li>
-            <li>Categories: Novice PQ, Open PQ/Senior PQ (9 PRO CARDS)</li>
+        <ul class="competition__divisions">
+            <li>
+                Amateur International PRO Qualifier Contest</li>
+            <li>9 IFBB PRO Cards, 9 Divisions, 5 Categories, 50 Classes </li>
+            <li>Women’s Divisions:</li>
+            <li>Bikini, Wellness, Figure, Physique, Bodybuilding, Fitness</li>
+            <li>Men's Divisions: </li>
+            <li>Men's Physique, Classic Physique, Bodybuilding </li>
+            <li>Categories: </li>
+            <li>Beginners PQ, Novice PQ, Juniors PQ, Masters PQ, Open PQ / Seniors PQ</li>
         </ul>
 
-        <ul>
-            <li>International Qualifications for your country's national team for the NPC Worldwide International Championship in USA, "Athleticon" - top 5 in each division</li>
-        </ul>
+        <p class="competiton__p">
+            International Qualifications for your country's National Team for the NPC Worldwide World Championship in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
+        </p>
 
-        <ul>
-            <li>Women’s Divisions: <br>
-                Bikini, Figure, Physique, Wellness, Fitness, Bodybuilding  </li>
-            <li>Men's Divisions: <br>
-                Men's Physique, Classic Physique, Bodybuilding </li>
-        </ul>
-
-
-        <div class="frontpage__calendar--register">
-            <a href="/rejestracja-pazdziernik-2021/">
-                <p>REJESTRACJA - PAŹDZIERNIK</p>
+        <div class="competition__register">
+            <a href="/rejestracja-2022">
+                <button class="competition__button btn btn--navy">Rejestracja - październik</button>
+            </a>
+            <a href="/regulamin-zawodow-2022">
+                <button class="competition__button btn btn--blue">Regulamin zawodów w roku 2022</button>
+            </a>
+            <a href="/harmonogram-zawodow-schedule/">
+                <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
 
-    </div>
+    </article>
 
 
-    <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
-
-
-    <div class="calendar__competition">
-
-        <h4>2021 IFBB PRO POLAND SUPERSHOW</h4>
-
-         <h5>IFBB PRO League Show - Olympia Qualifier - Bikini & Classic Physique </h5>
-
-        <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_8.jpg" alt="Banner">
-
-        <ul>
-            <li>Date: October 24, 2021</li>
-            <li>Place: Warsaw, Poland</li>
-            <li>Promoter: Robert Piotrkowicz</li>
-            <li>Email: office@ifbbpro.pl</li>
-            <li>Website: IFBBPRO.com.pl</li>
-            <li>WhatsApp: +48 602 650 291 </li>
-            <li>Registration and contract (obligatory): info@ifbb-proleague.com and office@ifbbpro.pl</li>
-        </ul>
-
-        <ul>
-            <li>Official IFBB PRO League contest qualifying for Mr. Olympia 2022 in two divisions:</li>
-        </ul>
-
-        <ul>
-            <li>Women’s Divisions: Bikini </li>
-            <li>Men's Divisions: Classic Physique</li>
-        </ul>
-
-        <div class="frontpage__calendar--register">
-            <a href="/pro-show/">
-                <p>READ MORE - IFBB PRO SHOW</p>
+    <div class="calendar__footer">
+        <h4 class="calendar__title">Zobacz też:</h4>
+        <div class="calendar__wrapper">
+            <a href="/en/bilety">
+                <button class="calendar__button btn btn--green">Bilety</button>
+            </a>
+            <a href="/live-stream-zamowienie">
+                <button class="calendar__button btn">Relacja Live</button>
+            </a>
+            <a href="/en/pakiety-multimedialne/">
+                <button class="calendar__button btn btn--orange">Pakiet multimedialny</button>
             </a>
         </div>
-
     </div>
-
 
 </section>

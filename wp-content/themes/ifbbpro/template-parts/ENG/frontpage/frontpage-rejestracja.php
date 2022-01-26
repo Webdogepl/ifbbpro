@@ -1,51 +1,69 @@
-<section class="front-register" id="front-register">
+<section class="register" id="front-register">
 
-    <h2> <?php pll_e('REJESTRACJA') ?></h2>
+    <header>
+        <h2 class="register__title">Registration</h2>
+    </header>
 
-    <div class="register-flex" id="register-flex">
+    <div class="register__wrapper">
 
-        <div class="main-competition1">
-            <h3>28 <br> AUGUST</h3>
-            <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_1.png" class="lazy">
-            <a href=" <?php pll_e('/rejestracja-sierpien-2021') ?>" target="_blank">
-                <p> <?php pll_e('Rejestracja') ?></p>
+        <article class="registerBox">
+            <h3 class="registerBox__title">23<br> April</h3>
+            <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1.jpg">
+            <a href="/en/registration-april-2022" target="_blank">
+                <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
             </a>
-        </div>
+        </article>
 
-        <div class="main-competition2">
-            <h3>29 <br> AUGUST</h3>
-            <img src="/wp-content/themes/ifbbpro/img/kalendarz/new_2.jpg" class="lazy">
-            <a href=" <?php pll_e('/rejestracja-sierpien-2021') ?>" target="_blank">
-                <p> <?php pll_e('Rejestracja') ?></p>
+        <article class="registerBox">
+            <h3 class="registerBox__title">28<br> May</h3>
+            <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__1.jpg">
+            <a href="/en/registration-may-2022" target="_blank">
+                <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
             </a>
-        </div>
+        </article>
 
-        <div class="main-competition3">
-            <h3>18-19 <br> SEPTEMBER</h3>
-            <img src="/wp-content/themes/ifbbpro/img/rejestracja/wrzesien/18wrzesnia.png" class="lazy">
-            <a href=" <?php pll_e('/rejestracja-wrzesien-2021') ?>" target="_blank">
-                <p> <?php pll_e('Rejestracja') ?></p>
+        <article class="registerBox">
+            <h3 class="registerBox__title">29<br> May</h3>
+            <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__2.jpg">
+            <a href="/en/registration-may-2022" target="_blank">
+                <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
             </a>
-        </div>
+        </article>
 
-        <div class="main-competition4">
-            <h3>23 <br> OCTOBER</h3>
-            <img src="/wp-content/themes/ifbbpro/img/rejestracja/pazdziernik/new_6.jpg" class="lazy">
-            <a href=" <?php pll_e('/rejestracja-pazdziernik-2021') ?>" target="_blank">
-                <p> <?php pll_e('Rejestracja') ?></p>
+        <article class="registerBox">
+            <h3 class="registerBox__title">10<br> September</h3>
+            <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1.jpg">
+            <a href="/en/registration-10-september-2022" target="_blank">
+                <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
             </a>
-        </div>
+        </article>
 
-        <div class="main-competition4">
-            <h3>24 <br> OCTOBER</h3>
-            <img src="/wp-content/themes/ifbbpro/img/rejestracja/pazdziernik/new_7.jpg" class="lazy">
-            <a href=" <?php pll_e('/rejestracja-pazdziernik-2021') ?>" target="_blank">
-                <p> <?php pll_e('Rejestracja') ?></p>
+        <article class="registerBox">
+            <h3 class="registerBox__title">17-18<br> September</h3>
+            <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg">
+            <a href="/en/registration-2022" target="_blank">
+                <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
             </a>
-        </div>
+        </article>
+
+        <article class="registerBox">
+            <h3 class="registerBox__title">22<br> October</h3>
+            <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1.jpg">
+            <a href="/en/registration-2022" target="_blank">
+                <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
+            </a>
+        </article>
+
+        <article class="registerBox">
+            <h3 class="registerBox__title">23<br> October</h3>
+            <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2.jpg">
+            <a href="/en/registration-2022" target="_blank">
+                <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
+            </a>
+        </article>
 
     </div>
-
-    <p class="tan-register"><a href=" <?php pll_e('/rejestracja-brazowienie') ?>"> <?php pll_e('Zapisz się na brązowienie') ?></a></p>
+    <a href="<?php pll_e('/rejestracja-brazowienie') ?>">
+        <button class="register__tanningButton btn"><?php pll_e('Zapisz się na brązowienie') ?></button></a>
 
 </section>

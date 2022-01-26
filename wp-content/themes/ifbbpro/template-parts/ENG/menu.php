@@ -32,32 +32,12 @@
                  <li class="menu_dropdown--trigger">5 REGULATIONS <i class="fas fa-caret-down"></i>
                      <ul class="menu_dropdown--content">
 
-                         <a href="<?php pll_e('/regulamin-festiwalu-i-zawodow-listopad'); ?>">
-                             <!--<li>FESTIVAL AND COMPETITION REGULATIONS NOVEMBER</li>-->
+                         <a href="<?php pll_e('/contest-regulations-2022'); ?>">
+                             <li>CONTEST REGULATIONS 2022</li>
                          </a>
 
-                         <a href="/contest-regulations-april">
-                             <li>CONTEST REGULATIONS APRIL</li>
-                         </a>
-
-                         <a href="/contest-regulations-may">
-                             <li>CONTEST REGULATIONS MAY</li>
-                         </a>
-
-                         <a href="/contest-regulations-august">
-                             <li>CONTEST REGULATIONS AUGUST</li>
-                         </a>
-
-                         <a href="/contest-regulations-september">
-                             <li>CONTEST REGULATIONS SEPTEMBER</li>
-                         </a>
-
-                         <a href="/contest-regulations-october">
-                             <li>CONTEST REGULATIONS OCTOBER</li>
-                         </a>
-
-                         <a href="<?php pll_e('/konkurencje-kategorie-i-regulamin-sedziowania'); ?>">
-                             <li>GENERAL RULES, DIVISIONS AND CLASSES</li>
+                         <a href="<?php pll_e('/regional-certificate-pro-qualifier-rules'); ?>">
+                             <li>REGIONAL CERTIFICATE & PRO QUALIFIER RULES</li>
                          </a>
 
                          <a href="<?php pll_e('/regulamin-porzadkowy'); ?>">
@@ -81,9 +61,15 @@
                          <a href="<?php pll_e('/polityka-prywatnosci'); ?>">
                              <li>INFORMATIONS CLAUSE</li>
                          </a>
+
                          <a href="<?php pll_e('/zgoda-na-wykorzystanie-wizerunku'); ?>">
                              <li>CONSENT TO THE USE OF IMAGE</li>
                          </a>
+
+                         <a href="<?php pll_e('/release-agreement'); ?>">
+                             <li>RELEASE AGREEMENT</li>
+                         </a>
+
                      </ul>
                  </li>
 
@@ -92,24 +78,24 @@
                  <li class="menu_dropdown--trigger">6 ATHLETE REGISTRATION <i class="fas fa-caret-down"></i>
                      <ul class="menu_dropdown--content">
 
-                         <a href="<?php pll_e('/rejestracja-kwiecien-2021/'); ?>">
-                             <li>REGISTRATION APRIL</li>
+                         <a href="/registration-april-2022/">
+                             <li>REGISTRATION 23 APRIL</li>
                          </a>
 
-                         <a href="<?php pll_e('/rejestracja-maj-2021/'); ?>">
-                             <li>REGISTRATION MAY</li>
+                         <a href="/registration-may-2022/">
+                             <li>REGISTRATION 28-29 MAY</li>
                          </a>
 
-                         <a href="/registration-august-2021">
-                             <li>REGISTRATION AUGUST</li>
+                         <a href="/en/registration-10-september-2022">
+                             <li>REGISTRATION 10 SEPTEMBER</li>
                          </a>
 
-                         <a href="<?php pll_e('/rejestracja-wrzesien-2021/'); ?>">
-                             <li>REGISTRATION SEPTEMBER</li>
+                         <a href="/registration-2022">
+                             <li>REGISTRATION 18 SEPTEMBER</li>
                          </a>
 
-                         <a href="<?php pll_e('/rejestracja-pazdziernik-2021/'); ?>">
-                             <li>REGISTRATION OCTOBER</li>
+                         <a href="/registration-2022">
+                             <li>REGISTRATION 22-23 OCTOBER</li>
                          </a>
 
                      </ul>

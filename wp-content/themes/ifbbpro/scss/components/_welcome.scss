@@ -1,0 +1,98 @@
+.welcome {
+	padding: 3% 5%;
+	background: url("/wp-content/uploads/2021/08/powitanie-background.png.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__content {
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+		font-style: italic;
+		font-family: "Montserrat", sans-serif;
+	}
+
+	&__signature {
+		p {
+			margin-bottom: 0.5em;
+		}
+
+		li {
+			margin-bottom: 0.5em;
+			font-size: 12px;
+		}
+	}
+
+	h3,
+	h4 {
+		color: black;
+		font-size: 14px;
+	}
+
+	h2 {
+		border-bottom: 3px solid #031848;
+		width: -webkit-max-content;
+		width: -moz-max-content;
+		width: max-content;
+		font-size: 2.5em;
+		color: black;
+	}
+
+	p {
+		color: black;
+		line-height: 1.5;
+		font-size: 14px;
+		text-align: justify;
+		margin: 5% 0 !important;
+	}
+
+	ol {
+		color: black;
+
+		li {
+			line-height: 1.5em;
+		}
+	}
+
+	ul {
+		color: black;
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			margin-bottom: 1em;
+			font-size: 14px;
+		}
+	}
+
+	.insta-fb {
+		text-align: center;
+		color: black;
+		margin-top: 40px;
+
+		> div {
+			display: inline-block;
+			margin: 10px;
+		}
+
+		i {
+			color: black;
+			font-size: 18px;
+			display: block;
+		}
+	}
+
+	a {
+		color: red;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+
+		&:hover {
+			color: red;
+			-webkit-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+		}
+	}
+}

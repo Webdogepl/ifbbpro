@@ -31,27 +31,13 @@
                  <li class="menu_dropdown--trigger">5 REGULAMINY <i class="fas fa-caret-down"></i>
                      <ul class="menu_dropdown--content">
 
-
-                         <a href="<?php pll_e('/regulamin-zawodow-sierpien'); ?>">
-                             <li>REGULAMIN ZAWODÓW SIERPIEŃ 2021</li>
-                         </a>
-
-
-                         <a href="<?php pll_e('/regulamin-zawodow-wrzesien'); ?>">
-                             <li>REGULAMIN ZAWODÓW WRZESIEŃ 2021</li>
-                         </a>
-
-                         <a href="<?php pll_e('/regulamin-zawodow-pazdziernik'); ?>">
-                             <li>REGULAMIN PAŹDZIERNIK 2021</li>
+                         <a href="<?php pll_e('/regulamin-zawodow-2022'); ?>">
+                             <li>Regulamin zawodów 2022</li>
                          </a>
 
                          <a href="<?php pll_e('/regulamin-regional-pro-qualifier'); ?>">
-                             <li>REGULAMIN REGIONAL & PRO QUALIFIER</li>
+                             <li>Regulamin REGIONAL & PRO QUALIFIER</li>
                          </a>
-
-
-
-
 
                          <a href="<?php pll_e('/konkurencje-kategorie-i-regulamin-sedziowania'); ?>">
                              <li>Konkurencje, kategorie i regulamin sędziowania</li>
@@ -86,6 +72,10 @@
                              <li>Regulamin bezpieczeństwa - COVID-19</li>
                          </a>
 
+                         <a href="/zgody-na-udzial-w-zawodach/">
+                             <li>Zgody na udział w zawodach</li>
+                         </a>
+
                      </ul>
                  </li>
 
@@ -95,16 +85,24 @@
                      <ul class="menu_dropdown--content">
 
 
-                         <a href="<?php pll_e('/rejestracja-sierpien-2021/'); ?>">
-                             <li>REJESTRACJA ZAWODNIKÓW SIERPIEŃ</li>
+                         <a href="<?php pll_e('/rejestracja-kwiecien-2022/'); ?>">
+                             <li>REJESTRACJA 23 KWIETNIA</li>
                          </a>
 
-                         <a href="<?php pll_e('/rejestracja-wrzesien-2021/'); ?>">
-                             <li>REJESTRACJA ZAWODNIKÓW WRZESIEŃ</li>
+                         <a href="<?php pll_e('/rejestracja-maj-2022/'); ?>">
+                             <li>REJESTRACJA 28-29 MAJA</li>
                          </a>
 
-                         <a href="<?php pll_e('/rejestracja-pazdziernik-2021/'); ?>">
-                             <li>REJESTRACJA ZAWODNIKÓW PAŹDZIERNIK</li>
+                         <a href="<?php pll_e('/rejestracja-10-wrzesnia-2022/'); ?>">
+                             <li>REJESTRACJA 10 WRZEŚNIA</li>
+                         </a>
+
+                         <a href="<?php pll_e('/rejestracja-2022/'); ?>">
+                             <li>REJESTRACJA 18 WRZEŚNIA</li>
+                         </a>
+
+                         <a href="<?php pll_e('/rejestracja-2022/'); ?>">
+                             <li>REJESTRACJA 22-23 PAŹDZIERNIKA</li>
                          </a>
 
                      </ul>

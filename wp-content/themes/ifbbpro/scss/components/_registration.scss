@@ -1,0 +1,58 @@
+.register {
+	background: url("/wp-content/uploads/2021/08/front-register-background.png");
+	background-size: cover;
+	padding: 5% 2%;
+	background-repeat: no-repeat;
+	font-family: "Roboto", sans-serif;
+
+	&__title {
+		text-align: center;
+		color: #031848;
+		text-transform: uppercase;
+		margin-top: 0;
+		font-size: 1.5em;
+		font-weight: 700;
+		margin-bottom: 1.5em;
+	}
+
+	&__wrapper {
+		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 2em;
+	}
+
+	&__tanningButton {
+		margin: 4em auto;
+		display: block;
+	}
+}
+
+.registerBox {
+	background: white;
+	width: clamp(20%, 25%, 100%);
+	text-align: center;
+
+	&__title {
+		color: #031848;
+		text-align: center;
+		margin: 2% auto;
+		font-weight: 900;
+		font-size: clamp(14px, 1.5em, 2em);
+		text-transform: uppercase;
+	}
+
+	&__image {
+		width: 100%;
+	}
+
+	&__button {
+		margin: 5% auto;
+	}
+}
+
+@media (max-width: 900px) {
+	.registerBox {
+		width: 100%;
+	}
+}

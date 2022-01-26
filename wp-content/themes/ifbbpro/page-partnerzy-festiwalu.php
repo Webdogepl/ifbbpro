@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: partnerzy festiwalu
  *
@@ -63,6 +64,10 @@ get_header(); ?>
 
                 <a href="https://mcer.pl/" target="_blank">
                     <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/mcer.png" alt="sponsor-logo" class="lazy"></div>
+                </a>
+
+                <a href="https://fiwe.pl/" target="_blank">
+                    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/fiwe-color2.png" alt="sponsor-logo" class="lazy"></div>
                 </a>
 
                 <a href="https://protanusa.com/" target="_blank">

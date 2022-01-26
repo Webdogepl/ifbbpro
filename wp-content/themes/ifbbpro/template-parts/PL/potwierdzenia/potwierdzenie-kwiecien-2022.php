@@ -43,7 +43,7 @@
 
      <div class="confirmation-footer">
          <p> <a href="<?php pll_e('/rejestracja-brazowienie') ?>" target="_blank"><?php pll_e('Zapisz się na brązowienie') ?></a></p>
-         <p> <a href="<?php pll_e('/bilety') ?>" target="_blank"><?php pll_e('Kup bilety dla znajomych') ?></a></p>
+         <p> <a href="<?php pll_e('/bilety-na-festiwal') ?>" target="_blank"><?php pll_e('Kup bilety dla znajomych') ?></a></p>
          <p> <a href="<?php pll_e('/regulamin-porzadkowy') ?>" target="_blank"><?php pll_e('Regulamin porządkowy festiwalu') ?></a></p>
          <p> <a href="<?php pll_e('/kontakt') ?>" target="_blank"><?php pll_e('Napisz do nas') ?></a></p>
          <p> <a href="https://sklepzawodnika.pl" target="_blank"><?php pll_e('Sklep zawodnika') ?></a></p>

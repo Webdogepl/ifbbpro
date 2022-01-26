@@ -1,0 +1,72 @@
+.calendar {
+	color: black;
+	text-align: center;
+	background: #e9e9e9;
+
+	&__title {
+		padding: 5% 5%;
+		padding-bottom: 0;
+		margin: auto;
+		width: fit-content;
+	}
+
+	&__footer {
+		padding-bottom: 5%;
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+		margin-top: 2em;
+	}
+
+	&__topButtons {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+}
+
+.competition {
+	margin: 10% auto;
+	font-size: 12px;
+
+	&__title {
+		font-size: 1.2em;
+	}
+
+	&__subTitle {
+		font-size: 1em;
+	}
+
+	&__image {
+		max-width: 90%;
+	}
+
+	&__desc {
+		list-style-type: none;
+		padding-left: 0;
+		font-size: 12px;
+	}
+
+	&__divisions {
+		list-style-type: none;
+		padding-left: 0;
+		font-size: 12px;
+	}
+
+	&__register {
+		margin-top: 2%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: clamp(1em, 2em, 2em);
+	}
+}
+
+@media (max-width: 600px) {
+	.competition {
+		padding: 30% auto;
+	}
+}

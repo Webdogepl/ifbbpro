@@ -18,19 +18,6 @@
     <meta property="og:type" content="sport" />
     <meta property="og:image" content="https://ifbbpro.com.pl/wp-content/uploads/2019/09/Edyta-Tamilewska-1200-x-630px-1.png" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P777YDMTZ5"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-P777YDMTZ5');
-    </script>
-
     <?php wp_head(); ?>
 </head>
 
