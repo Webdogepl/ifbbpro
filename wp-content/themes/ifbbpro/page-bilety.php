@@ -42,7 +42,7 @@ get_header(); ?>
 
                 <p class="cart-button"><a href="/cart/">Zobacz koszyk</a></p>
 
-                <p class="tickets-info">Bilety będą również dostępne w dniu zawodów na hali w kasie biletowej. Jeśli masz problem z zakupem biletów skontaktuj się z nami pod adresem help@ifbbpro.com.pl</p>
+                <p class="tickets-info">Bilety będą również dostępne w wyższej cenie w dniu zawodów na hali w kasie biletowej. Jeśli masz problem z zakupem biletów skontaktuj się z nami pod adresem help@ifbbpro.com.pl</p>
 
             </div>
 
@@ -80,7 +80,7 @@ get_header(); ?>
 
                 <p class="cart-button"><a href=<?php pll_e('/koszyk/') ?>><?php pll_e('Zobacz koszyk') ?></a></p>
 
-                <p class="tickets-info">Tickets will be available also on Festival venue. If you have any problem with buying ticket, please contact us at help@ifbbpro.com.pl</p>
+                <p class="tickets-info">Tickets will be available also in higher price on Festival venue. If you have any problem with buying ticket, please contact us at help@ifbbpro.com.pl</p>
 
             </div>
 
