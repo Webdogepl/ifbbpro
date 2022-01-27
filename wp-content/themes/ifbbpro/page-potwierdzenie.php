@@ -61,12 +61,12 @@ get_header(); ?>
 
     <!--------------- PAŹDZIERNIK 2021 ------------------------>
 
-    <?php if (is_page('potwierdzenie-pazdziernik-2021')) {
+    <?php if (is_page('potwierdzenie-pazdziernik-2022')) {
 
-        get_template_part('template-parts/PL/potwierdzenia/potwierdzenie-pazdziernik-2021');
-    } else if (is_page('confirmation-october-2021')) {
+        get_template_part('template-parts/PL/potwierdzenia/potwierdzenie-pazdziernik-2022');
+    } else if (is_page('confirmation-october-2022')) {
 
-        get_template_part('template-parts/ENG/potwierdzenia/potwierdzenie-pazdziernik-2021');
+        get_template_part('template-parts/ENG/potwierdzenia/potwierdzenie-pazdziernik-2022');
     } ?>
 
 

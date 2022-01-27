@@ -1,6 +1,6 @@
  <div class="page-container confirmation-page">
 
-     <h1><b>CONFIRMATION OF AN ATHLETE REGISTRATION AND RECEIPT OF APPLICATION FOR THE NPC WORLDWIDE BODYBUILDING AND FITNESS COMPETITION 2021 HELD WITHIN THE INTERNATIONAL FESTIVAL OF BODYBUILDING AND FITNESS</b></h1>
+     <h1><b>CONFIRMATION OF AN ATHLETE REGISTRATION AND RECEIPT OF APPLICATION FOR THE NPC WORLDWIDE BODYBUILDING AND FITNESS COMPETITION 2022 HELD WITHIN THE INTERNATIONAL FESTIVAL OF BODYBUILDING AND FITNESS</b></h1>
 
      <div class="confirmation-logos-container">
          <div class="confirmation-logos"><img src="/wp-content/themes/ifbbpro/img/rejestracja/potwierdzenie/federacja_ifbb_poland.png" alt="federacja-ifbb"></div>
@@ -9,11 +9,11 @@
      </div>
 
      <p>Hello,<br>
-         Your application for the NPC Worldwide Bodybuilding and Fitness Contest has been received. I hereby confirm that you have been registered on the entry list of the athletes who will take part in the NPC Worldwide competition in Poland 2021. </p>
+         Your application for the NPC Worldwide Bodybuilding and Fitness Contest has been received. I hereby confirm that you have been registered on the entry list of the athletes who will take part in the NPC Worldwide competition in Poland 2022. </p>
 
      <p>The place of the event can be found on the competition website in tab <a href="/schedule" target="_blank">SCHEDULE AND VENUE</a>.</p>
 
-     <p>Please arrive on time for the check-in which will take place at the venue on Friday 27 August from 11am till 8pm.<br>For the check-in please take with you: </p>
+     <p>Please arrive on time for the check-in which will take place at the venue on Friday 17 September from 11am till 8pm.<br>For the check-in please take with you: </p>
      <ul>
          <li>your identity document</li>
          <li>competition outfit</li>
