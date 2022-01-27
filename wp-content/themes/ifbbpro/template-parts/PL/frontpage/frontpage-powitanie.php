@@ -3,7 +3,7 @@
      <div class="welcome__content">
          <p>Witam Cię na oficjalnej stronie Międzynarodowego Festiwalu Sportów Sylwetkowych Federacji NPC Worldwide & IFBB Professional League.</p>
 
-         <p>Zapraszam Cię na kolejne pięć edycje Festiwalu Sportów Sylwetkowych, które to odbędą się 23 kwietnia, 28-29 maja, 10 września, 17-18 września oraz 22-23 października 2022 roku w Warszawie.</p>
+         <p>Zapraszam Cię na kolejne edycje Festiwalu Sportów Sylwetkowych, które to odbędą się 23 kwietnia, 28-29 maja, 10 września, 17-18 września oraz 22-23 października 2022 roku w Warszawie.</p>
 
          <p>
              W trakcie każdej edycji Festiwalu odbędą się ponownie targi branżowe, które mają na celu zaprezentowanie bogatej gamy sprzętu, produktów, usług i akcesoriów fitness & wellness naszych partnerów i sponsorów przed szerokim gronem pasjonatów sportów sylwetkowych z Polski i z zagranicy. Najważniejszym wydarzeniem sportowym każdej edycji Festiwalu są światowej rangi mistrzostwa ligi amatorskiej NPC Worldwide oraz mistrzostwa ligi zawodowej IFBB Professional League, w których udział wezmą zawodnicy z całego świata. Fani sportów sylwetkowych będą mieli niepowtarzalną okazję spotkania międzynarodowych gwiazd, najlepszych trenerów i wielu swoich idoli sportowych.</p>

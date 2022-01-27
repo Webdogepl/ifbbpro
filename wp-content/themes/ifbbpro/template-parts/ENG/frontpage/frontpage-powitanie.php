@@ -3,7 +3,7 @@
      <div class="welcome__content">
          <p>Welcome to the official website of the European Festival of Bodybuilding and Fitness of the NPC Worldwide & IFBB Professional League federation.</p>
 
-         <p>I invite you to the next fifth editions of the Festival, which will be held in April 23, May 28-29, September 10, September 17-18 and October 22-23, 2022 in Warsaw.</p>
+         <p>I invite you to the next editions of the Festival, which will be held in April 23, May 28-29, September 10, September 17-18 and October 22-23, 2022 in Warsaw.</p>
 
          <p>During each edition of the Festival, trade fairs will be held again, which aim to present a wide range of equipment, products, services and fitness & wellness accessories of our partners to a wide group of bodybuilding enthusiasts from Poland and abroad. The most important sporting events of each edition of the Festival are the world-class NPC Worldwide amateur league championships and the IFBB Professional League championships, in which athletes from all over the world will take part. Fans of bodybuilding and fitness will have a unique opportunity to meet international stars, the best coaches and many of their sports idols.</p>
 
