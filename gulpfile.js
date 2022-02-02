@@ -50,7 +50,7 @@ gulp.task("compile-js", function () {
 gulp.task("build", function () {
 	gulp.series("compile-scss", "compile-js");
 
-	gulp.watch(themeFolder + "/scss/*.scss", gulp.series("compile-scss"));
+	gulp.watch(themeFolder + "/scss/", gulp.series("compile-scss"));
 
 	gulp.watch(themeFolder + "/js/*.js", gulp.series("compile-js"));
 	console.log("Watching SCSS + JS changes");
