@@ -152,7 +152,7 @@ function diff_recipients_email_notifications($recipient, $order)
 function store_mall_wc_empty_cart_redirect_url()
 {
     if (pll_current_language() == 'pl') {
-        $url = '/en/live-stream-zamowienie-2';
+        $url = '/en/live-stream-zamowienie';
     } else {
         $url = '/live-stream-order';
     }

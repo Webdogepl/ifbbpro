@@ -7,8 +7,8 @@
 
 
              <ul>
-                 <li class="lang-switch-overlay"><a href="/"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/pl_PL.png" alt="PL"></a></li>
-                 <li class="lang-switch-overlay"><a href="/en"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/en_US.png" alt="ENG"></a></li>
+                 <li class="langSwitcher langSwitcher--menu"><a href="/"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/pl_PL.png" alt="PL"></a></li>
+                 <li class="langSwitcher langSwitcher--menu"><a href="/en"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/en_US.png" alt="ENG"></a></li>
 
 
                  <li id="hamburger-close"><i class="fas fa-times"></i></li>
@@ -175,7 +175,7 @@
                      <li>20 PAKIET MULTIMEDIALNY</li>
                  </a>
 
-                 <a href="<?php pll_e('/live-stream-zamowienie/'); ?>">
+                 <a href="/en/live-stream-zamowienie/">
                      <li>21 RELACJA LIVE Z FESTIWALU</li>
                  </a>
 

@@ -128,7 +128,7 @@ if (!is_user_logged_in()) { ?>
                 <p>Live stream from Champions Golden Cup (PRO Qualifier) will continue aprox. at 18:30 (6:30pm)</p>
 
 
-                <p class="cart-button"><a href="/en/live-stream-zamowienie-2">You don't have access to live stream from Poland PRO SuperShow (Olympia Qualifier) - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/en/live-stream-zamowienie">You don't have access to live stream from Poland PRO SuperShow (Olympia Qualifier) - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
 
 
                 <p style="margin-top:20px">If you have any issues with Live Stream, please contact us on: <b>relacja@ifbbpro.pl</b></p>
