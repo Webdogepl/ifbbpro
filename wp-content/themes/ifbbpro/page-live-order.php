@@ -191,10 +191,10 @@ get_template_part('template-parts/top-template');
 
             <div class="live-product">
 
-                <?php WC()->cart->empty_cart();
+                <?php WC()->cart->empty_cart(); ?>
 
 
-                echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="relacja-en"]'); ?>
+                <?php echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="Relacja-en"]'); ?>
 
             </div>
 
