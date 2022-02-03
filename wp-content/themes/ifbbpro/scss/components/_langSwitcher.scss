@@ -1,0 +1,44 @@
+.langSwitcher {
+	position: absolute;
+	top: 0;
+	left: 1%;
+	z-index: 99;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+
+	&__title {
+		color: white;
+		text-transform: uppercase;
+	}
+
+	&__item {
+		list-style-type: none;
+		transition: 0.5s;
+
+		&:hover {
+			transform: scale(1.1);
+			transition: 0.5s;
+		}
+	}
+
+	&__img {
+		height: 30px !important;
+		width: 30px !important;
+	}
+}
+
+.langSwitcher--menu {
+	margin: 0 auto;
+	position: static;
+	margin-left: 10%;
+	padding-left: 10px;
+	transition: 0.5s;
+
+	.langSwitcher__item {
+		line-height: normal;
+		padding: 0;
+		margin-left: 0;
+		width: fit-content;
+	}
+}

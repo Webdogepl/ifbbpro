@@ -16,7 +16,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
     <meta property="og:type" content="sport" />
-    <meta property="og:image" content="https://ifbbpro.com.pl/wp-content/uploads/2019/09/Edyta-Tamilewska-1200-x-630px-1.png" />
+    <meta property="og:image" content="https://ifbbpro.com.pl/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1.jpg" />
 
     <?php wp_head(); ?>
 </head>
@@ -25,12 +25,6 @@
 
 
     <li style="display:none;"><a href="/"><img class="facebook-img" src="<?php echo wpse207895_featured_image(); ?>" alt="og"></a></li>
-
-
-    <div class="lang-switcher">
-        <li><a href="/"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/pl_PL.png" alt="PL"></a></li>
-        <li><a href="/en"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/en_US.png" alt="ENG"></a></li>
-    </div>
 
     <nav>
 

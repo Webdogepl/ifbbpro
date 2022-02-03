@@ -18,6 +18,12 @@ get_header();
 
 <header class="main-top">
 
+    <div class="langSwitcher">
+        <h5>Language:</h5>
+        <li class="langSwitcher__item"><a href="/"><img class="langSwitcher__img" src="/wp-content/themes/ifbbpro/polylang/pl_PL.png" alt="PL"></a></li>
+        <li class="langSwitcher__item"><a href="/en"><img class="langSwitcher__img" src="/wp-content/themes/ifbbpro/polylang/en_US.png" alt="ENG"></a></li>
+    </div>
+
     <div id="top-slider">
 
 

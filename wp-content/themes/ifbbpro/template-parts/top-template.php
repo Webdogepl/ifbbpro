@@ -40,7 +40,7 @@
 
                         <p class="slider__ticket-button mobile"><a href="<?php pll_e('/pakiet-multimedialny-z-zawodow'); ?>"><?php pll_e('PAKIET MULTIMEDIALNY'); ?></a></p>
 
-                        <p class="slider__live-button mobile"><a href="<?php pll_e('/live-stream-zamowienie/'); ?>"><?php pll_e('RELACJA LIVE'); ?></a></p>
+                        <p class="slider__live-button mobile"><a href="/en/live-stream-zamowienie/"><?php pll_e('RELACJA LIVE'); ?></a></p>
 
                     </div>
                 </div>

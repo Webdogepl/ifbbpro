@@ -7,9 +7,11 @@
 
 
              <ul>
-                 <li class="langSwitcher langSwitcher--menu"><a href="/"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/pl_PL.png" alt="PL"></a></li>
-                 <li class="langSwitcher langSwitcher--menu"><a href="/en"><img class="lang-switch" src="/wp-content/themes/ifbbpro/polylang/en_US.png" alt="ENG"></a></li>
-
+                 <div class="langSwitcher langSwitcher--menu">
+                     <h5>Language:</h5>
+                     <li class="langSwitcher__item"><a href="/"><img class="langSwitcher__img" src="/wp-content/themes/ifbbpro/polylang/pl_PL.png" alt="PL"></a></li>
+                     <li class="langSwitcher__item"><a href="/en"><img class="langSwitcher__img" src="/wp-content/themes/ifbbpro/polylang/en_US.png" alt="ENG"></a></li>
+                 </div>
 
                  <li id="hamburger-close"><i class="fas fa-times"></i></li>
                  <a href="/en">
