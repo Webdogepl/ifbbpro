@@ -203,8 +203,8 @@
                      <li>24 KOSZYK</li>
                  </a>
 
-                 <a href="<?php pll_e('/hotele-i-restauracje/'); ?>">
-                     <li>25 HOTELE</li>
+                 <a href="<?php pll_e('/miejsce-zawodow'); ?>">
+                     <li>25 MIEJSCE ZAWODÓW</li>
                  </a>
 
                  <a href="<?php pll_e('/glosowanie/'); ?>">

@@ -100,13 +100,10 @@ get_template_part('template-parts/top-template'); ?>
 
                 <?php add_filter('custom_menu_order', '__return_true'); ?>
 
-                <?php
+                <?php WC()->cart->empty_cart();
 
-                WC()->cart->empty_cart();
 
-                echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="pakiety-en"]');
-
-                ?>
+                echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="pakiety-en"]'); ?>
 
             </div>
 

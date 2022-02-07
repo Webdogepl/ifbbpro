@@ -13,7 +13,7 @@
 
      <p>The place of the event can be found on the competition website in tab <a href="/schedule" target="_blank">SCHEDULE AND VENUE</a>.</p>
 
-     <p>Please arrive on time for the check-in which will take place at the venue on Friday 17 September from 11am till 8pm.<br>For the check-in please take with you: </p>
+     <p>Please arrive on time for the check-in which will take place at the venue on Saturday 17 September from 11am till 8pm.<br>For the check-in please take with you: </p>
      <ul>
          <li>your identity document</li>
          <li>competition outfit</li>

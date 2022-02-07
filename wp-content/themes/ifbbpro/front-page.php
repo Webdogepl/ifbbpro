@@ -168,7 +168,6 @@ get_header();
 
         <div class="timer__right">
 
-            <p><?php pll_e('WARSZAWA'); ?></p>
 
         </div>
 

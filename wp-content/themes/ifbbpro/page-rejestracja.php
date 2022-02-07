@@ -126,10 +126,57 @@ get_header(); ?>
 
     <?php } else if (is_page('registration-18-september-2022')) { ?>
 
-        <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg" alt="Rejestracja"></div>
-        <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg" alt="Rejestracja"></div>
+        <div class="cognito">
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg" alt="Rejestracja"></div>
+
+            <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "44"
+                });
+            </script>
+        </div>
 
     <?php } ?>
+
+
+    <!--------------------- PAŹDZIERNIK --------------->
+
+    <?php if (is_page('rejestracja-pazdziernik-2022')) { ?>
+
+        <div class="cognito">
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2.jpg" alt="Rejestracja"></div>
+
+            <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "45"
+                });
+            </script>
+        </div>
+
+    <?php } else if (is_page('registration-october-2022')) { ?>
+        <div class="cognito">
+
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2.jpg" alt="Rejestracja"></div>
+
+            <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
+            <script>
+                Cognito.load("forms", {
+                    id: "46"
+                });
+            </script>
+        </div>
+
+    <?php } ?>
+
 
 </section>
 

@@ -190,8 +190,8 @@
                      <li>24 SHOPPING CART</li>
                  </a>
 
-                 <a href="<?php pll_e('/hotele-i-restauracje/'); ?>">
-                     <li>25 HOTELS</li>
+                 <a href="/contest-venue">
+                     <li>25 CONTEST VENUE</li>
                  </a>
 
                  <a href="<?php pll_e('/glosowanie/'); ?>">
