@@ -30,7 +30,7 @@
 			getCookie("pll_language") === "pl" &&
 			navigator.language !== "pl-PL"
 		) {
-			$("#chooseLanguageBox").slideDown(500);
+			$("#chooseLanguageBox").slideDown(500).css("display", "grid");
 
 			$("#chooseLang__PL").click(function (e) {
 				e.preventDefault();
@@ -45,7 +45,6 @@
 			});
 		}
 	}
-	$("#chooseLanguageBox").hide();
 	$(document).ready(function () {
 		setTimeout(chooseLanguage, 1500);
 	});
