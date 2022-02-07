@@ -29,7 +29,7 @@
          See you at the contest.
      </p>
 
-     <p>Best wishes, <br>
+     <p>Best regards, <br>
          Robert Piotrkowicz</p>
 
      <ul class="piotrkowicz">
