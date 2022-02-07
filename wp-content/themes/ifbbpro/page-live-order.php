@@ -58,7 +58,21 @@ get_template_part('template-parts/top-template');
 
             </section>
 
-            <p class="venue"><a href="/harmonogram-zawodow-schedule/">Harmonogram i miejsce zawodów</a></p>
+            <div class="buttonsContainer">
+
+                <a href="/koszyk">
+                    <button class="btn">Przejdź do koszyka</button>
+                </a>
+
+                <a href="/harmonogram-zawodow-schedule/">
+                    <button class="btn btn--navy">Harmonogram i miejsce zawodów</button>
+                </a>
+
+            </div>
+
+
+
+
 
             <div class="live-product">
 
@@ -186,7 +200,19 @@ get_template_part('template-parts/top-template');
 
             </section>
 
-            <p class="venue"><a href="<?php pll_e('/harmonogram-zawodow-schedule/') ?>"><?php pll_e('Harmonogram i miejsce zawodów') ?></a></p>
+
+            <div class="buttonsContainer">
+
+
+                <a href="/cart">
+                    <button class="btn">Go to cart</button>
+                </a>
+
+                <a href="/schedule/">
+                    <button class="btn btn--navy">Schedule and venue</button>
+                </a>
+
+            </div>
 
 
             <div class="live-product">
