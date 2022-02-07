@@ -1130,6 +1130,57 @@ window.FontAwesomeKitConfig = {
 });
 
 (function ($) {
+	/*-----------------------  CHOOSE LANGUAGE BOX ---------------------------*/
+
+	function getCookie(cname) {
+		let name = cname + "=";
+		let decodedCookie = decodeURIComponent(document.cookie);
+		let ca = decodedCookie.split(";");
+		for (let i = 0; i < ca.length; i++) {
+			let c = ca[i];
+			while (c.charAt(0) == " ") {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	function setCookie(cname, cvalue, exdays) {
+		const d = new Date();
+		d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+		let expires = "expires=" + d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function chooseLanguage() {
+		if (
+			!getCookie("prefLang") &&
+			getCookie("pll_language") === "pl" &&
+			navigator.language !== "pl-PL"
+		) {
+			$("#chooseLanguageBox").slideDown(500);
+
+			$("#chooseLang__PL").click(function (e) {
+				e.preventDefault();
+				setCookie("prefLang", "PL", 14);
+				$("#chooseLanguageBox").slideUp(500);
+			});
+
+			$("#chooseLang__EN").click(function (e) {
+				e.preventDefault();
+				setCookie("prefLang", "EN", 14);
+				window.location = $("#translatedLink")[0].href;
+			});
+		}
+	}
+	$("#chooseLanguageBox").hide();
+	$(document).ready(function () {
+		setTimeout(chooseLanguage, 1500);
+	});
+
 	/*------------------------------------------------ TOP SLIDER -------------------------------------------------*/
 
 	var total = $("#top-slider img").length;

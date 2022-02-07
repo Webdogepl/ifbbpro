@@ -18,13 +18,32 @@
     <meta property="og:type" content="sport" />
     <meta property="og:image" content="https://ifbbpro.com.pl/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1.jpg" />
 
+    <?php
+    $ID = get_the_ID();
+    $translatedID = pll_get_post($ID, 'en');
+
+    if ($ID == $translatedID) {
+        $translatedLink = '/en/front-page';
+    } else {
+        $translatedLink = 'http://ifbbpro.com.pl/index.php?page_id=' . $translatedID;
+    } ?>
+    <a id="translatedLink" style="display:none" href="<?php echo $translatedLink ?>"></a>
+
     <?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class('ifbb'); ?>>
 
 
     <li style="display:none;"><a href="/"><img class="facebook-img" src="<?php echo wpse207895_featured_image(); ?>" alt="og"></a></li>
+
+
+    <div class="chooseLanguageBox" id="chooseLanguageBox">
+        <p class="chooseLanguageBox__title">We found that your browser prefers different language than Polish. Please select prefered language.</p>
+        <div class="chooseLanguageBox__item" id="chooseLang__PL"><a href="/"><img class="chooseLanguageBox__img" src="/wp-content/themes/ifbbpro/polylang/pl_PL.png" alt="PL"></a></div>
+        <div class="chooseLanguageBox__item" id="chooseLang__EN"><a href="/en"><img class="chooseLanguageBox__img" src="/wp-content/themes/ifbbpro/polylang/en_US.png" alt="ENG"></a></div>
+    </div>
 
     <nav>
 
