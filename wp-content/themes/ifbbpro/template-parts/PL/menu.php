@@ -103,7 +103,7 @@
                              <li>REJESTRACJA 18 WRZEŚNIA</li>
                          </a>
 
-                         <a href="<?php pll_e('/rejestracja-2022/'); ?>">
+                         <a href="/rejestracja-pazdziernik-2022/">
                              <li>REJESTRACJA 22-23 PAŹDZIERNIKA</li>
                          </a>
 

@@ -249,7 +249,7 @@
         </p>
 
         <div class="competition__register">
-            <a href="/en/registration-2022">
+            <a href="/en/registration-18-september-2022">
                 <button class="competition__button btn btn--navy">Registration - 17-18 September</button>
             </a>
             <a href="/en/contest-regulations-2022">

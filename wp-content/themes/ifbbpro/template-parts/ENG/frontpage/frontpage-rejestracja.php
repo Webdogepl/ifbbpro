@@ -41,7 +41,7 @@
         <article class="registerBox">
             <h3 class="registerBox__title">17-18<br> September</h3>
             <img class="registerBox__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg">
-            <a href="/en/registration-2022" target="_blank">
+            <a href="/en/registration-18-september-2022" target="_blank">
                 <button class="registerBox__button btn btn--navy"> <?php pll_e('Rejestracja') ?></button>
             </a>
         </article>

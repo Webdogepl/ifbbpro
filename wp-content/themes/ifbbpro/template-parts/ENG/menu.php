@@ -92,7 +92,7 @@
                              <li>REGISTRATION 10 SEPTEMBER</li>
                          </a>
 
-                         <a href="/registration-2022">
+                         <a href="/registration-18-september-2022">
                              <li>REGISTRATION 18 SEPTEMBER</li>
                          </a>
 
