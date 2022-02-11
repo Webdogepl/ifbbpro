@@ -350,7 +350,7 @@
         </p>
 
         <div class="competition__register">
-            <a href="/rejestracja-2022">
+            <a href="/rejestracja-pazdziernik-2022">
                 <button class="competition__button btn btn--navy">Rejestracja - październik</button>
             </a>
             <a href="/regulamin-zawodow-2022">

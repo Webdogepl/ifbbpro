@@ -298,7 +298,7 @@
         </p>
 
         <div class="competition__register">
-            <a href="/en/registration-2022">
+            <a href="/en/registration-october-2022">
                 <button class="competition__button btn btn--navy">Registration - October</button>
             </a>
             <a href="/en/contest-regulations-2022">
@@ -349,7 +349,7 @@
         </p>
 
         <div class="competition__register">
-            <a href="/en/registration-2022">
+            <a href="/en/registration-october-2022">
                 <button class="competition__button btn btn--navy">Registration - October</button>
             </a>
             <a href="/en/contest-regulations-2022">

@@ -96,7 +96,7 @@
                              <li>REGISTRATION 18 SEPTEMBER</li>
                          </a>
 
-                         <a href="/registration-2022">
+                         <a href="/registration-october-2022">
                              <li>REGISTRATION 22-23 OCTOBER</li>
                          </a>
 
