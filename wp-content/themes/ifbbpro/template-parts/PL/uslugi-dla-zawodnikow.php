@@ -1,17 +1,17 @@
- <div class="services-flex">
+ <div class="servicesContainer">
 
      <!-------------------->
 
-     <div class="services-item">
+     <div class="servicesContainer__item">
 
-         <h3><?php pll_e('FOTOGRAF STAGE & BACKSTAGE ORAZ RELACJA VIDEO Z FESTIWALU.') ?></h3>
+         <h3>FOTOGRAF STAGE & BACKSTAGE ORAZ RELACJA VIDEO Z FESTIWALU</h3>
 
-         <div class="services-img">
+         <div class="servicesContainer__img">
              <img src="/wp-content/themes/ifbbpro/img/uphoto2.jpg" alt="photo">
          </div>
-         <div class="services-text">
+         <div class="servicesContainer__p">
 
-             <p><?php pll_e('Zamówienia i rezerwacja indywidualnej fotorelacji i videorelacji z zawodów oraz indywidualnej sesji zdjęciowej na backstage.') ?></p>
+             <p>Zamówienia i rezerwacja indywidualnej fotorelacji i videorelacji z zawodów oraz indywidualnej sesji zdjęciowej na backstage.</p>
              <ul>
                  <li>YAKAMOZ VISION Tomasz Jurasz</li>
                  <li><a href="tel:792801940"><?php pll_e('TELEFON:') ?> +48 792 801 940</a></li>
@@ -25,14 +25,14 @@
 
      <!-------------------->
 
-     <div class="services-item">
+     <div class="servicesContainer__item">
 
-         <h3>Usługa modelowania włosów i makijażu dla zawodniczek startujących w zawodach.</h3>
+         <h3>Usługa modelowania włosów i makijażu dla zawodniczek startujących w zawodach</h3>
 
-         <div class="services-img">
+         <div class="servicesContainer__img">
              <img src="/wp-content/themes/ifbbpro/img/uslugi/annalukas.jpeg" alt="anna lukas">
          </div>
-         <div class="services-text">
+         <div class="servicesContainer__p">
              <p>Kontakt i rezerwacja miejsc: </p>
              <ul>
                  <li>Anna Lookas</li>
@@ -48,21 +48,25 @@
      <!-------------------->
 
 
-     <div class="services-item">
+     <div class="servicesContainer__item">
 
-         <h3><?php pll_e('Brązowienie natryskowe') ?></h3>
+         <h3>Brązowienie natryskowe</h3>
 
-         <div class="services-img">
+         <div class="servicesContainer__img">
              <img src="/wp-content/themes/ifbbpro/img/uslugi/tanning.jpeg" alt="tanning">
          </div>
-         <div class="services-text">
-             <p><?php pll_e('Usługa brązowienia natryskowego dla zawodników będzie wykonywana na zapleczu hali zawodów każdego dnia od godziny 8:00 do zakończenia zawodów przez firmę Sklepzawodnika.pl . Usługa będzie wykonywana produktami firm Jan Tana oraz Pro Tan (do wybory).') ?></p>
+         <div class="servicesContainer__p">
+             <p>Usługa brązowienia natryskowego dla zawodników będzie wykonywana na zapleczu hali zawodów każdego dnia od godziny 8:00 do zakończenia zawodów, przez firmę Sklepzawodnika.pl. Usługa będzie wykonywana produktami firm Jan Tana oraz Pro Tan (do wyboru).</p>
              <div>
                  <img src="/wp-content/themes/ifbbpro/img/uslugi/jantana.png" alt="tanning">
                  <img src="/wp-content/themes/ifbbpro/img/logo/sklepzawodnika.png" alt="tanning">
                  <img src="/wp-content/themes/ifbbpro/img/uslugi/protan.png" alt="tanning">
              </div>
-             <p class="tan-register"><a href=" <?php pll_e('/rejestracja-brazowienie') ?>"> <?php pll_e('Zapisz się na brązowienie') ?></a></p>
+             <div class="buttonsContainer">
+                 <a href="/rejestracja-brazowienie">
+                     <button class="btn">Zapisz się na brązowienie</button>
+                 </a>
+             </div>
          </div>
      </div>
 

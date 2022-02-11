@@ -1,0 +1,81 @@
+/********************************* USŁUGI DLA ZAWODNIKÓW *****************************/
+
+#slide_down > section > div.servicesContainer > div:nth-child(2) {
+	display: none !important;
+}
+
+.servicesContainer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.servicesContainer__item {
+	width: 30%;
+}
+
+.servicesContainer__img img {
+	width: 100%;
+}
+
+.servicesContainer__item h3 {
+	height: 55px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.servicesContainer__img {
+		min-height: 1px;
+	}
+
+	.servicesContainer__item h3 {
+		height: auto;
+		padding-bottom: 0;
+		margin-bottom: 20px;
+	}
+
+	.partnership > h1 {
+		margin-top: 0;
+		padding-top: 1em;
+	}
+}
+
+.servicesContainer__p > div > img {
+	display: inline-block;
+	height: 100px;
+}
+
+.servicesContainer__p .tan-register {
+	color: white;
+	width: max-content;
+	margin: 0 auto;
+}
+
+.servicesContainer__p .tan-register a {
+	color: white !important;
+}
+
+/*------------------------------ USŁUGI DLA ZAWODNIKÓW -------------------------*/
+
+@media (max-width: 900px) {
+	.servicesContainer {
+		display: block;
+	}
+
+	.servicesContainer__item {
+		width: 90%;
+		margin: 25% auto;
+	}
+
+	.servicesContainer__img img {
+		width: 100%;
+	}
+
+	.servicesContainer__p > div > img {
+		display: inline-block;
+		height: auto;
+		width: 30%;
+	}
+}
