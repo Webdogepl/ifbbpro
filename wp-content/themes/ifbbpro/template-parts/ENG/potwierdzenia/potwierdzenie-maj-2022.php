@@ -1,59 +1,63 @@
- <div class="page-container confirmation-page">
+<div class="page-container confirmation-page">
 
-     <h1><b>CONFIRMATION OF AN ATHLETE REGISTRATION AND RECEIPT OF APPLICATION FOR THE NPC WORLDWIDE BODYBUILDING AND FITNESS COMPETITION 2022 HELD WITHIN THE INTERNATIONAL FESTIVAL OF BODYBUILDING AND FITNESS</b></h1>
+    <h1><b>Confirmation of registration and acceptance of an athlete's application for the NPC Worldwide competition held as part of the NPC Worldwide Festival.</b></h1>
 
-     <div class="confirmation-logos-container">
-         <div class="confirmation-logos"><img src="/wp-content/themes/ifbbpro/img/rejestracja/potwierdzenie/federacja_ifbb_poland.png" alt="federacja-ifbb"></div>
-         <div class="confirmation-logos"><img src="/wp-content/themes/ifbbpro/img/rejestracja/potwierdzenie/logo-festiwalu.png" alt="festiwal"></div>
-         <div class="confirmation-logos"><img src="/wp-content/themes/ifbbpro/img/rejestracja/potwierdzenie/logo-npc.png" alt="logo-npc"></div>
-     </div>
+    <div class="confirmation-logos-container">
+        <div class="confirmation-logos"><img src="/wp-content/themes/ifbbpro/img/rejestracja/potwierdzenie/federacja_ifbb_poland.png" alt="federacja-ifbb"></div>
+        <div class="confirmation-logos"><img src="/wp-content/themes/ifbbpro/img/rejestracja/potwierdzenie/logo-festiwalu.png" alt="festiwal"></div>
+        <div class="confirmation-logos"><img src="/wp-content/themes/ifbbpro/img/rejestracja/potwierdzenie/logo-npc.png" alt="logo-npc"></div>
+    </div>
 
-     <p>Hello,<br>
-         Your application for the NPC Worldwide Bodybuilding and Fitness Contest has been received. I hereby confirm that you have been registered on the entry list of the athletes who will take part in the NPC Worldwide competition in Poland 2022. </p>
+    <a href="/schedule">
+        <h3>Schedule and Venue</h3>
+    </a>
 
-     <p>The place of the event can be found on the competition website in tab <a href="/schedule" target="_blank">SCHEDULE AND VENUE</a>.</p>
-
-     <p>Please arrive on time for the check-in which will take place at the venue on Friday 27 May from 11am till 8pm.<br>For the check-in please take with you: </p>
-     <ul>
-         <li>your identity document</li>
-         <li>competition outfit</li>
-         <li>a USB flash drive with a recording for the individual presentation program if required for your division (it should be recorded as the first, the USB flash drive should be signed and checked by the contestant after recording it)</li>
-         <li>the confirmation of the entry fee payment with the athlete's data in a printed hard copy form or in an electronic form saved on your mobile device </li>
-         <li>the confirmation of the competitor registration and receipt of application for the contest i.e. this e-mail in a printed hard copy form or in an electronic form saved on your mobile device </li>
-         <li>NPC membership confirmation in a digital form or printed copy.</li>
-     </ul>
-
-     <p>
-         Thank you for your application. <br>
-         I wish you to prepare the best condition.<br>
-         See you at the contest.
-     </p>
-
-     <p>Best wishes, <br>
-         Robert Piotrkowicz</p>
-
-     <ul class="piotrkowicz">
-         <li>IFBB Professional League Champion</li>
-         <li>Official Representative and Promoter of the NPC Worldwide IFBB Professional League in Poland</li>
-         <li><a href="https://wa.me/+48602650291" target="_blank">Phone/WhatsApp: +48 602 650 291</a></li>
-         <li><a href="mailto:office@ifbbpro.pl">Office mail: office@ifbbpro.pl </a></li>
-         <li>Official contest website: <a href="https://www.ifbbpro.com.pl">WWW.IFBBPRO.COM.PL</a></li>
-         <li>Official Instagram:<a href="https://www.instagram.com/ifbbpropoland_official/">@ifbbpropoland_official</a></li>
-         <li>Official NPC Poland Instagram: <a href="https://www.instagram.com/npc_poland_ifbb_pro_league">@npc_poland_ifbb_pro_league</a></li>
-     </ul>
-
-     <div class="confirmation-footer">
-         <p> <a href="/registration-tanning" target="_blank">Registration for tanning</a></p>
-         <p> <a href="/tickets-for-festival" target="_blank">Buy tickets for friends</a></p>
-         <p> <a href="/festival-rules/" target="_blank">Festival rules</a></p>
-         <p> <a href="/contact" target="_blank">Contact</a></p>
-         <p> <a href="https://sklepzawodnika.pl" target="_blank">Sklep zawodnika</a></p>
-     </div>
-
-     <div class="confirmation-socials">
-         <p><a href="https://www.facebook.com/RobertPiotrkowicz" target="_blank"><i class="fab fa-facebook-f"></i></a></p>
-         <p><a href="https://www.instagram.com/ifbbpropoland_official/" target="_blank"><i class="fab fa-instagram"></i></a></p>
-     </div>
+    <p>Hello<br>
+        Your application for the NPC Worldwide contest has been accepted. I hereby confirm that you are entered on the list of athletes taking part in our competition. </p>
 
 
- </div>
+    <p>Please arrive on time for the check-in, which will take place on Friday, May 27 between 11:00 and 22:00. The hours of the competition, the location of it and check-in you will find in <a href="/schedule">SCHEDULE AND VENUE</a></p>
+
+
+    <p>Please bring for the check-in:</p>
+    <ul>
+        <li>Your ID</li>
+        <li>Pendrive with a recording music for a posing routine. Pendrive with recording is required in the divisions: Men’s Bodybuilding, Classic Physique, Women’s Physique, Women’s Bodybuilding, Women’s Fitness. The song (trac) should be recorded first, the pendrive signed and checked by the competitor after recording.</li>
+        <li>Confirmation of athlete registration for the competition, printed on a piece of paper or saved on a mobile device, i.e. an e-mail that you are reading now.</li>
+        <li>Confirmation of the entry fee with the competitor's data (confirmation or photo of bank transfer, PayPal e.t.c.), printed on a piece of paper or saved on a mobile device.</li>
+        <li>The NPC Membership License on a piece of paper or saved on a mobile device.</li>
+    </ul>
+
+    <p>
+        Thank you for your application.<br>
+        See you at the Festival.
+    </p>
+
+    <p>Best wishes, <br>
+        Robert Piotrkowicz</p>
+
+    <ul class="piotrkowicz">
+        <li>IFBB Professional League Champion</li>
+        <li>Official Representative and Promoter of the NPC Worldwide IFBB Professional League in Poland</li>
+        <li><a href="https://wa.me/+48602650291" target="_blank">Phone/WhatsApp: +48 602 650 291</a></li>
+        <li><a href="mailto:office@ifbbpro.pl">Office mail: office@ifbbpro.pl </a></li>
+        <li>Official contest website: <a href="https://www.ifbbpro.com.pl">WWW.IFBBPRO.COM.PL</a></li>
+        <li>Official Instagram:<a href="https://www.instagram.com/ifbbpropoland_official/">@ifbbpropoland_official</a></li>
+        <li>Official NPC Poland Instagram: <a href="https://www.instagram.com/npc_poland_ifbb_pro_league">@npc_poland_ifbb_pro_league</a></li>
+    </ul>
+
+    <div class="confirmation-footer">
+        <p> <a href="/registration-tanning" target="_blank">Registration for tanning</a></p>
+        <p> <a href="/tickets-for-festival" target="_blank">Buy tickets for friends</a></p>
+        <p> <a href="/festival-rules/" target="_blank">Festival rules</a></p>
+        <p> <a href="/contact" target="_blank">Contact</a></p>
+        <p> <a href="https://sklepzawodnika.pl" target="_blank">Sklep zawodnika</a></p>
+    </div>
+
+    <div class="confirmation-socials">
+        <p><a href="https://www.facebook.com/RobertPiotrkowicz" target="_blank"><i class="fab fa-facebook-f"></i></a></p>
+        <p><a href="https://www.instagram.com/ifbbpropoland_official/" target="_blank"><i class="fab fa-instagram"></i></a></p>
+    </div>
+
+
+</div>
