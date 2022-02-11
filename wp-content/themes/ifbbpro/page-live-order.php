@@ -60,18 +60,14 @@ get_template_part('template-parts/top-template');
 
             <div class="buttonsContainer">
 
-                <a href="/koszyk">
-                    <button class="btn">Przejdź do koszyka</button>
-                </a>
-
                 <a href="/harmonogram-zawodow-schedule/">
                     <button class="btn btn--navy">Harmonogram i miejsce zawodów</button>
                 </a>
+                <a href="/live-stream-page/">
+                    <button class="btn btn--blue">Oglądaj relację live</button>
+                </a>
 
             </div>
-
-
-
 
 
             <div class="live-product">
@@ -83,13 +79,25 @@ get_template_part('template-parts/top-template');
 
             </div>
 
+            <div class="buttonsContainer">
+                <a href="/koszyk">
+                    <button class="btn">Przejdź do koszyka</button>
+                </a>
+            </div>
+
+
+
             <div class="live-product retransmission">
 
                 <h2 class="retransmission-title">Zobacz nagrania z poprzednich edycji Festiwalu:</h2>
 
                 <?php echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="retransmisja-en-pl"]'); ?>
 
-                <p class="cart-button"><a href="/cart">Przejdź do koszyka <i class="fas fa-angle-double-right"></i></a></p>
+                <div class="buttonsContainer">
+                    <a href="/koszyk">
+                        <button class="btn">Przejdź do koszyka</button>
+                    </a>
+                </div>
 
             </div>
 
@@ -203,13 +211,12 @@ get_template_part('template-parts/top-template');
 
             <div class="buttonsContainer">
 
-
-                <a href="/cart">
-                    <button class="btn">Go to cart</button>
-                </a>
-
                 <a href="/schedule/">
                     <button class="btn btn--navy">Schedule and venue</button>
+                </a>
+
+                <a href="/live-stream-page-en">
+                    <button class="btn btn--blue">Watch live stream</button>
                 </a>
 
             </div>
@@ -222,6 +229,11 @@ get_template_part('template-parts/top-template');
 
                 <?php echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="Relacja-en"]'); ?>
 
+                <div class="buttonsContainer">
+                    <a href="/cart">
+                        <button class="btn">Go to cart</button>
+                    </a>
+                </div>
             </div>
 
 
@@ -232,7 +244,11 @@ get_template_part('template-parts/top-template');
 
                 <?php echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="retransmisja-en"]'); ?>
 
-                <p class="cart-button"><a href="/cart">Go to cart <i class="fas fa-angle-double-right"></i></a></p>
+                <div class="buttonsContainer">
+                    <a href="/cart">
+                        <button class="btn">Go to cart</button>
+                    </a>
+                </div>
 
             </div>
 
