@@ -16,7 +16,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
     <meta property="og:type" content="sport" />
-    <meta property="og:image" content="https://ifbbpro.com.pl/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1.jpg" />
+    <meta property="og:image" content="https://ifbbpro.com.pl/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1a.jpg" />
 
     <?php
     $ID = get_the_ID();

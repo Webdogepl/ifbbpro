@@ -21,7 +21,7 @@
             <h5 class="competition__subTitle">NPC Worldwide International Regional Contest </h5>
         </header>
 
-        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1.jpg" alt="Banner">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1a.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: April 23, 2022</li>
@@ -71,7 +71,7 @@
             <h5 class="competition__subTitle">NPC Worldwide International Regional Contest </h5>
         </header>
 
-        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__1.jpg" alt="Banner">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__1a.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: May 28, 2022</li>
@@ -120,7 +120,7 @@
             <h5 class="competition__subTitle">NPC Worldwide Amateur International PRO Qualifier Contest  </h5>
         </header>
 
-        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__2.jpg" alt="Banner">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__maj__2a.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: May 29, 2022</li>
@@ -169,7 +169,7 @@
             <h5 class="competition__subTitle">NPC Worldwide International Regional Contest </h5>
         </header>
 
-        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1.jpg" alt="Banner">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__1a.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: September 10, 2022</li>
@@ -219,7 +219,7 @@
             <h5 class="competition__subTitle">NPC Worldwide Amateur International PRO Qualifier Contest </h5>
         </header>
 
-        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2.jpg" alt="Banner">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__wrzesien__2a.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: September 17-18, 2022</li>
@@ -271,7 +271,7 @@
             <h5 class="competition__subTitle">NPC Worldwide International Regional Contest</h5>
         </header>
 
-        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1.jpg" alt="Banner">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__1a.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: October 22, 2022</li>
@@ -321,7 +321,7 @@
             <h5 class="competition__subTitle">NPC Worldwide Amateur International PRO Qualifier Contest </h5>
         </header>
 
-        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2.jpg" alt="Banner">
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__pazdziernik__2a.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: October 23, 2022</li>
