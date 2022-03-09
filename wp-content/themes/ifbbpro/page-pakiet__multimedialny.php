@@ -103,7 +103,7 @@ get_template_part('template-parts/top-template'); ?>
                 <?php WC()->cart->empty_cart();
 
 
-                echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="pakiety-en"]'); ?>
+                echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="pakiety-ang"]'); ?>
 
             </div>
 
