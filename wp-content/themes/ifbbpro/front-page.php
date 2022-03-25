@@ -96,10 +96,17 @@ get_header();
 
     <a href="https://fiwe.pl/" target="_blank">
         <figure class="fullWidthBanner">
-            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/fiwe__banner.png' ?>" alt="Bad Iron">
+            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/fiwe__banner.png' ?>" alt="Fiwe">
         </figure>
     </a>
 
+    <br>
+
+    <a href="https://sklepzawodnika.com.pl/" target="_blank">
+        <figure class="fullWidthBanner">
+            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/protan__banner.jpg' ?>" alt="Protan">
+        </figure>
+    </a>
 
 
     <?php if (pll_current_language() == 'pl') {

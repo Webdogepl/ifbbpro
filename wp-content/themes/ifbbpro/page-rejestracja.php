@@ -19,8 +19,8 @@ get_header(); ?>
     <?php if (is_page('rejestracja-kwiecien-2022')) { ?>
 
         <div class="cognito">
-            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/rejestracja/2022/kwiecien.jpg" alt="Rejestracja"></div>
-            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/rejestracja/2022/kwiecien.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="large" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1a.jpg" alt="Rejestracja"></div>
+            <div class="top-img"><img class="mobile" src="/wp-content/themes/ifbbpro/img/kalendarz/2022__kwiecien__1a.jpg" alt="Rejestracja"></div>
 
             <script src="https://www.cognitoforms.com/s/hLWZOxiSs0uV_r9wMdO40A"></script>
             <script>
