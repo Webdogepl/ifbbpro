@@ -4,13 +4,13 @@
 
 
     <figure class="sponsorsBar__wrapper">
-        <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Mcer.jpg' ?>" alt="Mcer">
         <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
-        <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
         <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="FA">
+        <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
+        <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
         <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="Sklep zawodnika">
         <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
-        <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
+        <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Mcer.jpg' ?>" alt="Mcer">
         <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/fiwe-color2.png' ?>" alt="Fiwe">
         <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/13.png' ?>" alt="PRO TAN">
     </figure>
