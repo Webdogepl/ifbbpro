@@ -73,5 +73,5 @@
 
 
 <a href="https://bio-lab.shop/en/" target="_blank">
-    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/Biolab.jpg" alt="sponsor-logo"></div>
+    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/22.png" alt="sponsor-logo"></div>
 </a>
