@@ -29,7 +29,7 @@ get_template_part('template-parts/top-template');
 
             <p>Zapraszamy do obejrzenia bezpośredniej relacji wideo z zawodów wchodzących w skład Festiwalu Sportów Sylwetkowych federacji NPC Worldwide & IFBB Professional League odbywających się w Polsce w bieżącym roku. </p>
 
-            <p>Relacja na żywo z zawodów (live streeming) będzie odbywała się w systemie Pay-Per-View w wysokiej jakości obrazu i dźwięku.
+            <p>Relacja na żywo z zawodów (live streaming) będzie odbywała się w systemie Pay-Per-View w wysokiej jakości obrazu i dźwięku.
 
                 Relację rozpoczynamy każdego dnia zawodów od godziny 10:00 aż do ich zakończenia.
 
@@ -45,10 +45,10 @@ get_template_part('template-parts/top-template');
 
 
                 <figure class="sponsorsBar__wrapper">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Biolab.jpg' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/mcer.jpg' ?>" alt="Mcer">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="FA">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="Sklep zawodnika">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
@@ -195,10 +195,10 @@ get_template_part('template-parts/top-template');
 
 
                 <figure class="sponsorsBar__wrapper">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Biolab.jpg' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Mcer.jpg' ?>" alt="Mcer">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="Biolab">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="FA">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="Sklep zawodnika">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
