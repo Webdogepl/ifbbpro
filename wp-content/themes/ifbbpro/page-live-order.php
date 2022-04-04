@@ -45,7 +45,7 @@ get_template_part('template-parts/top-template');
 
 
                 <figure class="sponsorsBar__wrapper">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/mcer.jpg' ?>" alt="Mcer">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/mcer.png' ?>" alt="Mcer">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="FA">
@@ -195,7 +195,7 @@ get_template_part('template-parts/top-template');
 
 
                 <figure class="sponsorsBar__wrapper">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/Mcer.jpg' ?>" alt="Mcer">
+                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/mcer.png' ?>" alt="Mcer">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
                     <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="FA">

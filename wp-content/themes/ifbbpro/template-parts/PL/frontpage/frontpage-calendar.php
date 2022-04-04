@@ -125,7 +125,7 @@
         <ul class="competition__desc">
             <li>Date: May 29, 2022</li>
             <li>Place: Poland, Warsaw, MCER Marki Str. Wspólna 40</li>
-            <li>Amateur International Regional Qualifier </li>
+            <li>Amateur International PRO Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
@@ -224,7 +224,7 @@
         <ul class="competition__desc">
             <li>Date: September 17-18, 2022</li>
             <li>Place: Poland, Warsaw, MCER Marki Str. Wspolna 40</li>
-            <li>Amateur International Regional Qualifier </li>
+            <li>Amateur International PRO Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
             <li>WhatsApp: +48 602 650 291 </li>
