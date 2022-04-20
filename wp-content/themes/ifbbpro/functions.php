@@ -166,12 +166,13 @@ add_filter('woocommerce_return_to_shop_redirect', 'store_mall_wc_empty_cart_redi
 
 /*----------------------------- LIVE PRODUCT REDIRECTION ------------------------------*/
 
+
 function LiveProductRedirect()
 {
     if (is_product() == 'true') {
 
         if (pll_current_language() == 'pl') {
-            wp_redirect('https://ifbbpro.com.pl/koszyk');
+            wp_redirect('https://ifbbpro.com.pl/cart');
         } else {
             wp_redirect('https://ifbbpro.com.pl/cart');
         }

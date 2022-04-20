@@ -80,7 +80,7 @@ get_template_part('template-parts/top-template');
             </div>
 
             <div class="buttonsContainer">
-                <a href="/koszyk">
+                <a href="/cart">
                     <button class="btn">Przejdź do koszyka</button>
                 </a>
             </div>
@@ -94,7 +94,7 @@ get_template_part('template-parts/top-template');
                 <?php echo do_shortcode('[products columns="4" orderby="menu_order" order="desc" category="retransmisja-en-pl"]'); ?>
 
                 <div class="buttonsContainer">
-                    <a href="/koszyk">
+                    <a href="/cart">
                         <button class="btn">Przejdź do koszyka</button>
                     </a>
                 </div>

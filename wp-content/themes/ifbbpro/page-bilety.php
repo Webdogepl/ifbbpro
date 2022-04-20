@@ -78,7 +78,7 @@ get_header(); ?>
 
 
 
-                <p class="cart-button"><a href=<?php pll_e('/koszyk/') ?>><?php pll_e('Zobacz koszyk') ?></a></p>
+                <p class="cart-button"><a href="/cart/"><?php pll_e('Zobacz koszyk') ?></a></p>
 
                 <p class="tickets-info">Tickets will be available also in higher price on Festival venue. If you have any problem with buying ticket, please contact us at help@ifbbpro.com.pl</p>
 
