@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<div class="message">
+<div class="message404">
     <h1>404</h1>
     <h2>This site don't exist</h2>
     <a href="/">Back to home page</a>

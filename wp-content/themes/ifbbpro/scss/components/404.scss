@@ -1,0 +1,14 @@
+.message404 {
+	text-align: center;
+	color: black;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	place-items: center;
+
+	a {
+		color: red;
+		font-weight: bold;
+	}
+}
