@@ -56,7 +56,7 @@ get_header(); ?>
 
 
 
-        <div class="page-container tickets-page">
+        <div class="page-container tickets-page tickets-eng">
 
 
             <h1><?php wp_title('') ?></h1>
