@@ -129,9 +129,9 @@ function diff_recipients_email_notifications($recipient, $order)
             $recipient = $email_media;
         } else if (strpos($name, 'multimedia') !== false) {
             $recipient = $email_media;
-        } else if (strpos($name, 'relacja live z festiwalu') !== false) {
+        } else if (strpos($name, 'DOSTĘP DO RELACJI LIVE') !== false) {
             $recipient = $email_live;
-        } else if (strpos($name, 'live stream from festival') !== false) {
+        } else if (strpos($name, 'live streaming') !== false) {
             $recipient = $email_live;
         } else if (strpos($name, 'ticket') !== false) {
             $recipient = $email_bilety;
