@@ -113,7 +113,7 @@ function diff_recipients_email_notifications($recipient, $order)
     $email_media = 'media@ifbbpro.pl';
     $email_live = 'live@ifbbpro.pl';
     $email_bilety = 'bilety1@ifbbpro.pl';
-    $email_retransmisja = "relacja@ifbbpro.pl";
+    $email_retransmisja = "live@ifbbpro.pl";
 
     $recipient = 'cholewski185@gmail.com';
 
@@ -129,7 +129,7 @@ function diff_recipients_email_notifications($recipient, $order)
             $recipient = $email_media;
         } else if (strpos($name, 'multimedia') !== false) {
             $recipient = $email_media;
-        } else if (strpos($name, 'DOSTĘP DO RELACJI LIVE') !== false) {
+        } else if (strpos($name, 'relacji') !== false) {
             $recipient = $email_live;
         } else if (strpos($name, 'live streaming') !== false) {
             $recipient = $email_live;
