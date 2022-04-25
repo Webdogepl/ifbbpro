@@ -3,6 +3,26 @@
     <h1><?php wp_title('') ?></h1>
 
 
+
+
+    <div class="competition-results">
+
+        <h3>NPC WORLDWIDE FESTIWAL 8th EDITION</h3>
+        <h4>23 April 2022</h4>
+
+        <h4>Results:</h4>
+
+        <ol>
+            <li><a href="/wp-content/themes/ifbbpro/img/wyniki/8Edycja/2022 NPC Worldwide International Poland Championships - Final Placings with Overalls.pdf" target="_blank">2022 NPC Worldwide International Poland Championships - Final Placings with Overalls</a></li>
+            <br>
+            <li><a href="https://drive.google.com/drive/folders/1zfQDpMtV5JLK9cVRBmGmzTd1e84sp7GX?usp=sharing" target="_blank">All results - Excel + PDF</a></li>
+        </ol>
+
+
+    </div>
+
+
+
     <div class="competition-results">
 
         <h3>NPC WORLDWIDE FESTIWAL 7th EDITION</h3>
