@@ -60,15 +60,14 @@ if (!is_user_logged_in()) { ?>
 
                 <?php /*---------------------- FRAME --------------------*/ ?>
 
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Lc6RTssG3FQ?modestbranding=1" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bXOxjdmtSBk?modestbranding=1" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
             <?php } else { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
-                <h3 style="text-align:center; color:black;">Live Stream starts at:</h3>
-                <p>Champions Golden Cup (PRO Qualifier) - 24th October 10:00h - 15:00h & 18:15h - 22:00h (10am - 3pm & 6:15pm - 10pm)</p>
-                <p>Poland PRO SuperShow (Olympia Qualifier) - 24th October 15:30h - 18:00h (3:30pm - 6pm)</p>
+                <h3 style="text-align:center; color:black;">Live stream ended. If you want to buy records, click <a href="/live-stream-order">here</a></h3>
+
 
                 <br><br>
                 <p>Automatic refresh in:</p>
