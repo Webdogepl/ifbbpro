@@ -47,10 +47,11 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream NPC Debuts & International Cup of Poland NPC Regional Qualifier - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
 
                 <h3 style="text-align:center; color:black;">Live stream starts at:</h3>
-                <p>„NPC Debuts” & „International Poland Championships” - 23th April 10:00 - 21:00</p>
+                <p>NPC Debuts & International Cup of Poland NPC Regional Qualifier - 28th May 10:00 - 21:30 (10am - 9:30pm)</p>
+                <p>Champions Cup NPC PRO Qualifier - 29th May 10:00 - 21:30 (10am - 9:30pm)</p>
 
 
                 <p style="margin-top:20px">If you have any issues with Live Stream, please contact us on: <b>relacja@ifbbpro.pl</b> or WhatsApp: <a href="https://wa.me/+48510587327" target="_blank">+48 510 587 327</a> </p>
@@ -66,7 +67,9 @@ if (!is_user_logged_in()) { ?>
             <?php } else { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
-                <h3 style="text-align:center; color:black;">Live stream ended. If you want to buy records, click <a href="/live-stream-order">here</a></h3>
+                <h3 style="text-align:center; color:black;">Live stream starts at:</h3>
+                <p>NPC Debuts & International Cup of Poland NPC Regional Qualifier - 28th May 10:00 - 21:30 (10am - 9:30pm)</p>
+                <p>Champions Cup NPC PRO Qualifier - 29th May 10:00 - 21:30 (10am - 9:30pm)</p>
 
 
                 <br><br>
@@ -87,9 +90,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <h3>PRO Qualifier contest is still going on - after PQ competitions stream from Olympia Qualifier will be available.</h3>
-
-                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream from Golden Champions Cup (Pro Qualifier) - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream from Champions Cup NPC PRO Qualifier - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
 
                 <p style="margin-top:20px">If you have any issues with Live Stream, please contact us on: <b>relacja@ifbbpro.pl</b></p>
 
@@ -103,9 +104,9 @@ if (!is_user_logged_in()) { ?>
             <?php } else { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
-                <h3 style="text-align:center; color:black;">Live Stream starts at:</h3>
-                <p>Champions Golden Cup (PRO Qualifier) - 24th October 10:00h - 15:00h & 18:15h - 22:00h (10am - 3pm & 6:15pm - 10pm)</p>
-                <p>Poland PRO SuperShow (Olympia Qualifier) - 24th October 15:30h - 18:00h (3:30pm - 6pm)</p>
+                <h3 style="text-align:center; color:black;">Live stream starts at:</h3>
+                <p>NPC Debuts & International Cup of Poland NPC Regional Qualifier - 28th May 10:00 - 21:30 (10am - 9:30pm)</p>
+                <p>Champions Cup NPC PRO Qualifier - 29th May 10:00 - 21:30 (10am - 9:30pm)</p>
 
                 <p>Automatic refresh in:</p>
                 <p id="live-stream-timer">3:00</p>
