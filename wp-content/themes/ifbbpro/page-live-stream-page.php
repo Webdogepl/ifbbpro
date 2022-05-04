@@ -16,10 +16,10 @@ $stream_on = false;
 $day = 1;
 
 /* FIRST */
-$first_day_id =  array('6998', '6986');
+$first_day_id =  array('6996', '6999', '7001', '7003');
 
 /* SECOND */
-$second_day_id = array('6108', '6113', '6106', '6111', '6351', '6353');
+$second_day_id = array('6997', '7000', '7001', '7003');
 
 /* OLIMPIA */
 $third_day_id = array('6108', '6113', '6107', '6112', '6352', '6353');
