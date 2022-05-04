@@ -179,3 +179,30 @@ function LiveProductRedirect()
     }
 }
 add_action('woocommerce_before_single_product', 'LiveProductRedirect');
+
+
+
+/*------------------- OPTIONAL FIELDS IN CHECKOUT -------------------*/
+
+
+add_filter('woocommerce_default_address_fields', 'adjust_requirement_of_checkout_address_fields');
+function adjust_requirement_of_checkout_address_fields($fields)
+{
+    $fields['company']['required']      = false;
+    $fields['country']['required']      = false;
+    $fields['address_1']['required']    = false;
+    $fields['address_2']['required']    = false;
+    $fields['city']['required']         = false;
+    $fields['state']['required']        = false;
+    $fields['postcode']['required']     = false;
+
+    return $fields;
+}
+
+add_filter('woocommerce_billing_fields', 'adjust_requirement_of_checkout_contact_fields');
+function adjust_requirement_of_checkout_contact_fields($fields)
+{
+    $fields['billing_phone']['required']    = false;
+
+    return $fields;
+}
