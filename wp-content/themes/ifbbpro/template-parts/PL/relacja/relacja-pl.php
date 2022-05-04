@@ -47,10 +47,11 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji Debiuty NPC & Cup of Poland NPC Regional Qualifier - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
 
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>„Debiuty NPC” & „Poland Championships” - 23 kwietnia od 10:00 do 21:00</p>
+                <p>Debiuty NPC & Cup of Poland NPC Regional Qualifier - 28 maja od 10:00 do 21:30</p>
+                <p>Champions Cup NPC PRO Qualifier - 29 maja od 10:00 do 21:30</p>
 
 
                 <p style="margin-top:20px">W przypadku problemów z odtwarzaniem prosimy o kontakt na adres: <b>relacja@ifbbpro.pl</b> lub WhatsApp: <a href="https://wa.me/+48510587327" target="_blank">+48 510 587 327</a> </p>
@@ -85,10 +86,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-
-                <h3>Trwają jeszcze konkurencje PRO Qualifier, po ich zakończeniu będzie dostępna relacja z Olympia Qualifier</h3>
-
-                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji Champions Golden Cup (PRO Qualifier) - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji Champions Cup NPC PRO Qualifier - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
 
 
                 <p style="margin-top:20px">W przypadku problemów z odtwarzaniem prosimy o kontakt na adres: <b>relacja@ifbbpro.pl</b> lub WhatsApp: <a href="https://wa.me/+48510587327" target="_blank">+48 510 587 327</a> </p>
@@ -102,7 +100,8 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>„Debiuty NPC” & „Poland Championships” - 23 kwietnia od 10:00 do 21:00</p>
+                <p>Debiuty NPC & Cup of Poland NPC Regional Qualifier - 28 maja od 10:00 do 21:30</p>
+                <p>Champions Cup NPC PRO Qualifier - 29 maja od 10:00 do 21:30</p>
 
                 <p>Automatyczne przeładowanie za:</p>
                 <p id="live-stream-timer">3:00</p>
