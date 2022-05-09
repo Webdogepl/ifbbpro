@@ -102,6 +102,19 @@ get_header();
 
     <br>
 
+
+    <a href="https://fasklep.pl/" target="_blank">
+        <figure class="fullWidthBanner">
+            <?php if (pll_current_language() == 'pl') { ?>
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/FA__banner_pl1.jpeg' ?>" alt="Fitness Authority">
+            <?php } else { ?>
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/FA__banner_en1.jpg' ?>" alt="Fitness Authority">
+            <?php } ?>
+        </figure>
+    </a>
+
+    <br>
+
     <a href="https://sklepzawodnika.com.pl/" target="_blank">
         <figure class="fullWidthBanner">
             <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/protan__banner.jpg' ?>" alt="Protan">
