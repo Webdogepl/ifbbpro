@@ -52,7 +52,7 @@ $(document).ready(function () {
 
 /*------------------------------------------------ TOP SLIDER -------------------------------------------------*/
 
-var total = $("#top-slider img").length;
+let total = $("#top-slider img").length;
 rand = Math.floor(Math.random() * total);
 
 $("#top-slider").slick({
