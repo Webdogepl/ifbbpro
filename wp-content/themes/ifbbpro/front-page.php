@@ -103,208 +103,213 @@ get_header();
     <br>
 
 
-    <a href="https://fasklep.pl/" target="_blank">
-        <figure class="fullWidthBanner">
-            <?php if (pll_current_language() == 'pl') { ?>
+
+    <?php if (pll_current_language() == 'pl') { ?>
+        <a href="https://www.fanutrition.pl/" target="_blank">
+            <figure class="fullWidthBanner">
                 <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/FA__banner_pl1.jpeg' ?>" alt="Fitness Authority">
-            <?php } else { ?>
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/FA__banner_en1.jpg' ?>" alt="Fitness Authority">
+            </figure>
+        <?php } else { ?>
+            <a href="https://www.fanutrition.pl/en" target="_blank">
+                <figure class="fullWidthBanner">
+                    <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/FA__banner_en1.jpg' ?>" alt="Fitness Authority">
+                </figure>
             <?php } ?>
-        </figure>
-    </a>
 
-    <br>
-
-    <a href="https://sklepzawodnika.com.pl/" target="_blank">
-        <figure class="fullWidthBanner">
-            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/protan__banner.jpg' ?>" alt="Protan">
-        </figure>
-    </a>
-
-
-    <?php if (pll_current_language() == 'pl') {
-
-        get_template_part('template-parts/PL/frontpage/frontpage-powitanie');
-    } else {
-        get_template_part('template-parts/ENG/frontpage/frontpage-powitanie');
-    } ?>
-
-
-
-    <?php if (pll_current_language() == 'pl') {
-
-        get_template_part('template-parts/PL/frontpage/frontpage-calendar');
-    } else {
-
-        get_template_part('template-parts/ENG/frontpage/frontpage-calendar');
-    } ?>
-
-
-    <?php if (pll_current_language() == 'pl') {
-
-        get_template_part('template-parts/PL/frontpage/frontpage-rejestracja');
-    } else {
-
-        get_template_part('template-parts/ENG/frontpage/frontpage-rejestracja');
-    } ?>
-
-    <div class="tnp tnp-subscription">
-
-        <form method="post" action="http://ifbbpro.com.pl/?na=s" onsubmit="return newsletter_check(this)">
-            <h4 class="newsletter-button"><?php pll_e('Zapisz się do newslettera'); ?></h4>
-            <input type="hidden" name="nlang" value="">
-            <div class="tnp-field tnp-field-firstname"><input class="tnp-firstname" type="text" name="nn" placeholder="IMIĘ"></div>
-            <div class="tnp-field tnp-field-email"><input class="tnp-email" type="email" name="ne" placeholder="ADRES E-MAIL" required></div>
-            <div class="tnp-field tnp-field-button"><input class="tnp-submit" type="submit" value="Zapisz się"></div>
-
-            <div class="tnp-field tnp-field-privacy" style="display:block;"><label><input type="checkbox" name="ny" required class="tnp-privacy"><?php pll_e('Kontynuując zgadzasz się z'); ?>  <a target="_blank" href="http://ifbbpro.com.pl/polityka-prywatnosci/"><?php pll_e('polityką prywatności'); ?></a><?php pll_e(' strony'); ?></label></div>
-
-        </form>
-    </div>
-
-
-
-    <section class="sponsors">
-        <h3><?php pll_e('Sponsorzy i partnerzy festiwalu'); ?></h3>
-
-        <div id="sponsors-slider" class="lazy-load">
-
-            <?php get_template_part('template-parts/slider-template'); ?>
-
-        </div>
-
-    </section>
-
-    <section class="timer">
-
-        <div class="timer-overlay"></div>
-
-        <div class="timer__left">
-
-            <h4>DAYS TO THE NPC WORLDWIDE FESTIVAL:</h4>
-            <div id="clock"></div>
-
-        </div>
-
-        <div class="timer__right">
-
-
-        </div>
-
-    </section>
-
-    <section class="logotypes">
-        <h3><?php pll_e('Partnerzy federacji NPC Worldwide & IFBB Professional League'); ?></h3>
-
-        <div id="logotypes-slider">
-
-            <a class="lazy-load" href="http://npcnewsonline.com/" target="_blank">
-                <div><img src="/wp-content/uploads/2021/08/logotypy-slider1-1.jpg" alt="sponsor-logo"></div>
             </a>
 
-            <a href="https://www.facebook.com/flexmagazine/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-2.jpg" alt="sponsor-logo"></div>
-            </a>
+            <br>
 
-            <a href="https://pl-pl.facebook.com/MuscleandFitnessMag" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-3.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://www.muscleandfitness.com/muscle-fitness-hers" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-4.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="http://npcnewsonline.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-5.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://www.ifbbpro.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-6.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://mrolympia.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-7.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://mrolympia.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-8.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://www.ifbbpro-japan.com/contests/amateur-olympia-japan-2019/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-9.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://mrolympia.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-10.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://mrolympia.com/Amateur-Olympia" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-11.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://generationiron.com/new-york-pro-2019-results/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-12.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="http://npcnewsonline.com/2019-ifbb-pittsburgh-pro-masters-championships-official-day-one-score-cards/553053/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-13.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="http://www.timgardnerproductions.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-14.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="http://www.musclecontest.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-15.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://www.europaexpo.com/events/dallas-npc-amateur-bodybuilding/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-16.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="https://spectrumfitnessproductions.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-17.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="http://npcmidwest.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-18.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="http://www.torontoprosupershow.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-19.jpg" alt="sponsor-logo"></div>
-            </a>
-
-            <a href="http://www.vanproshow.com/" target="_blank">
-                <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-20.jpg" alt="sponsor-logo"></div>
+            <a href="https://sklepzawodnika.com.pl/" target="_blank">
+                <figure class="fullWidthBanner">
+                    <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/protan__banner.jpg' ?>" alt="Protan">
+                </figure>
             </a>
 
 
+            <?php if (pll_current_language() == 'pl') {
+
+                get_template_part('template-parts/PL/frontpage/frontpage-powitanie');
+            } else {
+                get_template_part('template-parts/ENG/frontpage/frontpage-powitanie');
+            } ?>
 
 
-        </div>
 
-    </section>
+            <?php if (pll_current_language() == 'pl') {
 
-    <section class="front-footer">
+                get_template_part('template-parts/PL/frontpage/frontpage-calendar');
+            } else {
 
-        <div class="youtube-video-place embed-responsive embed-responsive-4by3" style="text-align:center; width:80%; margin:5% auto;" data-yt-url="https://www.youtube.com/embed/nKD7jIx0lHk?controls=0">
-            <img style="text-align:center; width:100%; margin:5% auto;" src="/wp-content/themes/ifbbpro/img/frontpage/youtube.png" async class="play-youtube-video">
-        </div>
-
-        <div class="front-footer-block">
-            <a href="https://mrolympia.com/Amateur-Olympia"><img src="<?php bloginfo('template_directory'); ?>/img/AmateurOlympia.jpg" alt="olympia"></a>
-        </div>
-
-        <div class="front-footer-block">
-            <a href="https://arnoldamateur.com/"><img src="<?php bloginfo('template_directory'); ?>/img/ArnoldAmateur.jpg" alt="arnold"></a>
-        </div>
+                get_template_part('template-parts/ENG/frontpage/frontpage-calendar');
+            } ?>
 
 
-        <div class="front-footer-block">
-            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/festivalbanner3.jpg" alt="festival"></a>
-        </div>
+            <?php if (pll_current_language() == 'pl') {
 
-    </section>
+                get_template_part('template-parts/PL/frontpage/frontpage-rejestracja');
+            } else {
+
+                get_template_part('template-parts/ENG/frontpage/frontpage-rejestracja');
+            } ?>
+
+            <div class="tnp tnp-subscription">
+
+                <form method="post" action="http://ifbbpro.com.pl/?na=s" onsubmit="return newsletter_check(this)">
+                    <h4 class="newsletter-button"><?php pll_e('Zapisz się do newslettera'); ?></h4>
+                    <input type="hidden" name="nlang" value="">
+                    <div class="tnp-field tnp-field-firstname"><input class="tnp-firstname" type="text" name="nn" placeholder="IMIĘ"></div>
+                    <div class="tnp-field tnp-field-email"><input class="tnp-email" type="email" name="ne" placeholder="ADRES E-MAIL" required></div>
+                    <div class="tnp-field tnp-field-button"><input class="tnp-submit" type="submit" value="Zapisz się"></div>
+
+                    <div class="tnp-field tnp-field-privacy" style="display:block;"><label><input type="checkbox" name="ny" required class="tnp-privacy"><?php pll_e('Kontynuując zgadzasz się z'); ?>  <a target="_blank" href="http://ifbbpro.com.pl/polityka-prywatnosci/"><?php pll_e('polityką prywatności'); ?></a><?php pll_e(' strony'); ?></label></div>
+
+                </form>
+            </div>
+
+
+
+            <section class="sponsors">
+                <h3><?php pll_e('Sponsorzy i partnerzy festiwalu'); ?></h3>
+
+                <div id="sponsors-slider" class="lazy-load">
+
+                    <?php get_template_part('template-parts/slider-template'); ?>
+
+                </div>
+
+            </section>
+
+            <section class="timer">
+
+                <div class="timer-overlay"></div>
+
+                <div class="timer__left">
+
+                    <h4>DAYS TO THE NPC WORLDWIDE FESTIVAL:</h4>
+                    <div id="clock"></div>
+
+                </div>
+
+                <div class="timer__right">
+
+
+                </div>
+
+            </section>
+
+            <section class="logotypes">
+                <h3><?php pll_e('Partnerzy federacji NPC Worldwide & IFBB Professional League'); ?></h3>
+
+                <div id="logotypes-slider">
+
+                    <a class="lazy-load" href="http://npcnewsonline.com/" target="_blank">
+                        <div><img src="/wp-content/uploads/2021/08/logotypy-slider1-1.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://www.facebook.com/flexmagazine/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-2.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://pl-pl.facebook.com/MuscleandFitnessMag" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-3.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://www.muscleandfitness.com/muscle-fitness-hers" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-4.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="http://npcnewsonline.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-5.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://www.ifbbpro.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-6.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://mrolympia.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-7.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://mrolympia.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-8.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://www.ifbbpro-japan.com/contests/amateur-olympia-japan-2019/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-9.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://mrolympia.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-10.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://mrolympia.com/Amateur-Olympia" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-11.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://generationiron.com/new-york-pro-2019-results/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-12.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="http://npcnewsonline.com/2019-ifbb-pittsburgh-pro-masters-championships-official-day-one-score-cards/553053/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-13.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="http://www.timgardnerproductions.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-14.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="http://www.musclecontest.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-15.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://www.europaexpo.com/events/dallas-npc-amateur-bodybuilding/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-16.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="https://spectrumfitnessproductions.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-17.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="http://npcmidwest.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-18.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="http://www.torontoprosupershow.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-19.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+                    <a href="http://www.vanproshow.com/" target="_blank">
+                        <div><img data-lazy="/wp-content/uploads/2021/08/logotypy-slider1-20.jpg" alt="sponsor-logo"></div>
+                    </a>
+
+
+
+
+                </div>
+
+            </section>
+
+            <section class="front-footer">
+
+                <div class="youtube-video-place embed-responsive embed-responsive-4by3" style="text-align:center; width:80%; margin:5% auto;" data-yt-url="https://www.youtube.com/embed/nKD7jIx0lHk?controls=0">
+                    <img style="text-align:center; width:100%; margin:5% auto;" src="/wp-content/themes/ifbbpro/img/frontpage/youtube.png" async class="play-youtube-video">
+                </div>
+
+                <div class="front-footer-block">
+                    <a href="https://mrolympia.com/Amateur-Olympia"><img src="<?php bloginfo('template_directory'); ?>/img/AmateurOlympia.jpg" alt="olympia"></a>
+                </div>
+
+                <div class="front-footer-block">
+                    <a href="https://arnoldamateur.com/"><img src="<?php bloginfo('template_directory'); ?>/img/ArnoldAmateur.jpg" alt="arnold"></a>
+                </div>
+
+
+                <div class="front-footer-block">
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/festivalbanner3.jpg" alt="festival"></a>
+                </div>
+
+            </section>
 
 </main>
 
