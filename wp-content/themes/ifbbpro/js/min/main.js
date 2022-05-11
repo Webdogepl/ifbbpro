@@ -1183,7 +1183,7 @@ $(document).ready(function () {
 
 /*------------------------------------------------ TOP SLIDER -------------------------------------------------*/
 
-var total = $("#top-slider img").length;
+let total = $("#top-slider img").length;
 rand = Math.floor(Math.random() * total);
 
 $("#top-slider").slick({
@@ -1230,94 +1230,57 @@ const frontpageBanners = () => {
 };
 frontpageBanners();
 
-/*------------------------------------------------ SPONSORZY ------------------------------------------------*/
+/*------------------------------------------------ SPONSORS & LOGOTYPES CAROUSEL ------------------------------------------------*/
 
-$("#sponsors-slider").slick({
-	dots: false,
-	infinite: true,
-	autoplay: true,
-	arrows: false,
-	speed: 1000,
-	autoplaySpeed: 0,
-	useCSS: false,
-	slidesToShow: 5,
-	pauseOnHover: true,
-	slidesToScroll: 1,
-	responsive: [
-		{
-			breakpoint: 1024,
-			settings: {
-				slidesToShow: 4,
-				slidesToScroll: 1,
-				infinite: true,
-				dots: false,
+const logotypesCarousel = (handler) => {
+	$(handler).slick({
+		dots: false,
+		infinite: true,
+		autoplay: true,
+		arrows: false,
+		speed: 1000,
+		autoplaySpeed: 0,
+		useCSS: false,
+		slidesToShow: 5,
+		pauseOnHover: true,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false,
+				},
 			},
-		},
-		{
-			breakpoint: 850,
-			settings: {
-				slidesToShow: 4,
-				slidesToScroll: 1,
+			{
+				breakpoint: 850,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+				},
 			},
-		},
-		{
-			breakpoint: 480,
-			settings: {
-				useCSS: true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
+			{
+				breakpoint: 480,
+				settings: {
+					useCSS: true,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				},
 			},
-		},
-	],
-});
-
-/*------------------------------------------------ LOGOTYPY ------------------------------------------------*/
-
-$("#logotypes-slider").slick({
-	dots: false,
-	infinite: true,
-	autoplay: true,
-	arrows: false,
-	speed: 1000,
-	autoplaySpeed: 0,
-	useCSS: false,
-	slidesToShow: 5,
-	pauseOnHover: true,
-	slidesToScroll: 1,
-	responsive: [
-		{
-			breakpoint: 1024,
-			settings: {
-				slidesToShow: 4,
-				slidesToScroll: 1,
-				infinite: true,
-				dots: false,
-			},
-		},
-		{
-			breakpoint: 850,
-			settings: {
-				slidesToShow: 4,
-				slidesToScroll: 1,
-			},
-		},
-		{
-			breakpoint: 480,
-			settings: {
-				useCSS: true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-			},
-		},
-	],
-});
+		],
+	});
+};
+logotypesCarousel("#sponsors-slider");
+logotypesCarousel("#logotypes-slider");
 
 /*------------------------------------------------ TIME LEFT COUNTER ------------------------------------------------*/
 
-function Countdown() {
-	var clock_main;
-
+const countdown = () => {
 	$(document).ready(function (date) {
+		let clock_main;
+
 		// Grab the current date
 		var currentDate = new Date();
 
@@ -1337,9 +1300,9 @@ function Countdown() {
 			countdown: true,
 		});
 	});
-}
+};
 if ($("#clock").length > 0) {
-	Countdown();
+	countdown();
 }
 
 /*------------------------------------------------ MENU ------------------------------------------------*/
@@ -1662,4 +1625,3 @@ if (video_wrapper.length) {
 		);
 	});
 }
-
