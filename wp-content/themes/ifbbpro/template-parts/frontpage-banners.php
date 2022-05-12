@@ -35,15 +35,17 @@
 
     <div class="frontpageBanners__slider">
 
-        <a href="https://www.panattasport.pl" target="_blank">
-            <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/panatta_2_' .  $lang . '.png' ?>" alt="Panatta">
-            </figure>
-        </a>
+
 
         <a href="https://xfg.pl" target="_blank">
             <figure class="fullWidthBanner">
                 <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/xtreme_2_' .  $lang . '.png' ?>" alt="Xtreme Fitness Gyms">
+            </figure>
+        </a>
+
+        <a href="https://www.panattasport.pl" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/panatta_2_' .  $lang . '.png' ?>" alt="Panatta">
             </figure>
         </a>
 
