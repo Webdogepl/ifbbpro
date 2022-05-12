@@ -1177,7 +1177,7 @@ function chooseLanguage() {
 		});
 	}
 }
-$(document).ready(function () {
+$(document).ready(() => {
 	setTimeout(chooseLanguage, 1500);
 });
 
