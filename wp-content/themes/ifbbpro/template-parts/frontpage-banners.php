@@ -13,7 +13,7 @@
 
         <a href="https://www.panattasport.pl" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/panatta_1_' .  $lang . '.png' ?>" alt="Panatta">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/panatta_1_new_' .  $lang . '.png' ?>" alt="Panatta">
             </figure>
         </a>
 
