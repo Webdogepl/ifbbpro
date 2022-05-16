@@ -9,7 +9,7 @@
 
 
 <a href="https://www.xtremefitness.pl/" target="_blank">
-    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/3.png" alt="sponsor-logo"></div>
+    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/min_xtreme.png" alt="sponsor-logo"></div>
 </a>
 
 <a href="https://sklepzawodnika.pl/" target="_blank">

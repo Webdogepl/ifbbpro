@@ -20,7 +20,7 @@ get_header(); ?>
             <div class="top-sponsor">
                 <h4><?php pll_e('Partner strategiczny i złoty sponsor'); ?></h4>
                 <a href="https://www.xtremefitness.pl/ig/xfg/" target="_blank">
-                    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/3.png" alt="sponsor-logo" class="lazy"></div>
+                    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/min_xtreme.png" alt="sponsor-logo" class="lazy"></div>
                 </a>
             </div>
 
