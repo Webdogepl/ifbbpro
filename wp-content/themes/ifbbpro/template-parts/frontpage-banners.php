@@ -1,13 +1,24 @@
 <section class="frontpageBanners">
 
 
+
     <?php $lang = pll_current_language(); ?>
 
-    <a href="https://fiwe.pl/" target="_blank">
-        <figure class="fullWidthBanner">
-            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/fiwe__banner.png' ?>" alt="Fiwe">
-        </figure>
-    </a>
+    <div class="frontpageBanners__slider">
+
+        <a href="https://fiwe.pl/" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/fiwe__banner.png' ?>" alt="Fiwe">
+            </figure>
+        </a>
+
+        <a href="https://fanutrition.pl/" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/FA_top_' . $lang . '.png' ?>" alt="Fiwe">
+            </figure>
+        </a>
+
+    </div>
 
     <div class="frontpageBanners__slider">
 
@@ -25,11 +36,23 @@
 
     </div>
 
-    <a href="https://www.fanutrition.pl/<?php echo $lang ?>" target="_blank">
-        <figure class="fullWidthBanner">
-            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/FA_1_' .  $lang . '.jpg' ?>" alt="Fitness Authority">
-        </figure>
-    </a>
+
+    <div class="frontpageBanners__slider">
+
+
+        <a href="https://www.fanutrition.pl/<?php echo $lang ?>" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/FA_1_' .  $lang . '.jpg' ?>" alt="Fitness Authority">
+            </figure>
+        </a>
+
+        <a href="https://sklepzawodnika.com.pl/" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/protan__banner.jpg' ?>" alt="Protan">
+            </figure>
+        </a>
+
+    </div>
 
 
 
@@ -53,10 +76,6 @@
 
 
 
-    <a href="https://sklepzawodnika.com.pl/" target="_blank">
-        <figure class="fullWidthBanner">
-            <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/protan__banner.jpg' ?>" alt="Protan">
-        </figure>
-    </a>
+
 
 </section>
