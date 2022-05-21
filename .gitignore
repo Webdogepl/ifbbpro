@@ -5,6 +5,7 @@
 !readme.md
 !package-lock.json
 !package.json
+!purge.php
 
 !wp-content/
 wp-content/*
