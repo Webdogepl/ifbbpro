@@ -8,13 +8,19 @@
 
         <a href="https://fiwe.pl/" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/fiwe__banner.png' ?>" alt="Fiwe">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_fiwe__banner.jpg' ?>" alt="Fiwe">
             </figure>
         </a>
 
         <a href="https://fanutrition.pl/" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/FA_top_' . $lang . '.png' ?>" alt="Fiwe">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_FA_top_' . $lang . '.jpg' ?>" alt="FA">
+            </figure>
+        </a>
+
+        <a href="https://biowellpolska.pl/" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_biowell1.jpg' ?>" alt="Biowell">
             </figure>
         </a>
 
@@ -24,13 +30,13 @@
 
         <a href="https://www.panattasport.pl" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/panatta_1_new_' .  $lang . '.png' ?>" alt="Panatta">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_panatta_1_new_' .  $lang . '.jpg' ?>" alt="Panatta">
             </figure>
         </a>
 
         <a href="https://xfg.pl" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/xtreme_1_' .  $lang . '.png' ?>" alt="Xtreme Fitness Gyms">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_xtreme_1_' .  $lang . '.jpg' ?>" alt="Xtreme Fitness Gyms">
             </figure>
         </a>
 
@@ -41,13 +47,20 @@
 
         <a href="https://sklepzawodnika.com.pl/" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/protan__banner.jpg' ?>" alt="Protan">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_protan__banner.jpg' ?>" alt="Protan">
             </figure>
         </a>
 
         <a href="https://www.fanutrition.pl/<?php echo $lang ?>" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/FA_1_' .  $lang . '.jpg' ?>" alt="Fitness Authority">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_FA_1_' .  $lang . '.jpg' ?>" alt="Fitness Authority">
+            </figure>
+        </a>
+
+
+        <a href="https://biowellpolska.pl/" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_biowell2.jpg' ?>" alt="Biowell">
             </figure>
         </a>
 
@@ -62,13 +75,13 @@
 
         <a href="https://xfg.pl" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/xtreme_2_' .  $lang . '.png' ?>" alt="Xtreme Fitness Gyms">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_xtreme_2_' .  $lang . '.jpg' ?>" alt="Xtreme Fitness Gyms">
             </figure>
         </a>
 
         <a href="https://www.panattasport.pl" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/panatta_2_' .  $lang . '.png' ?>" alt="Panatta">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_panatta_2_' .  $lang . '.jpg' ?>" alt="Panatta">
             </figure>
         </a>
 
