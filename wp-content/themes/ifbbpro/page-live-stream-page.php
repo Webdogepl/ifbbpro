@@ -13,7 +13,7 @@ get_header();
 
 $stream_on = false;
 
-$day = 1;
+$day = 2;
 
 /* FIRST */
 $first_day_id =  array('6996', '6999', '7001', '7003');

@@ -60,7 +60,7 @@ if (!is_user_logged_in()) { ?>
             <?php } else if ($stream_on == true) { ?>
 
 
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bXOxjdmtSBk?modestbranding=1" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3P-jLRzpsF0?modestbranding=1" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
             <?php } else { ?>
@@ -100,7 +100,6 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>Debiuty NPC & Cup of Poland NPC Regional Qualifier - 28 maja od 10:00 do 21:30</p>
                 <p>Champions Cup NPC PRO Qualifier - 29 maja od 10:00 do 21:30</p>
 
                 <p>Automatyczne przeładowanie za:</p>
