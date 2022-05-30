@@ -94,13 +94,13 @@ if (!is_user_logged_in()) { ?>
 
             <?php } else if ($stream_on == true) { ?>
 
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8XR9VtaiVYo?modestbranding=1" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/68XPY14MmyU?modestbranding=1" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <?php } else { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>Champions Cup NPC PRO Qualifier - 29 maja od 10:00 do 21:30</p>
+                <p>Relacja zakończona</p>
 
                 <p>Automatyczne przeładowanie za:</p>
                 <p id="live-stream-timer">3:00</p>
