@@ -11,7 +11,7 @@
         <h4>Wyniki:</h4>
 
         <ol>
-            <li><a href="/wp-content/themes/ifbbpro/img/wyniki/9Edycja/2022 NPC Worldwide International Cup of Poland Regional Qualifier - Final Placings with Overalls" target="_blank">2022 NPC Worldwide International Cup of Poland Regional Qualifier - Final Placings with Overalls</a></li>
+            <li><a href="/wp-content/themes/ifbbpro/img/wyniki/9Edycja/2022 NPC Worldwide International Cup of Poland Regional Qualifier - Final Placings with Overalls.pdf" target="_blank">2022 NPC Worldwide International Cup of Poland Regional Qualifier - Final Placings with Overalls</a></li>
             <li><a href="/wp-content/themes/ifbbpro/img/wyniki/9Edycja/2022 NPC Worldwide Champions Cup Pro Qualifier - Final Placings with Overalls.pdf" target="_blank">2022 NPC Worldwide Champions Cup Pro Qualifier - Final Placings with Overalls</a></li>
             <br>
             <li><a href="https://drive.google.com/drive/folders/195Fj-bYar1tRmTW5CxV3GyBrlgYMgOCL?usp=sharing" target="_blank">Excel + PDF</a></li>
