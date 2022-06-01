@@ -38,9 +38,9 @@
                              <li>CONTEST REGULATIONS 2022</li>
                          </a>
 
-                         <!-- <a href="<?php pll_e('/regional-certificate-pro-qualifier-rules'); ?>">
+                         <a href="https://www.ifbbpro.com/international-regional-and-pro-qualifier-rules/">
                              <li>REGIONAL CERTIFICATE & PRO QUALIFIER RULES</li>
-                         </a> -->
+                         </a>
 
                          <a href="<?php pll_e('/regulamin-porzadkowy'); ?>">
                              <li>ORDER REGULATIONS</li>

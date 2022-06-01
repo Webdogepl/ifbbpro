@@ -37,9 +37,9 @@
                              <li>Regulamin zawodów 2022</li>
                          </a>
 
-                         <!-- <a href="<?php pll_e('/regulamin-regional-pro-qualifier'); ?>">
-                             <li>Regulamin REGIONAL & PRO QUALIFIER</li>
-                         </a> -->
+                         <a href="https://www.ifbbpro.com/international-regional-and-pro-qualifier-rules/">
+                             <li>REGIONAL CERTIFICATE & PRO QUALIFIER RULES</li>
+                         </a>
 
                          <a href="<?php pll_e('/konkurencje-kategorie-i-regulamin-sedziowania'); ?>">
                              <li>Konkurencje, kategorie i regulamin sędziowania</li>
