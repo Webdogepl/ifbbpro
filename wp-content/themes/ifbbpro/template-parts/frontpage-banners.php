@@ -6,11 +6,7 @@
 
     <div class="frontpageBanners__slider">
 
-        <a href="https://fiwe.pl/" target="_blank">
-            <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_fiwe__banner.jpg' ?>" alt="Fiwe">
-            </figure>
-        </a>
+
 
         <a href="https://fanutrition.pl/" target="_blank">
             <figure class="fullWidthBanner">
@@ -27,6 +23,12 @@
     </div>
 
     <div class="frontpageBanners__slider">
+
+        <a href="https://fiwe.pl/" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_fiwe__banner.jpg' ?>" alt="Fiwe">
+            </figure>
+        </a>
 
         <a href="https://www.panattasport.pl" target="_blank">
             <figure class="fullWidthBanner">
@@ -45,11 +47,7 @@
 
     <div class="frontpageBanners__slider">
 
-        <a href="https://sklepzawodnika.com.pl/" target="_blank">
-            <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_protan__banner.jpg' ?>" alt="Protan">
-            </figure>
-        </a>
+
 
         <a href="https://www.fanutrition.pl/<?php echo $lang ?>" target="_blank">
             <figure class="fullWidthBanner">
@@ -71,6 +69,11 @@
 
     <div class="frontpageBanners__slider">
 
+        <a href="https://sklepzawodnika.com.pl/" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_protan__banner1.jpg' ?>" alt="Protan">
+            </figure>
+        </a>
 
 
         <a href="https://xfg.pl" target="_blank">
