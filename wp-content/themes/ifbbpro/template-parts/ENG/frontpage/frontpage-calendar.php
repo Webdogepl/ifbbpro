@@ -173,7 +173,7 @@
 
         <ul class="competition__desc">
             <li>Date: September 10, 2022</li>
-            <li>Place: Poland, Warsaw, FIWE EXPO XXI, Str. Prądzyńskiego 12</li>
+            <li>Place: Poland, Warsaw, FIWE Warsaw Expo, Str. Aleja Katowicka 62, 05-830 Nadarzyn near Warsaw</li>
             <li>Amateur International Regional Qualifier </li>
             <li>Promoter: Robert Piotrkowicz</li>
             <li>Email: office@ifbbpro.pl</li>
