@@ -249,17 +249,6 @@ $(".contact-piotrkowicz").mouseleave(function () {
 	$(".contact-piotrkowicz a").css("color", "red");
 });
 
-/*------------------------------------------------ BILETY NIEDOSTĘPNE ------------------------------------------------*/
-
-if ($("html").is(":lang(en-us)")) {
-	$("#vote-submit").val("vote");
-	$(".outofstock a").text("Available soon");
-} else {
-	$(".outofstock a").text("Dostępne wkrótce");
-}
-$(".outofstock a").removeAttr("href");
-$(".outofstock .button").css("background", "#9da0a7");
-
 /*----------------------------------------- PAKIET MULTIMEDIALNY ----------------------------------------------*/
 
 $(".sold-individually .button").click(function () {
@@ -326,6 +315,42 @@ function customEuroPrice() {
 if ($(".price").length > 0) {
 	customEuroPrice();
 }
+
+/*------------------------------------------------ BILETY NIEDOSTĘPNE ------------------------------------------------*/
+
+const fiweTicket = (handler, lang) => {
+	$(`${handler} a`).attr("href", "https://fiwe.pl/kup-bilet/");
+	$(`${handler} a`).attr("target", "_blank");
+	if (lang === "pl") {
+		$(`${handler} .price`).text("Od 70 zł");
+		$(`${handler} .button`).text("Kup bilet na fiwe.pl");
+	} else {
+		$(`${handler} .price`).text("From 70 PLN (14 €)");
+		$(`${handler} .euroPrice`).hide();
+		$(`${handler} .button`).text("Buy ticket on fiwe.pl");
+	}
+};
+fiweTicket(".post-6972", "pl");
+fiweTicket(".post-6982", "en");
+
+const registrationTicket = (handler, lang) => {
+	$(`${handler} a`).removeAttr("href");
+	$(`${handler} .button`)
+		.text("Add to cart")
+		.click(function () {
+			if (lang === "pl") {
+				alert(
+					"Bilety dla trenerów i osób towarzyszących na zawody odbywające się 10 września 2022 r. umożliwiające wejście na obiekt zawodów na targach FIWE, na backstage za sceną i miejsce na widowni może kupić jedynie startujący zawodnik podczas rejestracji on-line lub w dniu weryfikacji w piątek. "
+				);
+			} else {
+				alert(
+					"Tickets for coaches and accompanying persons for the competition taking place on September 10, 2022, enabling entry to the competition venue FIWE, backstage behind the stage and a seat in the audience can only be purchased by a competitor during online registration or on the day of check-in / verification on the Friday before  competition."
+				);
+			}
+		});
+};
+registrationTicket(".post-6973", "pl");
+registrationTicket(".post-6983", "en");
 
 /*------------------------------------------ CHEKCOUT ANGIELSKA WERSJA -------------------------------------------*/
 
