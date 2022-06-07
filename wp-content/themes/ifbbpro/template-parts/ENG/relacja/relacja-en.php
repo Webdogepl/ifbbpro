@@ -47,11 +47,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream NPC Debuts & International Cup of Poland NPC Regional Qualifier - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
-
-                <h3 style="text-align:center; color:black;">Live stream starts at:</h3>
-                <p>NPC Debuts & International Cup of Poland NPC Regional Qualifier - 28th May 10:00 - 21:30 (10am - 9:30pm)</p>
-                <p>Champions Cup NPC PRO Qualifier - 29th May 10:00 - 21:30 (10am - 9:30pm)</p>
+                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream NPC Debuts & Open Poland Championships NPC Regional Qualifier - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
 
 
                 <p style="margin-top:20px">If you have any issues with Live Stream, please contact us on: <b>relacja@ifbbpro.pl</b> or WhatsApp: <a href="https://wa.me/+48510587327" target="_blank">+48 510 587 327</a> </p>
@@ -68,8 +64,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
                 <h3 style="text-align:center; color:black;">Live stream starts at:</h3>
-                <p>NPC Debuts & International Cup of Poland NPC Regional Qualifier - 28th May 10:00 - 21:30 (10am - 9:30pm)</p>
-                <p>Champions Cup NPC PRO Qualifier - 29th May 10:00 - 21:30 (10am - 9:30pm)</p>
+                <p>NPC Debuts & Open Poland Championships NPC Regional Qualifier - 10th September 10:00 - 21:30 (10am - 9:30pm)</p>
 
 
                 <br><br>
@@ -90,7 +85,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream from Champions Cup NPC PRO Qualifier - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/live-stream-order">You don't have access to live stream from NPC Debuts & Battle of Champions NPC PRO Qualifier - click here to buy <i class="fas fa-angle-double-right"></i></a></p>
 
                 <p style="margin-top:20px">If you have any issues with Live Stream, please contact us on: <b>relacja@ifbbpro.pl</b></p>
 
@@ -105,7 +100,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
                 <h3 style="text-align:center; color:black;">Live stream starts at:</h3>
-                <p>Live ended</p>
+                <p>NPC Debuts & Battle of Champions NPC PRO Qualifier - 18th September 10:00 - 21:30 (10am - 9:30pm)</p>
 
                 <p>Automatic refresh in:</p>
                 <p id="live-stream-timer">3:00</p>

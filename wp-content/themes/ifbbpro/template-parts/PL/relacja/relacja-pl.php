@@ -47,11 +47,10 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji Debiuty NPC & Cup of Poland NPC Regional Qualifier - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji Debiuty NPC & Open Poland Championships NPC Regional Qualifier - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
 
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>Debiuty NPC & Cup of Poland NPC Regional Qualifier - 28 maja od 10:00 do 21:30</p>
-                <p>Champions Cup NPC PRO Qualifier - 29 maja od 10:00 do 21:30</p>
+                <p>Debiuty NPC & Open Poland Championships NPC Regional Qualifier - 10 Września 10:00</p>
 
 
                 <p style="margin-top:20px">W przypadku problemów z odtwarzaniem prosimy o kontakt na adres: <b>relacja@ifbbpro.pl</b> lub WhatsApp: <a href="https://wa.me/+48510587327" target="_blank">+48 510 587 327</a> </p>
@@ -66,7 +65,8 @@ if (!is_user_logged_in()) { ?>
             <?php } else { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
-                <h3 style="text-align:center; color:black;">Relacja zakończona. Retransmisje z zakończonych relacji są dostępne na <a href="/live-stream-zamowienie">tutaj</a></h3>
+                <h3 style="text-align:center; color:black;">Relacja rozpoczenie się:</h3>
+                <p>NPC & Open Poland Championships NPC Regional Qualifier - 10 Września o godzinie 10:00</p>
 
                 <br><br>
                 <p>Automatyczne przeładowanie za:</p>
@@ -86,7 +86,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
 
-                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji Champions Cup NPC PRO Qualifier - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
+                <p class="cart-button"><a href="/en/live-stream-zamowienie">Nie masz wykupionego dostępu do relacji Debiuty NPC & Battle of Champions NPC PRO Qualifier - aby zakupić przejdź tutaj <i class="fas fa-angle-double-right"></i></a></p>
 
 
                 <p style="margin-top:20px">W przypadku problemów z odtwarzaniem prosimy o kontakt na adres: <b>relacja@ifbbpro.pl</b> lub WhatsApp: <a href="https://wa.me/+48510587327" target="_blank">+48 510 587 327</a> </p>
@@ -100,7 +100,7 @@ if (!is_user_logged_in()) { ?>
 
                 <img src="/wp-content/themes/ifbbpro/img/relacja-live/tlo.jpeg" alt="tlo">
                 <h3 style="text-align:center; color:black;">Relacja rozpocznie się:</h3>
-                <p>Relacja zakończona</p>
+                <p>Debiuty NPC & Battle of Champions NPC PRO Qualifier - 18 Września 10:00</p>
 
                 <p>Automatyczne przeładowanie za:</p>
                 <p id="live-stream-timer">3:00</p>
