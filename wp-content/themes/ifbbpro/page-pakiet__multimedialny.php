@@ -68,7 +68,7 @@ get_template_part('template-parts/top-template'); ?>
 
                 <h3>DOSTĘP DO SERWERA Z PAKIETEM MULTIMEDIALNYM</h3>
 
-                <p>• Dostęp do serwera, na którym znajduje się Twoja relacja wideo oraz pakiet zdjęć ze sceny zawodów, otrzymasz w terminie maksymalnie 7 dni po zakończeniu zawodów na podany podczas rejestracji adres mailowy. Jeśli nie otrzymasz wiadomości z dostępem do naszego serwera w ciągu tego czasu, to w pierwszej kolejności sprawdź foldery spam i kosz Twojej poczty, a następnie poinformuj nas o tym, że nie otrzymałeś dostępu do zamówionego pakietu multimedialnego.</p>
+                <p>• Dostęp do serwera, na którym znajduje się Twoja relacja wideo oraz pakiet zdjęć ze sceny zawodów, otrzymasz w terminie maksymalnie 4 dni po zakończeniu zawodów na podany podczas rejestracji adres mailowy. Jeśli nie otrzymasz wiadomości z dostępem do naszego serwera w ciągu tego czasu, to w pierwszej kolejności sprawdź foldery spam i kosz Twojej poczty, a następnie poinformuj nas o tym, że nie otrzymałeś dostępu do zamówionego pakietu multimedialnego.</p>
 
                 <p><b>Kontakt:</b><br>
                     WhatsApp: +48 602 650 291<br>
@@ -136,7 +136,7 @@ get_template_part('template-parts/top-template'); ?>
 
                 <h3>ACCESS TO A SERVER WITH A MULTIMEDIA PACKAGE</h3>
 
-                <p>• You will receive access to the server on which your video report is located and the package of photos from the competition scene within a maximum of 7 days after the end of the competition to the e-mail address provided during registration. If you do not receive the message with access to our server within this time, first check your spam folders and the trash bin of your mail, and then inform us that you have not received access to the ordered multimedia package.</p>
+                <p>• You will receive access to the server on which your video report is located and the package of photos from the competition stage within a maximum of 4 days after the end of the competition to the e-mail address provided during registration. If you do not receive the message with access to our server within this time, first check your spam folders and the trash bin of your mail, and then inform us that you have not received access to the ordered multimedia package.</p>
 
                 <p><b>Contact:</b><br>
                     WhatsApp: +48 602 650 291<br>
@@ -147,7 +147,7 @@ get_template_part('template-parts/top-template'); ?>
 
                 <p>• After accessing the server with your media package, you will have 30 days to download and backup the ordered videos and photos to your device.</p>
 
-                <p>• The photos and videos that you will receive are the intellectual property of the people involved in the multimedia coverage of the scene at the request of the competition organizer. You can use them freely for your own needs (website, media and social networks, etc.). Without the written consent of the organizer, you may not share the photos and videos received free of charge with third parties, because you may not legally have the image of other competitors and people serving the event, which may appear on the materials provided to you. A person who does not comply with these requirements may be held legally liable.</p>
+                <p>• The photos and videos that you will receive are the intellectual property of the people involved in the multimedia coverage of the stage at the request of the competition organizer. You can use them freely for your own needs (website, media and social networks, etc.). Without the written consent of the organizer, you may not share the photos and videos received free of charge with third parties, because you may not legally have the image of other competitors and people serving the event, which may appear on the materials provided to you. A person who does not comply with these requirements may be held legally liable.</p>
 
 
             </div>
