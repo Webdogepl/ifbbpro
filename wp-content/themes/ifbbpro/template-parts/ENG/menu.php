@@ -54,7 +54,7 @@
                              <li>PROCEDURE OF THE COMPETITORS REGISTRATION</li>
                          </a>
                          <a href="<?php pll_e('/regulamin-zakupu'); ?>">
-                             <li>TICKET PURCHASE REGULATIONS</li>
+                             <li>LIVE STREAM PURCHASE REGULATIONS</li>
                          </a>
                          <a href="<?php pll_e('/regulamin-dla-wystawcow/'); ?>">
                              <li>RULES FOR EXHIBITORS</li>
