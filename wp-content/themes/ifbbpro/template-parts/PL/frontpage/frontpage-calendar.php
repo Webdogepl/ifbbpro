@@ -45,9 +45,7 @@
             <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <p class="competiton__p">
-            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
-        </p>
+
 
         <div class="competition__register">
             <a href="/rejestracja-kwiecien-2022/">
@@ -95,9 +93,7 @@
             <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <p class="competiton__p">
-            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
-        </p>
+
 
         <div class="competition__register">
             <a href="/rejestracja-maj-2022">
@@ -144,9 +140,7 @@
             <li>Beginners PQ, Novice PQ, Juniors PQ, Masters PQ, Open PQ / Seniors PQ</li>
         </ul>
 
-        <p class="competiton__p">
-            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors PQ category.
-        </p>
+
 
         <div class="competition__register">
             <a href="/rejestracja-maj-2022">
@@ -193,9 +187,6 @@
             <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <p class="competiton__p">
-            International Qualifications for your country's National Team for the NPC Worldwide World Championship in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
-        </p>
 
         <div class="competition__register">
             <a href="/rejestracja-10-wrzesnia-2022">
@@ -244,9 +235,7 @@
                 Open PQ / Seniors PQ</li>
         </ul>
 
-        <p class="competiton__p">
-            International Qualifications for your country's National Team for the NPC Worldwide World Championship in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors PQ category.
-        </p>
+
 
         <div class="competition__register">
             <a href="/rejestracja-18-wrzesnia-2022">
@@ -294,9 +283,7 @@
             <li>First Timers, Beginners, Novice, Juniors, Masters, Open / Seniors</li>
         </ul>
 
-        <p class="competiton__p">
-            International Qualifications for your country's National Team for the NPC Worldwide World Championship 2022 in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
-        </p>
+
 
         <div class="competition__register">
             <a href="/rejestracja-pazdziernik-2022">
@@ -345,9 +332,7 @@
             <li>Beginners PQ, Novice PQ, Juniors PQ, Masters PQ, Open PQ / Seniors PQ</li>
         </ul>
 
-        <p class="competiton__p">
-            International Qualifications for your country's National Team for the NPC Worldwide World Championship in USA and European Championships 2022 in Spain. Top 5 in each division in overall of the Open/Seniors category.
-        </p>
+
 
         <div class="competition__register">
             <a href="/rejestracja-pazdziernik-2022">
