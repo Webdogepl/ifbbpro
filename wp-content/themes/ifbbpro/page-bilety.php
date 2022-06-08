@@ -28,6 +28,8 @@ get_header(); ?>
             <div class="tickets tickets-en-pl">
                 <p class="cart-button"><a href="/cart">Zobacz koszyk</a></p>
 
+                <p class="cart-button"><a href="/regulamin-sprzedazy-biletow/" target="_blank">Regulamin sprzedaży biletów</a></p>
+
                 <p class="cart-button"><a href="/harmonogram-zawodow-schedule" target="_blank">Harmonogram i miejsce zawodów</a></p>
 
                 <?php add_filter('custom_menu_order', '__return_true'); ?>
@@ -64,6 +66,8 @@ get_header(); ?>
             <div class="tickets">
 
                 <p class="cart-button"><a href="/cart"><?php pll_e('Zobacz koszyk') ?></a></p>
+
+                <p class="cart-button"><a href="/regulamin-sprzedazy-biletow/" target="_blank">Ticket sale regulations</a></p>
 
                 <p class="cart-button"><a href="<?php pll_e('/harmonogram-zawodow-schedule') ?>" target="_blank"><?php pll_e('Harmonogram i miejsce zawodów') ?></a></p>
 
