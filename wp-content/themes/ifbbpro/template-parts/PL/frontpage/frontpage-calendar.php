@@ -9,7 +9,7 @@
     <div class="calendar__topButtons">
         <a href="/licencja-npc-worldwide/" target="_blank"><button class="calendar__button btn btn--black">Licencja NPC Worldwide 2022</button></a>
         <a href="/regulamin-zawodow-2022/" target="_blank"><button class="calendar__button btn btn--blue">Regulamin zawodów w roku 2022</button></a>
-        <a href="https://www.ifbbpro.com/international-regional-and-pro-qualifier-rules/" target="_blank"><button class="calendar__button btn btn--orange">REGIONAL CERTIFICATE & NPC RULES</button></a>
+        <a href="https://www.ifbbpro.com/international-regional-and-pro-qualifier-rules/" target="_blank"><button class="calendar__button btn btn--orange">CERTYFIKAT REGIONALNY I REGULAMIN NPC</button></a>
         <a href="/harmonogram-zawodow-schedule/" target="_blank"><button class="calendar__button btn">Harmonogram i miejsce zawodów</button></a>
         <a href="/en/invitation-visa/" target="_blank"><button class="calendar__button btn btn--green">Visa & invitation</button></a>
     </div>
