@@ -64,7 +64,7 @@ get_template_part('template-parts/top-template');
                     <button class="btn btn--navy">Harmonogram i miejsce zawodów</button>
                 </a>
                 <a href="https://ifbbpro.com.pl/regulamin-zakupu/">
-                    <button class="btn btn--blue">REGULAMIN ZAKUPU RELACJI LIVE</button>
+                    <button class="btn btn--green">REGULAMIN ZAKUPU RELACJI LIVE</button>
                 </a>
                 <a href="/live-stream-page/">
                     <button class="btn btn--blue">Oglądaj relację live</button>
