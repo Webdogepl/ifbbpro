@@ -218,6 +218,9 @@ get_template_part('template-parts/top-template');
                     <button class="btn btn--navy">Schedule and venue</button>
                 </a>
 
+                <a href="/buying-rules">
+                    <button class="btn btn--green">LIVE STREAM PURCHASE REGULATIONS</button>
+                </a>
                 <a href="/live-stream-page-en">
                     <button class="btn btn--blue">Watch live stream</button>
                 </a>
