@@ -8,6 +8,7 @@
     <div class="calendar__topButtons">
         <a href="/en/npc-worldwide-membership/"><button class="calendar__button btn btn--black">2022 NPC WORLDWIDE MEMBERSHIP </button></a>
         <a href="/en/contest-regulations-2022"><button class="calendar__button btn btn--blue">2022 NPC POLAND CONTEST REGULATIONS</button></a>
+        <a href="https://www.ifbbpro.com/international-regional-and-pro-qualifier-rules"><button class="calendar__button btn btn--orange">REGIONAL CERTIFICATE & NPC RULES</button></a>
         <a href="/en/schedule/"><button class="calendar__button btn">SCHEDULE AND VENUE</button></a>
         <a href="/en/invitation-visa/" target="_blank"><button class="calendar__button btn btn--green">Visa & invitation</button></a>
     </div>

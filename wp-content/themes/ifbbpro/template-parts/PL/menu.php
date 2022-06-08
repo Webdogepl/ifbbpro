@@ -57,7 +57,7 @@
                              <li>Procedura rejestracji zawodników</li>
                          </a>
                          <a href="<?php pll_e('/regulamin-zakupu'); ?>">
-                             <li>Regulamin zakupu biletów</li>
+                             <li>Regulamin zakupu relacji live</li>
                          </a>
                          <a href="<?php pll_e('/regulamin-dla-wystawcow/'); ?>">
                              <li>Regulamin dla wystawców</li>
