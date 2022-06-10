@@ -1,0 +1,109 @@
+.awards {
+	text-align: center;
+
+	.fullWidthBanner {
+		width: clamp(300px, 100vw, 1000px);
+		margin-inline: auto;
+		margin-top: -1rem;
+
+		img {
+			max-height: auto;
+			max-height: none;
+			max-width: 100%;
+		}
+	}
+
+	.certs {
+		img {
+			max-height: none;
+			width: clamp(300px, 50%, 600px);
+		}
+	}
+
+	&__item {
+		margin-bottom: 5%;
+
+		p:first-child {
+			text-transform: uppercase;
+			font-size: 20px;
+		}
+	}
+
+	h1 {
+		margin-left: 0 !important;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 5%;
+	}
+
+	img {
+		display: inline-block;
+		width: auto;
+		vertical-align: middle;
+		max-height: 200px;
+	}
+
+	.proCards img {
+		width: 13%;
+	}
+
+	.awards__item--5 img {
+		margin-inline: auto;
+	}
+
+	.bigImg {
+		width: auto;
+		max-width: 100%;
+	}
+
+	.konkurencje .front-register {
+		background: none;
+	}
+
+	.konkurencje .register-flex > div > img {
+		height: auto;
+		width: 100%;
+	}
+
+	.award__80k img {
+		width: auto;
+		height: 6vw;
+		margin: 0 10px;
+	}
+
+	.text__80k {
+		font-size: 2em;
+		text-decoration: underline;
+	}
+
+	&__text {
+		font-weight: bold;
+		font-size: 34px;
+	}
+}
+
+/*----------------------- MOBILE -----------------------*/
+
+@media (max-width: 900px) and (min-width: 300px) {
+	.awards {
+		&___text {
+			font-size: 26px;
+		}
+
+		img,
+		.bigImg,
+		.proCards img {
+			width: auto;
+			max-width: 90%;
+			margin: 20px auto;
+			display: block;
+		}
+
+		.award__80k img {
+			height: auto;
+			margin: 4rem auto;
+		}
+	}
+}

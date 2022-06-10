@@ -1,63 +1,46 @@
+/*------- GLOBAL --------*/
+
 @import "_normalize";
-
 @import "_mixins";
-
 @import "_font-awesome";
-
 @import "_flipclock";
-
-@import "_header";
-
-@import "_menu";
-
-@import "_szkolenia";
-
-@import "_uslugi-dla-zawodnikow";
-
-@import "components/_welcome";
-
-@import "components/_langSwitcher";
-
-@import "components/_chooseLanguageBox";
-
-@import "components/_calendar";
-
-@import "components/_buttons";
-
-@import "components/_banners";
-
-@import "components/_registration";
-
-@import "components/_sponsorsBar";
-
-@import "components/_userLogin";
-
-@import "_frontpage";
-
-@import "_top-template";
-
-@import "_rejestracja";
-
-@import "_mobile";
-
-@import "_koszyk-checkout";
-
 @import "_timer";
 
+/*-------- HEADER --------*/
+@import "_header";
+@import "_menu";
+@import "_top-template";
+
+/*-------- PAGES --------*/
+
+@import "_frontpage";
+@import "_szkolenia";
+@import "_uslugi-dla-zawodnikow";
+@import "_rejestracja";
 @import "_kalendarz";
-
 @import "_regulamin-NPC";
-
 @import "_bilety";
-
 @import "_wyniki";
-
+@import "_awards";
 @import "_pakiet-multimedialny";
-
 @import "_relacja-live";
-
 @import "_pro-show";
-
 @import "_partnerzy";
 
+/*-------- COMPONENTS --------*/
+
+@import "components/_welcome";
+@import "components/_langSwitcher";
+@import "components/_chooseLanguageBox";
+@import "components/_calendar";
+@import "components/_buttons";
+@import "components/_banners";
+@import "components/_registration";
+@import "components/_sponsorsBar";
+@import "components/_userLogin";
 @import "components/404";
+
+/*-------- WOOCOMMERCE --------*/
+
+@import "_koszyk-checkout";
+@import "_mobile";
