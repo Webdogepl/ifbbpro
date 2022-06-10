@@ -49,6 +49,10 @@
     <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/fiwe-color2.png" alt="sponsor-logo"></div>
 </a>
 
+<a href="https://warsawexpo.eu/" target="_blank">
+    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/ptak1.png" alt="sponsor-logo"></div>
+</a>
+
 
 <a href="https://www.facebook.com/streetmeat.truck/" target="_blank">
     <div><img src="<?php bloginfo('template_directory'); ?>/img/logon1.jpg" alt="sponsor-logo"></div>
