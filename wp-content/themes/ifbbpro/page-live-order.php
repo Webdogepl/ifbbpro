@@ -39,24 +39,9 @@ get_template_part('template-parts/top-template');
 
             <img src="/wp-content/themes/ifbbpro/img/relacja-live/baner-sceniczny.png" width="100%" alt="banner-sceniczny">
 
-            <section class="sponsorsBar">
-
-                <h3 class="sponsorsBar__title">Relacja jest możliwa dzięki naszym sponsorom</h3>
-
-
-                <figure class="sponsorsBar__wrapper">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/mcer.png' ?>" alt="Mcer">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="FA">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="Sklep zawodnika">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/fiwe-color2.png' ?>" alt="Fiwe">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/13.png' ?>" alt="PRO TAN">
-                </figure>
-
-            </section>
+            <?php
+            $args = array('section_title' => 'Relacja jest możliwa dzięki naszym sponsorom');
+            get_template_part('template-parts/sponsors-logotypes', $args); ?>
 
             <div class="buttonsContainer">
 
@@ -192,24 +177,9 @@ get_template_part('template-parts/top-template');
 
             <img src="/wp-content/themes/ifbbpro/img/relacja-live/baner-sceniczny.png" width="100%" alt="banner-sceniczny">
 
-            <section class="sponsorsBar">
-
-                <h3 class="sponsorsBar__title">Live stream is possible thanks to our sponsors</h3>
-
-
-                <figure class="sponsorsBar__wrapper">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/mcer.png' ?>" alt="Mcer">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Xtreme.png' ?>" alt="xtreme fitness gyms">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Panatta.png' ?>" alt="panatta">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/FA.png' ?>" alt="FA">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/relacja-live/Sklepzawodnika.png' ?>" alt="Sklep zawodnika">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/BadIron.png' ?>" alt="Bad Iron">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/biowellpolska.png' ?>" alt="Biowell">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/fiwe-color2.png' ?>" alt="Fiwe">
-                    <img class="sponsorsBar__img" src="<?php echo get_template_directory_uri() . '/img/partnerzy/13.png' ?>" alt="PRO TAN">
-                </figure>
-
-            </section>
+            <?php
+            $args = array('section_title' => 'Live stream is possible thanks to our sponsors');
+            get_template_part('template-parts/sponsors-logotypes', $args); ?>
 
 
             <div class="buttonsContainer">

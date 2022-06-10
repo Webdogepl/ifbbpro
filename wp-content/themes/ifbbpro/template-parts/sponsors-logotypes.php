@@ -1,6 +1,6 @@
 <section class="sponsorsBar">
 
-    <h3 class="sponsorsBar__title"><?php pll_e('Partnerzy i sponsorzy Festiwalu') ?></h3>
+    <h3> <?php echo __($args['section_title']); ?></h3>
 
 
     <figure class="sponsorsBar__wrapper">

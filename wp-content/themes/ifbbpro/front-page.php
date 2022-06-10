@@ -91,7 +91,10 @@ get_header();
     </div>
 
 
-    <?php get_template_part('/template-parts/sponsors-logotypes'); ?>
+    <?php
+    $title = pll_e('Partnerzy i sponsorzy Festiwalu');
+    $args = array('section_title' => $title);
+    get_template_part('template-parts/sponsors-logotypes', $args); ?>
 
 
     <?php get_template_part('/template-parts/frontpage-banners'); ?>
