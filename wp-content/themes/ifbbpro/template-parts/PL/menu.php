@@ -122,7 +122,7 @@
                      <li>9 KADRA NARODOWA</li>
                  </a>
 
-                 <a href="<?php pll_e('/nagrody-dla-zawodnikow/'); ?>">
+                 <a href="/awards-for-competitors/">
                      <li>10 NAGRODY DLA ZAWODNIKÓW</li>
                  </a>
 
