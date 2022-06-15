@@ -16,6 +16,12 @@ get_header(); ?>
         <section class="sponsors">
             <h1><?php pll_e('Sponsorzy i partnerzy'); ?></h1>
 
+            <div class="top-sponsor">
+                <h4><?php pll_e('Główny partner i tytułowy sponsor'); ?></h4>
+                <a href="https://www.fasklep.pl/" target="_blank">
+                    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/22.png" alt="sponsor-logo" class="lazy"></div>
+                </a>
+            </div>
 
             <div class="top-sponsor">
                 <h4><?php pll_e('Partner strategiczny i złoty sponsor'); ?></h4>
@@ -33,12 +39,6 @@ get_header(); ?>
             </div>
 
 
-            <div class="top-sponsor">
-                <h4><?php pll_e('Główny partner i złoty sponsor'); ?></h4>
-                <a href="https://www.fasklep.pl/" target="_blank">
-                    <div><img src="<?php bloginfo('template_directory'); ?>/img/partnerzy/22.png" alt="sponsor-logo" class="lazy"></div>
-                </a>
-            </div>
 
 
             <div class="top-sponsor">
