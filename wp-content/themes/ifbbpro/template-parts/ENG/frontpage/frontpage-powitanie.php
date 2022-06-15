@@ -36,7 +36,7 @@
          <p>Applications and registration of athletes taking part in NPC Worldwide contests take place only online via the application form available on this website in the <a href="#front-register">ATHLETE REGISTRATION</a> tab.</p>
 
 
-         <p><b>See you at the competition!</b></p>
+         <p><b>See you at the contest!</b></p>
 
          <ul class="welcome__signature">
              <p><b>Robert Piotrkowicz</b></p>
