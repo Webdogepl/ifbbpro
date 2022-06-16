@@ -67,6 +67,14 @@
 	}
 }
 
+.btn--brown {
+	background-color: brown;
+	border-color: brown;
+	&:hover {
+		color: brown;
+	}
+}
+
 @media (max-width: 600px) {
 	.btn {
 		padding: 6px 8px;
