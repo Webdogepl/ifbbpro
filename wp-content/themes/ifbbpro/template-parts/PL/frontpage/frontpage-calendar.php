@@ -12,6 +12,8 @@
         <a href="https://www.ifbbpro.com/international-regional-and-pro-qualifier-rules/" target="_blank"><button class="calendar__button btn btn--orange">CERTYFIKAT REGIONALNY I REGULAMIN NPC</button></a>
         <a href="/harmonogram-zawodow-schedule/" target="_blank"><button class="calendar__button btn">Harmonogram i miejsce zawodów</button></a>
         <a href="/en/invitation-visa/" target="_blank"><button class="calendar__button btn btn--green">Visa & invitation</button></a>
+        <a href="/pro-show" target="_blank"><button class="calendar__button btn btn--brown">PRO SHOW - OLYMPIA QUALIFIER</button></a>
+
     </div>
 
 
@@ -346,6 +348,38 @@
                 <button class="competition__button btn">Harmonogram i miejsce zawodów</button>
             </a>
         </div>
+
+
+        <header class="competition__header">
+            <h4 class="competition__title">2022 IFBB PRO League Biowell Warsaw PRO Bikini & Men’s Physique Olympia Qualifier</h4>
+            <h5 class="competition__subTitle">IFBB Professional League </h5>
+            <h5 class="competition__subTitle">Official Olympia Qualifier Contest </h5>
+        </header>
+
+        <!-- [Tu umieścimy później grafikę z zawodnikami reklamującą zawody] -->
+
+        <ul class="competition__desc">
+            <li>Date: October 23, 2022</li>
+            <li>Place: Poland, Warsaw, MCER Marki Str. Wspolna 40</li>
+            <li>Promoter: Robert Piotrkowicz</li>
+            <li>Email: office@ifbbpro.pl</li>
+            <li>WhatsApp: +48 602 650 291 </li>
+            <li>Registration: www.ifbbpro.com.pl</li>
+            <li>Registration (obligatory): from June 15 till October 18</li>
+            <li>Registration (sending a signed contract): info@ifbb-proleague.com & office@ifbbpro.pl</li>
+        </ul>
+
+
+
+        Promoter: Robert Piotrkowicz
+        Email: office@ifbbpro.pl
+        WhatsApp: +48 602 650 291 
+
+        <ul class="competition__divisions">
+            <li>Official Olympia Qualifier Contest</li>
+            <li>Women’s division: Bikini PRO</li>
+            <li>Men's division: Men's Physique PRO</li>
+        </ul>
 
     </article>
 
