@@ -352,11 +352,10 @@
 
         <header class="competition__header">
             <h4 class="competition__title">2022 IFBB PRO League Biowell Warsaw PRO Bikini & Men’s Physique Olympia Qualifier</h4>
-            <h3 class="competition__subTitle">IFBB Professional League </h5>
-                <h3 class="competition__subTitle">Official Olympia Qualifier Contest </h3>
+            <h3 class="competition__subTitle">IFBB Professional League - Official Olympia Qualifier Contest </h5>
         </header>
 
-        <!-- [Tu umieścimy później grafikę z zawodnikami reklamującą zawody] -->
+        <img class="competition__image" src="/wp-content/themes/ifbbpro/img/kalendarz/olympia.jpg" alt="Banner">
 
         <ul class="competition__desc">
             <li>Date: October 23, 2022</li>
