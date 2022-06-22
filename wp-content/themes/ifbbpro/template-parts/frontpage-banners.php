@@ -16,7 +16,7 @@
 
         <a href="https://biowellpolska.pl/" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_biowell1.jpg' ?>" alt="Biowell">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/olympia1.jpeg' ?>" alt="Biowell">
             </figure>
         </a>
 
