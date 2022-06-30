@@ -26,7 +26,7 @@
 
         <a href="https://fiwe.pl/" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_fiwe__banner.jpg' ?>" alt="Fiwe">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_FIWE_3.png' ?>" alt="Fiwe">
             </figure>
         </a>
 
@@ -39,6 +39,12 @@
         <a href="https://xfg.pl" target="_blank">
             <figure class="fullWidthBanner">
                 <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_xtreme_1_' .  $lang . '.jpg' ?>" alt="Xtreme Fitness Gyms">
+            </figure>
+        </a>
+
+        <a href="https://biowellpolska.pl" target="_blank">
+            <figure class="fullWidthBanner">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_biowell_3_' .  $lang . '.png' ?>" alt="Xtreme Fitness Gyms">
             </figure>
         </a>
 
