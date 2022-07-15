@@ -386,6 +386,15 @@
         <a href="/en/multimedia-package/">
             <button class="calendar__button btn btn--orange">Multimedia Package</button>
         </a>
+
+        <?php $popup1 = 'Official Hairdresser and Make-Up Service On Site
+Contact: 
+Stage Look - Anna Lukas
+Phone/WhatsApp: +48504816922 
+Instagram:  
+@annalukas.stagelook
+@anialookasova'; ?>
+        <a class="popupToggle" popup-data="<?php echo $popup1 ?>"><button class="btn btn--blue">HAIR & MAKE-UP SERVICE</button></a>
     </div>
 
 </section>

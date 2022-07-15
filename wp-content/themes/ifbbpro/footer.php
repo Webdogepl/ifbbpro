@@ -16,6 +16,15 @@
     gtag('config', 'G-P777YDMTZ5');
 </script>
 
+<div class="popup">
+    <div class="popup__content">
+        <div class="popup__close popupToggle"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/closeRound.svg" alt="Zamknij"></div>
+        <p class="popup__text"></p>
+    </div>
+    <div class="popup__overlay">
+    </div>
+</div>
+
 
 <?php wp_footer(); ?>
 

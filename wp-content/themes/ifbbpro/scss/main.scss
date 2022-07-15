@@ -1,5 +1,7 @@
 /*------- GLOBAL --------*/
 
+@import "_mq";
+
 @import "_normalize";
 @import "_mixins";
 @import "_font-awesome";
@@ -39,6 +41,7 @@
 @import "components/_sponsorsBar";
 @import "components/_userLogin";
 @import "components/404";
+@import "components/_popup";
 
 /*-------- WOOCOMMERCE --------*/
 

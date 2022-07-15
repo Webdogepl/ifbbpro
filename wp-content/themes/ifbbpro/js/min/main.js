@@ -1275,6 +1275,14 @@ const logotypesCarousel = (handler) => {
 logotypesCarousel("#sponsors-slider");
 logotypesCarousel("#logotypes-slider");
 
+/*---------------------------------- POPUP ----------------------------------*/
+
+$(".popupToggle").click(function () {
+	$(".popup").fadeToggle();
+	let content = $(this).attr("popup-data");
+	$(".popup__text").text(content);
+});
+
 /*------------------------------------------------ TIME LEFT COUNTER ------------------------------------------------*/
 
 const countdown = () => {

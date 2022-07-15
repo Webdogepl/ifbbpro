@@ -391,6 +391,13 @@
             <a href="/en/pakiety-multimedialne/">
                 <button class="calendar__button btn btn--orange">Pakiet multimedialny</button>
             </a>
+
+            <?php $popup1 = 'Kontakt i rezerwacja miejsc do oficjalnej firmy zajmującej się profesjonalną usługą makijażu i modelowania włosów na wszystkich naszych zawodach:
+            Stage Look - Anna Lukas
+            Telefon/WhatsApp: +48 504 816 922
+            Instagram: @annalukas.stagelook i @anialookasova'; ?>
+            <a class="popupToggle" popup-data="<?php echo $popup1 ?>"><button class="btn btn--blue">MAKIJAŻ I MODELOWANIE WŁOSÓW</button></a>
+
         </div>
     </div>
 
