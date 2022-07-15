@@ -44,7 +44,7 @@
 
         <a href="https://biowellpolska.pl" target="_blank">
             <figure class="fullWidthBanner">
-                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_biowell_3_' .  $lang . '.png' ?>" alt="Xtreme Fitness Gyms">
+                <img class="fullWidthBanner__img" src="<?php echo get_template_directory_uri() . '/img/frontpage/banners/min_biowell_4_' .  $lang . '.png' ?>" alt="Xtreme Fitness Gyms">
             </figure>
         </a>
 
